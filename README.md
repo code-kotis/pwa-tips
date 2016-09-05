@@ -6,20 +6,18 @@
 
 ```
 pwa-tips/
-  index.html
-  favicon.ico
-  node_modules/
-  package.json
   src/
-    App.css
     App.js
     index.css
     index.js
+    favicon.ico
     logo.svg
   test/
     App.test.js
-  README.md
+  index.html
+  package.json
   deploy.sh
+  README.md
 ```
 
 For the project to build, **these files must exist with exact filenames**:
@@ -32,7 +30,9 @@ For the project to build, **these files must exist with exact filenames**:
 
 You can delete or rename the other files.
 
-## Available Scripts
+## Installation
+
+### `npm install`
 
 In the project directory, you can run:
 
@@ -52,7 +52,6 @@ See the section about [running tests](#running-tests) for more information.
 ### `npm run build`
 
 Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Also it will add static asserts to service worker file via `sw-precache` task.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+#### MIT Licensed
