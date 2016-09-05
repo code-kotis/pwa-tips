@@ -1,4 +1,4 @@
-# PWA Tips ![build](https://travis-ci.org/code-kotis/pwa-tips.svg?branch=master)
+# PWA Tips [![Build Status](https://travis-ci.org/code-kotis/pwa-tips.svg?branch=master)](https://travis-ci.org/code-kotis/pwa-tips)
 
 *A tips site for developing progressive web applications*
 
