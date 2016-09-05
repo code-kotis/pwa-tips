@@ -1,0 +1,24 @@
+{
+  "name": "pwa-tips",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "0.4.1"
+  },
+  "dependencies": {
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "test-coverage": "npm test -- --coverage",
+    "eject": "react-scripts eject",
+    "deploy": "bash deploy.sh"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/react-scripts/config/eslint.js"
+  },
+  "homepage": "https://code-kotis.github.io/pwa-tips"
+}
