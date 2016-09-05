@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "private": true,
   "devDependencies": {
-    "react-scripts": "0.4.1"
+    "copy": "^0.3.0",
+    "react-scripts": "0.4.1",
+    "sw-precache": "^4.0.0"
   },
   "dependencies": {
     "react": "^15.3.1",
@@ -11,10 +13,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && npm run sw-precache",
     "test": "react-scripts test --env=jsdom",
     "test-coverage": "npm test -- --coverage",
-    "eject": "react-scripts eject",
+    "sw-precache": "sw-precache --root=build/ --config=./sw-precache-config.json --verbose",
+    "copy-assets": "node task.copy.js",
     "deploy": "bash deploy.sh"
   },
   "eslintConfig": {

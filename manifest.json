@@ -1,0 +1,10 @@
+{
+  "short_name": "PWA Tips",
+  "name": "PWA Tips",
+  "icons": [{}],
+  "display": "standalone",
+  "orientation": "portrait",
+  "start_url": "./index.html",
+  "theme_color": "",
+  "background_color": ""
+}
