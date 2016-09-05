@@ -30,7 +30,7 @@ For the project to build, **these files must exist with exact filenames**:
 
 You can delete or rename the other files.
 
-## Installation
+## Installation & Available Scripts
 
 ### `npm install`
 
