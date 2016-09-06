@@ -13,15 +13,15 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && npm run sw-precache",
+    "build": "react-scripts build && npm run copy-assets && npm run sw-precache",
+    "sw-precache": "sw-precache --root='build/' --static-file-globs='build/**/!(*map*)' --verbose",
+    "copy-assets": "node task.copy.js",
     "test": "react-scripts test --env=jsdom",
     "test-coverage": "npm test -- --coverage",
-    "sw-precache": "sw-precache --root=build/ --config=./sw-precache-config.json --verbose",
-    "copy-assets": "node task.copy.js",
     "deploy": "bash deploy.sh"
   },
   "eslintConfig": {
     "extends": "./node_modules/react-scripts/config/eslint.js"
   },
-  "homepage": "https://code-kotis.github.io/pwa-tips"
+  "homepage": "./"
 }
