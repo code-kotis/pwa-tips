@@ -8,6 +8,14 @@ class App extends Component {
         <div className="App-header">
           <h2>PWA <sub>tips</sub></h2>
         </div>
+        <div className="App__container">
+        	<div className="App__card">
+						<a href="https://pwa.tips/codelabs">Codelabs</a>
+        	</div>
+          <div className="App__card">
+          	<a href="https://pwa.tips">PWA Tips</a>
+          </div>
+        </div>
       </div>
     );
   }

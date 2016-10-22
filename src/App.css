@@ -1,3 +1,50 @@
 .App-header {
   text-align: center;
 }
+
+.App__container {
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto;
+  font: 16px/24px Roboto,Helvetica Neue,Helvetica,sans-serif;
+}
+
+.App__card {
+	width: 310px;
+	height: 250px;
+	background-color: #ffffff;
+	box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, .08);
+	transition: all 200ms ease-out;
+	margin-left: 50px;
+}
+
+.App__card:hover {
+	box-shadow: 0 40px 40px rgba(0,0,0,.16);
+	transform: translate(0,-20px);
+	transition-delay: 0s;
+}
+
+.App__card:last-child {
+  filter: grayscale(100%);
+}
+
+.App__card a {
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	line-height: 240px;
+	font-size: 25px;
+	color: #2196F3;
+}
+
+@media all and (max-width: 481px) {
+	.App__container {
+    flex-direction: column;
+    margin-top: 50px;
+	}
+
+	.App__card:last-child {
+    margin-top: 60px;
+	}
+}
