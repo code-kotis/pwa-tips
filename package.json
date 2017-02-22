@@ -1,27 +1,20 @@
 {
-  "name": "pwa-tips",
-  "version": "0.0.1",
-  "private": true,
-  "devDependencies": {
-    "copy": "^0.3.0",
-    "react-scripts": "0.4.1",
-    "sw-precache": "^4.0.0"
-  },
-  "dependencies": {
-    "react": "^15.3.1",
-    "react-dom": "^15.3.1"
-  },
+  "name": "pwa.tips",
+  "version": "1.0.0",
+  "description": "",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build && npm run copy-assets && npm run sw-precache",
-    "sw-precache": "sw-precache --root='build/' --static-file-globs='build/**/!(*map*)' --verbose",
-    "copy-assets": "node task.copy.js",
-    "test": "react-scripts test --env=jsdom",
-    "test-coverage": "npm test -- --coverage",
-    "deploy": "bash deploy.sh"
+    "drafts": "jekyll server --host=0.0.0.0 --drafts",
+    "server": "jekyll server --host=0.0.0.0",
+    "build": "jekyll build"
   },
-  "eslintConfig": {
-    "extends": "./node_modules/react-scripts/config/eslint.js"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codekotis/pwa.tips.git"
   },
-  "homepage": "./"
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codekotis/pwa.tips/issues"
+  },
+  "homepage": "https://github.com/codekotis/pwa.tips#readme"
 }
