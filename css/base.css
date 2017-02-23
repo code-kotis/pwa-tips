@@ -29,7 +29,7 @@ header {
   z-index: 2;
 }
 
-header .menu {
+.menu {
   width: 320px;
   display: flex;
   align-items: center;
@@ -140,4 +140,49 @@ footer {
   width: 400px;
   justify-content: space-between;
   margin: 0 auto;
+}
+
+
+@media all and (max-width: 480px) {
+  .newsletter,
+  .footer__content,
+  .newsletter form {
+    width: 90%;
+  }
+
+  header {
+    justify-content: space-between;
+    padding-left: 20px;
+  }
+
+  .header__section {
+    height: 280px;
+    margin-top: 60px;
+  }
+
+  .newsletter {
+    margin-top: -30px;
+  }
+
+  .newsletter form {
+    margin: 30px auto;
+  }
+
+  .newsletter h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .footer__newsletter .newsletter {
+    margin-bottom: 50px;
+  }
+  
+  /*TODO: fix for menu in mobile */
+  .menu {
+    display: none;
+  }
+
+  .menu li {
+    margin-bottom: 20px;
+  }
 }
