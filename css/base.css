@@ -122,6 +122,10 @@ section {
   color: #fff;
 }
 
+.newsletter .submit-btn:active {
+  opacity: 0.9;
+}
+
 footer {
   width: 100%;
   height: 250px;

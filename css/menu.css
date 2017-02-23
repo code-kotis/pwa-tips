@@ -78,6 +78,7 @@
   .menu li:first-child {
     font-size: 18px;
     margin-top: 10px;
+    height: 30px;
   }
 
   .menu li a {
@@ -96,7 +97,7 @@
 
   .menu li:first-child a {
     color: #212121;
-    font-size: 20px;
+    font-size: 22px;
   }
 
   .menu li a:active {
