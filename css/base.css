@@ -1,0 +1,139 @@
+html {
+  font-family: Roboto, san-serif;
+  font-size: 14px;
+  color: #212121;
+}
+
+a {
+  color: #3173e0;
+  text-decoration: none;
+  padding-bottom: 2px;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+}
+
+header {  
+  width: 100%;
+  height: 70px;
+  background: #fff;
+  box-shadow: -1px 1px 3px 1px rgba(0, 0, 0, 0.31);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+header .menu {
+  width: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-transform: uppercase;
+}
+
+.logo a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo h1 {
+  font-size: 20px;
+}
+
+section {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 70px auto;
+  position: relative;
+}
+
+.header__section {
+  height: 420px;
+  background-image: linear-gradient(#eee, #ccc);
+}
+
+.divider {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100px;
+}
+
+.newsletter {
+  margin-top: -110px;
+  text-transform: capitalize;
+}
+
+.newsletter h3 {
+  font-size: 22px;
+}
+
+.newsletter form {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.newsletter input {
+  border: 2px solid #3173e0;
+  border-radius: 3px;
+  outline: none;
+}
+
+.newsletter .email-address {
+  width: 300px;
+  height: 42px;
+  padding: 0 10px;
+  font-size: 14px;
+  border-right: 0;
+}
+
+.newsletter .submit-btn {
+  width: 80px;
+  height: 46px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: -2px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border-left: 0;
+  background-color: #3173e0;
+  color: #fff;
+}
+
+footer {
+  width: 100%;
+  height: 250px;
+  background-image: linear-gradient(#eee, #ccc);
+}
+
+.footer__content,
+.footer__newsletter {
+  display: flex;
+  align-items: center;
+}
+
+.footer__newsletter {
+  justify-content: center;  
+}
+
+.footer__newsletter .newsletter {
+  margin: 40px 0 80px 0;
+}
+
+.footer__content {
+  width: 400px;
+  justify-content: space-between;
+  margin: 0 auto;
+}

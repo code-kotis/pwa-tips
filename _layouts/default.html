@@ -3,12 +3,19 @@
   {% include head.html %}
   <body>
     {% include header.html %}
-    <div class="wrapper"></div>
+    
+    <section class="header__section">
+      {% include form.html %}
+      <img src="../images/divider-triangle.png" class="divider" alt="Divider"/>
+    </section>
+    
+    <section></section>
+    
+    <section></section>
+    
+    
+    {% include footer.html %}
+    
     <script src="{{ "/js/main.js" | prepend: site.baseurl }}"></script>
-    <script>
-      if (window.location.hostname !== "localhost") {
-        // Google Analytics
-      }
-    </script>
   </body>
 </html>
