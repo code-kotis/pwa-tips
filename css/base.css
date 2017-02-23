@@ -29,6 +29,10 @@ header {
   z-index: 2;
 }
 
+h2 {
+  font-size: 25px;
+}
+
 .menu {
   width: 320px;
   display: flex;
@@ -48,19 +52,19 @@ header {
 
 section {
   width: 100%;
-  height: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 70px auto;
-  position: relative;
+  min-height: 300px;
+  margin: 0 auto;
 }
 
 .header__section {
-  height: 420px;
-  background-repeat: no-repeat;
+  height: 320px;
+  /*background-repeat: no-repeat;
   background-image: url("../images/banner.png");
-  background-size: cover;
+  background-size: cover;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
 }
 
 .divider {
@@ -77,8 +81,8 @@ section {
 }
 
 .newsletter {
-  position: relative;
-  margin-top: -110px;
+  position: absolute;
+  top: 190px;
   text-transform: capitalize;
 }
 
@@ -132,19 +136,73 @@ footer {
 }
 
 .footer__newsletter {
+  width: inherit;
+  height: inherit;
   justify-content: center;  
+  position: relative;
 }
 
 .footer__newsletter .newsletter {
-  margin: 40px 0 80px 0;
+  top: 40px;
 }
 
 .footer__content {
   width: 400px;
   justify-content: space-between;
   margin: 0 auto;
+  margin-top: -40px;
 }
 
+.main__section {
+  background-color: #3173e0;
+  color: #fff;
+  margin-top: 0;
+  height: 400px;
+}
+
+.main__section h2 {
+  text-align: center;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+
+.cards {
+  width: 260px;
+  height: 260px;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 2px 0px rgba(0, 0, 0, 0.24);
+  transition: all 0.2s ease-in;
+  margin: 20px;
+  background-color: #fff;
+  color: #212121;
+  padding: 20px;
+}
+
+.cards h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.cards p {
+  line-height: 1.5;
+}
+
+.header__section .card__container {
+  pointer-events: none;
+}
+
+.header__section .card__container h2 {
+  margin-left: 100px;
+}
+
+.card__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+  opacity: 0.3;
+  position: relative;
+  top: 0px;
+}
 
 @media all and (max-width: 480px) {
   .newsletter,
@@ -161,6 +219,7 @@ footer {
   .header__section {
     height: 280px;
     margin-top: 60px;
+    position: relative;
   }
 
   .newsletter {
@@ -187,5 +246,14 @@ footer {
 
   .menu li {
     margin-bottom: 20px;
+  }
+
+  .main__section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .card__container {
+    flex-direction: column;
   }
 }
