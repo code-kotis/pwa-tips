@@ -1,5 +1,5 @@
 html {
-  font-family: Roboto, san-serif;
+  font-family: "Product Sans", "Roboto", san-serif;
   font-size: 14px;
   color: #212121;
 }
@@ -58,6 +58,9 @@ section {
 
 .header__section {
   height: 420px;
+  background-repeat: no-repeat;
+  background-image: url("../images/banner.png");
+  background-size: cover;
 }
 
 .divider {
@@ -104,7 +107,7 @@ section {
 }
 
 .newsletter .submit-btn {
-  width: 80px;
+  width: 90px;
   height: 46px;
   font-size: 15px;
   cursor: pointer;
