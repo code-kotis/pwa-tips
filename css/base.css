@@ -249,6 +249,10 @@ footer {
   border-bottom: 1px solid;
 }
 
+.header__not-found h1 {
+  text-align: center;
+}
+
 @media all and (max-width: 480px) {
   .newsletter,
   .footer__content,

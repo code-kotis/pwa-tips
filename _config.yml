@@ -7,17 +7,18 @@
 
 # Site settings
 title: PWA Tips
-author: 
+author: Gokul & Hemanth
 email: pwa.tips@gmail.com
-description: 
+description: Read about latest PWA's, Brower updates, new API's and its improvements in your inbox.
 logo: 
 baseurl: ""
 url: "https://pwa.tips" # the base hostname & protocol for your site
 twitter_username: pwatips
-github_username: 
+github_username: code-kotis
 disqus_shortname: 
 
 # Build settings
+include: ['_archives']
 markdown: kramdown
 highlighter: rouge
 
@@ -35,8 +36,8 @@ social:
   name: PWA Tips
   links:
     - https://twitter.com/pwatips
-    - https://www.facebook.com/
-    - https://plus.google.com/
+    - https://www.facebook.com/pwatips
+    - https://plus.google.com/+pwatips
 
 facebook:
   app_id: 
