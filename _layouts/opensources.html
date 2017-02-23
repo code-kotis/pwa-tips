@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   {% include head.html %}
-  <body>
+  <body class="{{page.active}}">
     {% include header.html %}
     <section class="main__content">
       <h3>Open Sources</h3>
@@ -24,6 +24,8 @@
         </div>
       </div>
     </section>
+
+    <section></section>
     
     {% include footer.html %}
     <script src="{{ "/js/main.js" | prepend: site.baseurl }}"></script>

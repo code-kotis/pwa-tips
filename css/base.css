@@ -63,7 +63,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 70px;
+  margin-top: 40px;
 }
 
 .divider {
@@ -80,8 +80,10 @@ section {
 }
 
 .newsletter {
-  position: absolute;
-  top: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   text-transform: capitalize;
 }
 
@@ -141,12 +143,11 @@ footer {
 .footer__newsletter {
   width: inherit;
   height: inherit;
-  justify-content: center;  
-  position: relative;
+  justify-content: center;
 }
 
-.footer__newsletter .newsletter {
-  top: 40px;
+.footer__newsletter .newsletter__container {
+  margin-top: -40px;
 }
 
 .footer__content {
@@ -161,7 +162,7 @@ footer {
   background-color: #3173e0;
   color: #fff;
   margin-top: 0;
-  height: 400px;
+  min-height: 375px;
 }
 
 .main__section h2 {
@@ -172,7 +173,7 @@ footer {
 
 .cards {
   width: 260px;
-  height: 260px;
+  min-height: 150px;
   box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 2px 0px rgba(0, 0, 0, 0.24);
   transition: all 0.2s ease-in;
   margin: 20px;
@@ -183,11 +184,12 @@ footer {
 
 .cards h3 {
   font-size: 18px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .cards p {
   line-height: 1.5;
+  font-size: 15px;
 }
 
 .header__section .card__container {
@@ -203,9 +205,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 30px;
-  position: relative;
-  top: 0px;
+  padding-bottom: 10px;
 }
 
 .footer__curator > * {
@@ -213,22 +213,19 @@ footer {
 }
 
 .main__content {
-  margin-top: 120px;
+  margin-top: 110px;
 }
 
-.main__content h2 {
+.main__content h3 {
+  font-size: 22px;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .main__content .cards img {
   width: 90px;
   display: block;
   margin: 0 auto 10px;
-}
-
-.main__content .cards {
-  position: relative;
 }
 
 .main__content .cards h3 {
@@ -253,11 +250,55 @@ footer {
   text-align: center;
 }
 
+.newsletter__info {
+  margin-top: 30px;
+  width: 410px;
+  line-height: 1.3;
+}
+
+footer .newsletter__info {
+  display: none;
+}
+
+.know__more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.know__more a {
+  color: #fff;
+  font-size: 18px;
+  border-bottom: 1px solid;
+}
+
+.opensources .cards h3 { 
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.opensources .cards {
+  min-height: 200px;
+  position: relative;
+}
+
+@media all and (max-width: 767px) and (min-width: 481px) { 
+  .card__container {
+    flex-direction: column;
+  }
+
+  .opensources .cards {
+    min-height: 150px;
+  }
+}
+
 @media all and (max-width: 480px) {
   .newsletter,
   .footer__content,
   .newsletter form {
-    width: 90%;
+    width: 340px;
+    margin: 0 auto;
   }
 
   header {
@@ -265,18 +306,19 @@ footer {
     justify-content: space-between;
   }
 
-  .header__section {
-    height: 280px;
-    margin-top: 60px;
-    position: relative;
+  .opensources .cards {
+    min-height: 160px;
   }
 
-  .newsletter {
-    top: 90px;
+  .header__section {
+    height: 270px;
+    margin-top: 50px;
+    min-height: initial;
   }
 
   .newsletter form {
-    margin: 30px auto;
+    margin: 0 auto;
+    margin-top: 20px;
   }
 
   .newsletter h3 {
@@ -285,13 +327,16 @@ footer {
   }
 
   .footer__newsletter .newsletter {
-    margin-top: 0;
-    margin-bottom: 50px;
+    margin-top: -30px;
   }
   
   .main__section h2 {
     font-size: 20px;
     margin-bottom: 10px;
+  }
+
+  .cards {
+    min-height: 110px;
   }
 
   .card__container {
@@ -306,5 +351,9 @@ footer {
   .logo a {
     margin-top: 2px;
     margin-left: 10px;
+  }
+
+  .newsletter__info {
+    width: 320px;
   }
 }
