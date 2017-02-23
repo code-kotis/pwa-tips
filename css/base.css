@@ -14,6 +14,10 @@ a:hover {
   border-bottom: 1px solid;
 }
 
+a.active {
+  border-bottom: 1px solid;
+}
+
 header {  
   width: 100%;
   height: 70px;
@@ -218,14 +222,35 @@ footer {
   margin-bottom: 30px;
 }
 
+.main__content .cards img {
+  width: 90px;
+  display: block;
+  margin: 0 auto 10px;
+}
+
 .main__content .cards {
   position: relative;
 }
 
-.main__content .cards a {
+.main__content .cards h3 {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.main__content .cards p {
+  text-align: center;
+  font-size: 14px;
+}
+
+.main__content a {
+  border-bottom: 1px solid;
+}
+
+.main__content .cards__link {
   position: absolute;
   bottom: 20px;
-  font-size: 16px;
+  font-size: 18px;
+  right: 30px;
 }
 
 @media all and (max-width: 480px) {
