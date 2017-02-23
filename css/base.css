@@ -37,14 +37,6 @@ h2 {
   font-size: 25px;
 }
 
-.menu {
-  width: 320px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  text-transform: uppercase;
-}
-
 .logo a {
   text-decoration: none;
   color: inherit;
@@ -86,7 +78,7 @@ section {
 
 .newsletter {
   position: absolute;
-  top: 190px;
+  top: 140px;
   text-transform: capitalize;
 }
 
@@ -259,7 +251,6 @@ footer {
 
   header {
     justify-content: space-between;
-    padding-left: 20px;
   }
 
   .header__section {
@@ -269,7 +260,7 @@ footer {
   }
 
   .newsletter {
-    margin-top: -30px;
+    top: 90px;
   }
 
   .newsletter form {
@@ -286,15 +277,6 @@ footer {
     margin-bottom: 50px;
   }
   
-  /*TODO: fix for menu in mobile */
-  .menu {
-    display: none;
-  }
-
-  .menu li {
-    margin-bottom: 20px;
-  }
-
   .main__section h2 {
     font-size: 20px;
     margin-bottom: 10px;
@@ -302,5 +284,15 @@ footer {
 
   .card__container {
     flex-direction: column;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo a {
+    margin-top: 2px;
+    margin-left: 10px;
   }
 }
