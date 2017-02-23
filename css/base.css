@@ -150,7 +150,8 @@ footer {
   width: 400px;
   justify-content: space-between;
   margin: 0 auto;
-  margin-top: -40px;
+  position: relative;
+  top: -40px;
 }
 
 .main__section {
@@ -202,6 +203,10 @@ footer {
   opacity: 0.3;
   position: relative;
   top: 0px;
+}
+
+.footer__curator > * {
+  margin-left: 8px;
 }
 
 @media all and (max-width: 480px) {
