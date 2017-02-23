@@ -58,19 +58,23 @@ section {
 
 .header__section {
   height: 420px;
-  background-image: linear-gradient(#eee, #ccc);
 }
 
 .divider {
   position: absolute;
+  top: 0;
   bottom: 0;
-  left: 0;
   right: 0;
+  left: 0;
   width: 100%;
-  height: 100px;
+  height: 100%;
+  background-image: linear-gradient(#eee, #ccc);
+  transform: skewY(-6deg);
+  transform-origin: top left;
 }
 
 .newsletter {
+  position: relative;
   margin-top: -110px;
   text-transform: capitalize;
 }
@@ -115,7 +119,7 @@ section {
 footer {
   width: 100%;
   height: 250px;
-  background-image: linear-gradient(#eee, #ccc);
+  background: #eee;
 }
 
 .footer__content,
