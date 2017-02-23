@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    
+    <section class="main__content">
+      <h2>Open Sources</h1>
+      <div class="card__container">
+        <div class="cards">
+          <h3>QR Code Scanner</h3>
+          <p>A simple, fast and useful progressive web application.</p>
+          <a href="https://qrcodescan.in" target="_blank">Link</a>
+        </div>
+        <div class="cards">
+          <h3>react-floating-label</h3>
+          <p>A material design styled floating label input.</p>
+          <a href="https://github.com/code-kotis/react-floating-label" target="_blank">Link</a>
+        </div>
+        <div class="cards">
+          <h3>pwa-codelabs</h3>
+          <p>Learn and build your first progressive web application.</p>
+          <a href="https://pwa.tips/codelabs/" target="_blank">Link</a>
+        </div>
+      </div>
+    </section>
+    
+
+    {% include footer.html %}
+    <script src="{{ "/js/main.js" | prepend: site.baseurl }}"></script>
+  </body>
+</html>

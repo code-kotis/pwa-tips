@@ -189,6 +189,7 @@ footer {
 
 .header__section .card__container {
   pointer-events: none;
+  opacity: 0.3;
 }
 
 .header__section .card__container h2 {
@@ -200,13 +201,31 @@ footer {
   align-items: center;
   justify-content: center;
   padding-bottom: 30px;
-  opacity: 0.3;
   position: relative;
   top: 0px;
 }
 
 .footer__curator > * {
   margin-left: 8px;
+}
+
+.main__content {
+  margin-top: 120px;
+}
+
+.main__content h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.main__content .cards {
+  position: relative;
+}
+
+.main__content .cards a {
+  position: absolute;
+  bottom: 20px;
+  font-size: 16px;
 }
 
 @media all and (max-width: 480px) {
