@@ -34,8 +34,9 @@
     <section class="sub__section">
       <h2>Latest Issue</h2>
       {% assign post = site.posts.first %}
-      <p>{{post.date | date_to_string }} - <a href="{{ post.url }}">{{ post.title }} #{{post.number}}</a></p>
-      <p>{{post.description}}</p>
+      <p class="sub__section-title"><a href="{{ post.url }}">{{ post.title }} #{{post.number}}</a></p>
+      <p class="sub__section-date"><time>{{post.date | date_to_string }}</time></p>
+      <p class="sub__section-desc">{{post.description}}</p>
       <div class="wrapper sub__section-content">
         <p>{{post.content}}</p>
       </div>
