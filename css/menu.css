@@ -8,6 +8,7 @@
   transition: transform 0.33s cubic-bezier(0, 0, 0.30, 1);
   z-index: 2;
   transform: none;
+  padding-right: 20px;
 }
 
 .menu__overlay {

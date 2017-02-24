@@ -1,0 +1,11 @@
+.issue__content {
+  
+}
+
+.issue__list h1 {
+  font-size: 22px;
+}
+
+@media all and (max-width: 480px) { 
+  
+}

@@ -18,7 +18,6 @@ github_username: code-kotis
 disqus_shortname: 
 
 # Build settings
-include: ['_archives']
 markdown: kramdown
 highlighter: rouge
 
@@ -28,7 +27,7 @@ livereload: true # You no longer need to include --livereload
 gems:
   - jekyll-seo-tag
   - jekyll-sitemap
-  
+
 twitter:
   username: 
 

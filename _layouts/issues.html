@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body class="{{page.active}}">
+    {% include header.html %}
+
+    <section class="main__content issue__content wrapper">
+      <div class="issue__list">
+        {{content}}
+      </div>
+    </section>
+
+    <section></section>
+
+    {% include footer.html %}
+    <script src="{{ "/js/main.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/menu.js" | prepend: site.baseurl }}"></script>
+  </body>
+</html>
