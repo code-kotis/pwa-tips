@@ -1,6 +1,7 @@
 .archives .main__content ul {
-  font-size: 16px;
+  font-size: 19px;
   margin-top: 40px;
+  list-style-type: square;
 }
 
 .archives .main__content li {
@@ -10,6 +11,7 @@
 .archives .main__content li p {
   margin-top: 20px;
   line-height: 1.5;
+  font-size: 16px;
 }
 
 @media all and (max-width: 1024px) and (min-width: 769px) { 

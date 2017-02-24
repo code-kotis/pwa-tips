@@ -301,9 +301,36 @@ footer .newsletter__info {
   margin-bottom: 20px;
 }
 
+.pwa {
+  margin: 0 auto;
+  width: 430px;
+  line-height: 2;
+  list-style-type: circle;
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+
+.pwa b {
+  font-weight: bold;
+}
+
+.sub__section-content  {
+  margin-top: 30px;
+}
+
+@media all and (min-width: 768px) and (max-width: 960px) {  
+  .sub__section-content {
+    width: 640px;
+  }
+}
+
 @media all and (max-width: 767px) and (min-width: 481px) { 
   .card__container {
     flex-direction: column;
+  }
+
+  .sub__section-content {
+    width: 480px;
   }
 }
 
@@ -365,8 +392,11 @@ footer .newsletter__info {
   .newsletter__info {
     width: 320px;
   }
-}
 
+  .sub__section-content {
+    width: 370px;
+  }
+}
 
 @media all and (max-width: 370px) { 
   .newsletter h3 {
@@ -376,7 +406,8 @@ footer .newsletter__info {
   .newsletter,
   .newsletter form,
   .newsletter__info,
-  .footer__content {
+  .footer__content,
+  .sub__section-content {
     width: 310px;
   }
 }

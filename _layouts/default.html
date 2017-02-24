@@ -36,6 +36,9 @@
       {% assign post = site.posts.first %}
       <p>{{post.date | date_to_string }} - <a href="{{ post.url }}">{{ post.title }} #{{post.number}}</a></p>
       <p>{{post.description}}</p>
+      <div class="wrapper sub__section-content">
+        <p>{{post.content}}</p>
+      </div>
     </section>
     
     {% include footer.html %}
