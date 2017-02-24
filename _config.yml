@@ -27,6 +27,7 @@ livereload: true # You no longer need to include --livereload
 gems:
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-autoprefixer
 
 twitter:
   username: 

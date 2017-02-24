@@ -1,11 +1,21 @@
-.issue__content {
-  
-}
-
 .issue__list h1 {
   font-size: 22px;
 }
 
+@media all and (min-width: 769px) and (min-width: 1024px) { 
+  .issue__content {
+    width: 768px;
+  }  
+}
+
+@media all and (max-width: 768px) and (min-width: 481px) { 
+  .issue__content {
+    width: 480px;
+  }  
+}
+
 @media all and (max-width: 480px) { 
-  
+  .issue__content {
+    width: 320px;
+  }  
 }
