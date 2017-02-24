@@ -1,7 +1,7 @@
 {
   "name": "pwa.tips",
   "version": "1.0.0",
-  "description": "",
+  "description": "Read about latest PWA's, Brower updates, new API's and its improvements in your inbox.",
   "scripts": {
     "drafts": "jekyll server --host=0.0.0.0 --drafts",
     "server": "jekyll server --host=0.0.0.0",
@@ -11,7 +11,6 @@
     "type": "git",
     "url": "git+https://github.com/codekotis/pwa.tips.git"
   },
-  "author": "",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/codekotis/pwa.tips/issues"
