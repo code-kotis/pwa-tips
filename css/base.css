@@ -192,6 +192,7 @@ footer {
   background-color: #fff;
   color: #212121;
   padding: 20px;
+  position: relative;
 }
 
 .cards h3 {
@@ -202,6 +203,22 @@ footer {
 .cards p {
   line-height: 1.5;
   font-size: 15px;
+}
+
+.cards img {
+  width: 80px;
+  height: auto;
+  position: absolute;
+  bottom: 5px;
+  right: 0;
+}
+
+.cards .reliable {
+  bottom: 0;
+}
+
+.cards .fast {
+  bottom: -5px;
 }
 
 .header__section .card__container {
@@ -385,7 +402,7 @@ footer .newsletter__info {
   }
 
   .cards {
-    min-height: 110px;
+    min-height: 140px;
   }
 
   .card__container {
