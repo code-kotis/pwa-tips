@@ -347,6 +347,21 @@ footer .newsletter__info {
   font-size: 15px;
 }
 
+.codelabs__section {
+  background-color: #eee;
+  color: #212121;
+  min-height: 280px;
+}
+
+.codelabs__section p {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.codelabs__section a {
+  color: #3173e0;
+}
+
 @media all and (min-width: 768px) and (max-width: 960px) {  
   .sub__section-content {
     width: 640px;
