@@ -9,6 +9,11 @@
   z-index: 2;
   transform: none;
   padding-right: 20px;
+  font-family: "Roboto", san-serif;
+}
+
+.menu li a {
+  font-weight: 500;
 }
 
 .menu__overlay {
