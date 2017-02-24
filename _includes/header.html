@@ -2,15 +2,15 @@
   <div class="header__content wrapper">
     <div class="logo">
       <div class="menu__icon">
-        <img class="menu__icon" src="../images/menu_black.svg" alt="Menu"/>
+        <img class="menu__icon" src="{{ "../images/menu_black.svg" | prepend: site.baseurl }}" alt="Menu Icon"/>
       </div>
       <a href="/"><h1 class="title">PWA Tips</h1></a>
     </div>
     <ul class="menu">
       <li class="menu__logo"><a href="/"><h1 class="title">PWA Tips</h1></a></li>
-      <li><a href="/" {% if page.active == "default" %} class="active" {% endif %}>newsletter</a></li>
-      <li><a href="/archives" {% if page.active == "archives" %} class="active" {% endif %}>archives</a></li>
-      <li><a href="/opensources" {% if page.active == "opensources" %} class="active" {% endif %}>open sources</a></li>
+      <li><a href="{{ "/" | prepend: site.baseurl }}" {% if page.active == "default" %} class="active" {% endif %}>newsletter</a></li>
+      <li><a href="{{ "/archives" | prepend: site.baseurl }}" {% if page.active == "archives" %} class="active" {% endif %}>archives</a></li>
+      <li><a href="{{ "/opensources" | prepend: site.baseurl }}" {% if page.active == "opensources" %} class="active" {% endif %}>open sources</a></li>
     </ul>
     <div class="menu__overlay"></div>
   </div>
