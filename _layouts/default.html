@@ -33,17 +33,23 @@
         </div> 
       </div>
     </section>
-<!-- 
+
     <section class="main__section codelabs__section">
       <div class="wrapper">
-        <h2>Want to build Progressive Web Application?</h2>
-        <p>Learn and code your first progressive web application</p>
-        <div class="know__more">
-          <a href="https://pwa.tips/codelabs/" target="_blank">Get Started</a>
+        <h2>Learn how to build a Progressive Web Application</h2>
+        <div class="card__container">
+        <div class="cards">
+          <h3>PWA Codelabs</h3>
+          <p>Learn and build your first progressive web application.</p>
+          <div class="know__more">
+            <a href="https://pwa.tips/codelabs/" target="_blank">Get Started</a>
+          </div>
         </div>
       </div>
-    </section> -->
-
+      </div>
+    </section>
+    
+    {% if site.posts.first %}
     <section class="sub__section">
       <h2>Latest Issue</h2>
       {% assign post = site.posts.first %}
@@ -54,6 +60,7 @@
         <p>{{post.content}}</p>
       </div>
     </section>
+    {% endif %}
     
     {% include footer.html %}
     

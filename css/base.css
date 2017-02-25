@@ -335,7 +335,7 @@ footer .newsletter__info {
 }
 
 .sub__section-title {
-  font-size: 18px;
+  font-size: 19px;
 }
 
 .sub__section-date time {
@@ -353,12 +353,19 @@ footer .newsletter__info {
 }
 
 .codelabs__section p {
-  text-align: center;
   margin-bottom: 50px;
 }
 
 .codelabs__section a {
   color: #3173e0;
+}
+
+.codelabs__section h2 {
+  line-height: 1.5;
+}
+
+.codelabs__section .cards {
+  margin-top: 10px;
 }
 
 @media all and (min-width: 768px) and (max-width: 960px) {  
