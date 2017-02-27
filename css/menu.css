@@ -16,6 +16,10 @@
   font-weight: 400;
 }
 
+.menu li a.active {
+  font-weight: 500;
+}
+
 .menu__overlay {
   width: 100%;
   height: 100%;

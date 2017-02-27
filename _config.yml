@@ -29,6 +29,9 @@ gems:
   - jekyll-sitemap
   - jekyll-autoprefixer
 
+autoprefixer:
+  only_production: true
+
 twitter:
   username: 
 

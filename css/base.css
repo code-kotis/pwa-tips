@@ -75,7 +75,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 70px;
 }
 
 .divider {
@@ -355,7 +355,7 @@ footer .newsletter__info {
 .codelabs__section {
   background-color: #eee;
   color: #212121;
-  min-height: 280px;
+  min-height: 375px;
 }
 
 .codelabs__section p {
@@ -405,7 +405,7 @@ footer .newsletter__info {
 
   .header__section {
     height: 270px;
-    margin-top: 50px;
+    margin-top: 56px;
     min-height: initial;
   }
 
