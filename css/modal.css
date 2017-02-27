@@ -10,13 +10,21 @@
   z-index: 9999;
 }
 
+.modal__custom {
+  width: 612px;
+  height: 612px;
+  background: #fff;
+  box-shadow: 0 12px 15px 0 rgba(0,0,0,0.24);
+  z-index: 9998;
+}
+
 .modal__hide {
   display: none;
 }
 
 .modal__overlay {
   background-color: rgba(0, 0, 0, 0.43);
-  z-index: 9998;
+  z-index: 9997;
 }
 
 .modal__close {
@@ -34,20 +42,14 @@
   height: 600px;
 }
 
-#submit {
-  
-}
-
-@media all and (max-width: 768px) and (min-width: 481px) {
+@media all and (max-width: 640px) {
   .modal iframe {
-    width: 80%;
+    width: 90%;
     height: 80%;
   }
-}
 
-@media all and (max-width: 480px) {
-  .modal iframe {
-    width: 80%;
-    height: 80%;
+  .modal__custom {
+    width: 92%;
+    height: 82%;
   }
 }

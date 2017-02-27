@@ -25,10 +25,12 @@ function toggleModal() {
   var isHidden = submitModal.classList.contains("modal__hide");
   if (isHidden) {
     submitModal.classList.remove("modal__hide");
+    submitModalOverlay.classList.remove("modal__hide");
     document.body.style.overflow = "hidden";
   }
   else {
     submitModal.classList.add("modal__hide");
-    document.body.style.overflow = "hidden";
+    submitModalOverlay.classList.add("modal__hide");
+    document.body.style.overflow = "";
   }
 }
