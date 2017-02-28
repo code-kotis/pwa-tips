@@ -13,6 +13,9 @@ var files = [
   "/index.html",
   "/css/main.css",
   "/js/main.js",
+  "/js/menu.js",
+  "/images/icons/android-chrome-192x192.png",
+  "/images/icons/android-chrome-512x512.png",
   "/manifest.json"
 ];
 
