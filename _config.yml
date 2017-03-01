@@ -10,7 +10,7 @@ title: PWA Tips
 author: Gokul & Hemanth
 email: pwa.tips@gmail.com
 description: Read about latest PWA's, Brower updates, new API's and its improvements in your inbox.
-logo: 
+logo: /images/icons/android-chrome-512x512.png
 baseurl: ""
 url: "https://pwa.tips" # the base hostname & protocol for your site
 twitter_username: pwatips
@@ -33,7 +33,7 @@ autoprefixer:
   only_production: true
 
 twitter:
-  username: 
+  username: pwatips
 
 social:
   name: PWA Tips
@@ -43,6 +43,6 @@ social:
     - https://plus.google.com/+pwatips
 
 facebook:
-  app_id: 
+  app_id: 181993332292671
 
-google_site_verification: 
+google_site_verification: gkGQ_1z_l3jOk9fNspG7wTKoTaYCVGHs6f7AfCRZtac
