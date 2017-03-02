@@ -5,7 +5,8 @@
   "scripts": {
     "drafts": "jekyll server --host=0.0.0.0 --drafts",
     "server": "jekyll server --host=0.0.0.0",
-    "build": "jekyll build"
+    "build": "jekyll build",
+    "deploy": "npm run build && bash deploy.sh" 
   },
   "repository": {
     "type": "git",
