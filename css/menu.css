@@ -1,5 +1,6 @@
 .menu {
-  width: 320px;
+  /*width: 320px;*/
+  width: 220px; /* Temp */
   display: flex;
   align-items: center;
   justify-content: space-around;
