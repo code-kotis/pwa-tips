@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PWA Tips</title>
+    <description>Read about latest PWA's, Brower updates, new API's and its improvements in your inbox.</description>
+    <link>https://pwa.tips/</link>
+    <atom:link href="https://pwa.tips/feed.xml" rel="self" type="application/rss+xml" />
+    
+  </channel>
+</rss>
