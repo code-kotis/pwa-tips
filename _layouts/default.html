@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html>
+<!-- <!DOCTYPE html> -->
+<Rtml>
   {% include head.html %}
   <body class="{{page.active}}">
     {% include header.html %}
@@ -15,19 +15,19 @@
         <h2>What is a Progressive Web Application?</h2>
         <div class="card__container">
           <div class="cards">
+            <img class="reliable" src="{{ "../images/Reliable.png" | prepend: site.baseurl }}" alt="Reliable">
             <h3>Reliable</h3>
             <p>Load instantly and never show the downasaur, even in uncertain network conditions.</p>
-            <!-- <img class="reliable" src="{{ "../images/reliable.png" | prepend: site.baseurl }}" alt="Reliable"> -->
           </div>
-          <div class="cards fast">
+          <div class="cards">
+            <img class="fast" src="{{ "../images/Fast.png" | prepend: site.baseurl }}" alt="Fast">
             <h3>Fast</h3>
             <p>Respond quickly to user interactions with silky smooth animations and no janky scrolling.</p>
-            <!-- <img class="fast" src="{{ "../images/fast.png" | prepend: site.baseurl }}" alt="Fast"> -->
           </div>
-          <div class="cards engaging">
+          <div class="cards">
+            <img class="engaging" src="{{ "../images/Engaging.png" | prepend: site.baseurl }}" alt="Engaging">
             <h3>Engaging</h3>
             <p>Feel like a natural app on the device, with an immersive user experience.</p>
-            <!-- <img class="engaging" src="{{ "../images/engaging.png" | prepend: site.baseurl }}" alt="Engaging"> -->
           </div>
         </div>
         <div class="know__more">
@@ -41,6 +41,7 @@
         <h2>Learn how to build a Progressive Web Application</h2>
         <div class="card__container">
         <div class="cards">
+          <img src="{{ "../images/Codelabs.png" | prepend: site.baseurl }}" alt="Codelabs">
           <h3>PWA Codelabs</h3>
           <p>Learn and build your first progressive web application.</p>
           <div class="know__more">
