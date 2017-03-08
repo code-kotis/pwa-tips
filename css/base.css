@@ -191,7 +191,7 @@ footer {
   background-color: #fff;
   color: #212121;
   padding: 20px;
-  position: relative;
+  border-radius: 2px;
 }
 
 .cards h3 {
@@ -205,19 +205,17 @@ footer {
 }
 
 .cards img {
-  width: 80px;
-  height: auto;
-  position: absolute;
-  bottom: 5px;
-  right: 0;
+  width: 160px;
+  height: 160px;
+  display: block;
+  margin: 0 auto;
+  margin-top: -20px;
 }
 
-.cards .reliable {
-  bottom: 0;
-}
-
-.cards .fast {
-  bottom: -5px;
+.default .cards {
+  background-color: #f1f1f1;
+  text-align: center;
+  min-height: 250px;
 }
 
 .cards__date {
@@ -298,7 +296,7 @@ footer .newsletter__info {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .know__more a {
@@ -372,6 +370,7 @@ footer .newsletter__info {
 
 .codelabs__section .cards {
   margin-top: 10px;
+  background-color: #fff;
 }
 
 @media all and (min-width: 768px) and (max-width: 960px) {  
