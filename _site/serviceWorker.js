@@ -15,10 +15,10 @@ var files = [
   "/js/menu.js",
   "/images/icons/android-chrome-192x192.png",
   "/images/icons/android-chrome-512x512.png",
-  "/images/Engaging.png",
-  "/images/Fast.png",
-  "/images/Reliable.png",
-  "/images/Codelabs.png",
+  "/images/engaging.png",
+  "/images/fast.png",
+  "/images/reliable.png",
+  "/images/codelabs.png",
   "/images/menu_black.svg",
   "/manifest.json"
 ];
