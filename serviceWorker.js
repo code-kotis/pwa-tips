@@ -1,15 +1,11 @@
 //Cache polyfil to support cacheAPI in all browsers
 importScripts("./cache-polyfill.js");
 
-var cacheName = "initial-site-v3";
-
-//My Cache names
-var myCaches = [cacheName];
+var cacheName = "cache-v1";
 
 //Files to cache
 var files = [
   "/",
-  "/index.html",
   "/css/main.css",
   "/js/main.js",
   "/js/menu.js",
@@ -26,6 +22,8 @@ var files = [
 //Adding `install` event listener
 self.addEventListener('install', (event) => {
   console.info('Event: Install');
+  
+  self.skipWaiting(); //To forces the waiting service worker to become the active service worker
 
   event.waitUntil(
     caches.open(cacheName)
@@ -34,7 +32,6 @@ self.addEventListener('install', (event) => {
       return cache.addAll(files)
       .then(() => {
         console.info('All files are cached');
-        return self.skipWaiting(); //To forces the waiting service worker to become the active service worker
       })
       .catch((error) =>  {
         console.error('Failed to cache', error);
@@ -86,16 +83,15 @@ self.addEventListener('activate', (event) => {
 
   //Remove old and unwanted caches
   event.waitUntil(
-    caches.keys().then((cacheNames) => {
-      return Promise.all(
-        cacheNames.map((cache) => {
-          if (cache !== cacheName) {
-            return caches.delete(cache); //Deleting the cache
-          }
-        })
-      );
+    caches.keys().then(cacheNames => Promise.all(
+      cacheNames.map((cache) => {
+        if (cache !== cacheName) {
+          return caches.delete(cache); //Deleting the old cache
+        }
+      })
+    ))
+    .then(() => {
+      console.log('Old caches are cleared!');
     })
   );
-
-  return self.clients.claim(); // To activate sw faster
 });
