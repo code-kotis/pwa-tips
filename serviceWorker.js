@@ -1,7 +1,7 @@
 //Cache polyfil to support cacheAPI in all browsers
 importScripts("./cache-polyfill.js");
 
-var cacheName = "initial-site-v2";
+var cacheName = "initial-site-v3";
 
 //My Cache names
 var myCaches = [cacheName];
@@ -15,6 +15,11 @@ var files = [
   "/js/menu.js",
   "/images/icons/android-chrome-192x192.png",
   "/images/icons/android-chrome-512x512.png",
+  "/images/Engaging.png",
+  "/images/Fast.png",
+  "/images/Reliable.png",
+  "/images/Codelabs.png",
+  "/images/menu_black.svg",
   "/manifest.json"
 ];
 

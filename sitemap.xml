@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://pwa.tips/archives.html</loc>
+<loc>http://0.0.0.0:4000/archives.html</loc>
 </url>
 <url>
-<loc>https://pwa.tips/</loc>
+<loc>http://0.0.0.0:4000/</loc>
 </url>
 <url>
-<loc>https://pwa.tips/opensources.html</loc>
+<loc>http://0.0.0.0:4000/opensources.html</loc>
 </url>
 <url>
-<loc>https://pwa.tips/404.html</loc>
+<loc>http://0.0.0.0:4000/404.html</loc>
 <lastmod>2017-02-28T19:48:39+05:30</lastmod>
 </url>
 <url>
-<loc>https://pwa.tips/codelabs/index.html</loc>
+<loc>http://0.0.0.0:4000/codelabs/index.html</loc>
 <lastmod>2017-02-28T19:48:37+05:30</lastmod>
 </url>
 </urlset>
