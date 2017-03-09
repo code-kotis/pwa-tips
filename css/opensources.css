@@ -14,12 +14,12 @@
   }
 
   .opensources .cards {
-    min-height: 150px;
+    min-height: 200px;
   }
 }
 
 @media all and (max-width: 480px) {
   .opensources .cards {
-    min-height: 160px;
+    min-height: 200px;
   }
 }

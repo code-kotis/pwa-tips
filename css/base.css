@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-family: "Product Sans", "Roboto", san-serif;
   font-size: 14px;
@@ -106,6 +110,7 @@ section {
   display: flex;
   align-items: center;
   margin-top: 25px;
+  height: 46px;
 }
 
 .newsletter input {
@@ -116,7 +121,7 @@ section {
 
 .newsletter .email-address {
   width: 300px;
-  height: 42px;
+  height: inherit;
   padding: 0 10px;
   font-size: 14px;
   border-right: 0;
@@ -202,6 +207,7 @@ footer {
 .cards p {
   line-height: 1.5;
   font-size: 15px;
+  padding-bottom: 10px;
 }
 
 .cards img {
