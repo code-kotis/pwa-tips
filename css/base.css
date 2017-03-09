@@ -213,7 +213,7 @@ footer {
 }
 
 .default .cards {
-  background-color: #f1f1f1;
+  background-color: #f7f7f7;
   text-align: center;
   min-height: 250px;
 }
@@ -238,6 +238,10 @@ footer {
   align-items: center;
   justify-content: center;
   padding-bottom: 10px;
+}
+
+.card__container + .know__more {
+  padding-bottom: 30px;
 }
 
 .footer__curator > * {
@@ -357,7 +361,7 @@ footer .newsletter__info {
 }
 
 .codelabs__section p {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .codelabs__section a {
