@@ -18,7 +18,7 @@ var files = [
   "/images/engaging.png",
   "/images/fast.png",
   "/images/reliable.png",
-  "/images/codelabs.png",
+  "/images/pwa-codelabs.png",
   "/images/menu_black.svg",
   "/manifest.json"
 ];
