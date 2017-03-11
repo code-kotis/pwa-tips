@@ -17,8 +17,11 @@
     }
 
     p {
-      margin: 10px 0;
+      margin: 12px 0;
       padding: 0;
+      text-align: justify;
+      line-height: 25px;
+      color: #404040;
     }
 
     table {
@@ -39,8 +42,15 @@
       text-decoration: none;
     }
 
+    a {
+      color: #3173e0;
+      text-decoration: none;
+      border-bottom: 1px solid;
+      padding-bottom: 1px;
+    }
+
     body {
-      background: #fff;
+      background: #fafafa;
     }
     
     body,
@@ -51,8 +61,18 @@
       padding: 0;
     }
 
+    .clearfix:before,
+    .clearfix:after {
+      content: " ";
+      display: table;
+    }
+
+    .clearfix:after {
+      clear: both;
+    }
+
     .table {
-      background: #fafafa;
+      background: #fff;
     }
 
     .table__banner {
@@ -81,12 +101,52 @@
       left: 0px;
     }
 
+    hr {
+      width: 95%;
+    }
+
+    .table__container {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      padding: 10px;
+    }
+
+    .table__container img,
+    .table__content {
+      float: left;
+    }
+
+    .table__content {
+      width: 90%;
+      margin-left: 15px;
+    }
+
+    .hr-line {
+      width: 95%;
+      height: 1px;
+      background: #ccc;
+      margin: 0 auto;
+    }
 
     /* Media Queries */
     @media only screen and (min-width: 768px) {
       .table {
         width: 600px;
         max-width: 600px;
+      }
+    }
+
+    @media only screen and (max-width: 480px) {
+      .table__banner {
+        width: 100% !important;
+      }
+
+      h1 {
+        font-size: 17px;
+      }
+
+      h1::after {
+
       }
     }
   </style>
@@ -102,6 +162,18 @@
       <tbody>
         <tr>
           <td><h1>What's New?</h1></td>
+        </tr>
+        <tr>
+          <td>
+            <div class="table__container clearfix">
+              <img src="https://gallery.mailchimp.com/05ad32d0bc2eec161ad0f998b/images/ad7cb18d-485c-4b03-bfee-a7c35512f819.png" width="40px"/>
+              <div class="table__content">
+                <a href="demopwa.in" target="_blank">demopwa.in</a>
+                <p>To showcase all the features of a Progressive Web Application.</p>
+              </div>
+            </div>
+            <div class="hr-line"></div>
+          </td>
         </tr>
       </tbody>
     </table>
