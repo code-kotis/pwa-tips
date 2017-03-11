@@ -19,9 +19,9 @@
     p {
       margin: 12px 0;
       padding: 0;
-      text-align: justify;
       line-height: 25px;
-      color: #404040;
+      color: #545454;
+      font-size: 16px;
     }
 
     table {
@@ -47,6 +47,7 @@
       text-decoration: none;
       border-bottom: 1px solid;
       padding-bottom: 1px;
+      font-size: 16px;
     }
 
     body {
@@ -88,27 +89,13 @@
     h1 {
       font-size: 21px;
       padding: 3px 0;
-      position: relative;
-    }
-
-    h1::after {
-      content: "";
-      border-bottom: 2px solid;
-      display: inline-block;
-      width: 50px;
-      position: absolute;
-      bottom: -3px;
-      left: 0px;
-    }
-
-    hr {
-      width: 95%;
+      margin-left: 5px;
     }
 
     .table__container {
-      margin-top: 10px;
-      margin-bottom: 10px;
       padding: 10px;
+      margin: 0px 0 20px;
+      border-bottom: 1px solid #e4e4e4;
     }
 
     .table__container img,
@@ -124,8 +111,10 @@
     .hr-line {
       width: 95%;
       height: 1px;
-      background: #ccc;
+      background: #f0f0f0;
       margin: 0 auto;
+      position: absolute;
+      bottom: 0;
     }
 
     /* Media Queries */
@@ -134,19 +123,51 @@
         width: 600px;
         max-width: 600px;
       }
+
+      .table__banner {
+        width: 100%;
+      }
+    }
+
+    @media only screen and (max-width: 767px) and (min-width: 481px) { 
+      .table {
+        width: 450px;
+        max-width: 450px;
+      }
+
+      .table__banner {
+        width: 100%;
+      }
+
+      h1 {
+        font-size: 18px;
+      }
+
+      .table__content {
+        width: 80%;
+      }
     }
 
     @media only screen and (max-width: 480px) {
+      .table {
+        width: 300;
+        max-width: 300;
+      }
+      
       .table__banner {
-        width: 100% !important;
+        width: 100%;
       }
 
       h1 {
         font-size: 17px;
       }
 
-      h1::after {
+      .table__content {
+        width: 80%;
+      }
 
+      p {
+        font-size: 15px;
       }
     }
   </style>
@@ -172,7 +193,55 @@
                 <p>To showcase all the features of a Progressive Web Application.</p>
               </div>
             </div>
-            <div class="hr-line"></div>
+            <div class="table__container clearfix">
+              <img src="https://gallery.mailchimp.com/05ad32d0bc2eec161ad0f998b/images/ad7cb18d-485c-4b03-bfee-a7c35512f819.png" width="40px"/>
+              <div class="table__content">
+                <a href="demopwa.in" target="_blank">demopwa.in</a>
+                <p>To showcase all the features of a Progressive Web Application.</p>
+              </div>
+            </div>
+            <div class="table__container clearfix">
+              <img src="https://gallery.mailchimp.com/05ad32d0bc2eec161ad0f998b/images/ad7cb18d-485c-4b03-bfee-a7c35512f819.png" width="40px"/>
+              <div class="table__content">
+                <a href="demopwa.in" target="_blank">demopwa.in</a>
+                <p>To showcase all the features of a Progressive Web Application.</p>
+              </div>
+            </div>
+            <div class="table__container clearfix">
+              <img src="https://gallery.mailchimp.com/05ad32d0bc2eec161ad0f998b/images/ad7cb18d-485c-4b03-bfee-a7c35512f819.png" width="40px"/>
+              <div class="table__content">
+                <a href="demopwa.in" target="_blank">demopwa.in</a>
+                <p>To showcase all the features of a Progressive Web Application.</p>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td><h1>Browser Updates</h1></td>
+        </tr>
+        <tr>
+          <td>
+            <div class="table__container clearfix">
+              <img src="https://gallery.mailchimp.com/05ad32d0bc2eec161ad0f998b/images/ad7cb18d-485c-4b03-bfee-a7c35512f819.png" width="40px"/>
+              <div class="table__content">
+                <a href="demopwa.in" target="_blank">demopwa.in</a>
+                <p>To showcase all the features of a Progressive Web Application.</p>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td><h1>Articles & Tutorials</h1></td>
+        </tr>
+        <tr>
+          <td>
+            <div class="table__container clearfix">
+              <img src="https://gallery.mailchimp.com/05ad32d0bc2eec161ad0f998b/images/ad7cb18d-485c-4b03-bfee-a7c35512f819.png" width="40px"/>
+              <div class="table__content">
+                <a href="demopwa.in" target="_blank">demopwa.in</a>
+                <p>To showcase all the features of a Progressive Web Application.</p>
+              </div>
+            </div>
           </td>
         </tr>
       </tbody>
