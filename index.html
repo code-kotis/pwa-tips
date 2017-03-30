@@ -48,6 +48,7 @@
       border-bottom: 1px solid;
       padding-bottom: 1px;
       font-size: 16px;
+      line-height: 28px;
     }
 
     body {
@@ -95,21 +96,19 @@
     .table__container {
       padding: 10px;
       margin: 0px 0 20px;
-      border-bottom: 1px solid #e4e4e4;
-      height: 110px;
+      height: 100px;
     }
 
     .table__container img {
       float: left;
+      margin-right: 10px;
     }
 
     .table__content {
-      float: right;
-      margin-right: -30px;
-    }
-
-    .table__content {
+      float: left;
+      margin-left: 10px;
       width: 90%;
+      margin-bottom: 30px;
     }
 
     .hr-line {
@@ -119,6 +118,57 @@
       margin: 0 auto;
       position: absolute;
       bottom: 0;
+    }
+
+    .tag {
+      background: #00BCD4;
+      padding: 0 5px;
+      display: inline-block;
+      color: #fff;
+      font-size: 14px;
+      margin-right: 10px;
+    }
+
+    .perf {
+      background: #e22867;
+    }
+
+    .dev {
+      background: #607D8B;
+    }
+
+    .react {
+      background: #3F51B5;
+    }
+
+    .mobile {
+      background: #F44336;
+    }
+
+    .edge {
+      background: #0078d7;
+    }
+
+    .css {
+      background: #FFC107; 
+    }
+
+    .pwa {
+      background: #FF5722;
+    }
+
+    .android {
+      background: #ffc107;
+    }
+
+    .safari {
+      background: #8924ca;
+    }
+
+    .footer__content,
+    .footer__content a {
+      text-align: center !important;
+      font-size: 13px !important;
     }
 
     /* Media Queries */
@@ -149,6 +199,7 @@
 
       .table__content {
         width: 80%;
+        margin-right: 10px;
       }
     }
 
@@ -168,6 +219,7 @@
 
       .table__content {
         width: 80%;
+        margin-right: 10px;
       }
 
       p {
@@ -190,32 +242,29 @@
         </tr>
         <tr>
           <td>
-            <div class="table__container clearfix">
-              <img src="https://gallery.mailchimp.com/05ad32d0bc2eec161ad0f998b/images/ad7cb18d-485c-4b03-bfee-a7c35512f819.png" width="40px"/>
+            <div class="table__container">
               <div class="table__content">
-                <a href="demopwa.in" target="_blank">demopwa.in</a>
-                <p>To showcase all the features of a Progressive Web Application.</p>
+                <a href="https://soyguijarro.github.io/magic-web/" target="_blank">Discover all the amazing things your browser can do</a>
+                <p>For the most complete experience, use Chrome Canary for Android with the Experimental Web Platform features flag enabled.</p>
+                <span class="tag pwa">pwa</span>
               </div>
-            </div>
-            <div class="table__container clearfix">
-              <img src="https://gallery.mailchimp.com/05ad32d0bc2eec161ad0f998b/images/ad7cb18d-485c-4b03-bfee-a7c35512f819.png" width="40px"/>
+
               <div class="table__content">
-                <a href="demopwa.in" target="_blank">demopwa.in</a>
-                <p>To showcase all the features of a Progressive Web Application.</p>
+                <a href="https://adapticon.tooo.io/" target="_blank">Adaptive Icons for Android O</a>
+                <p>Android O introduces adaptive launcher icons, which can display a variety of shapes across different device models.</p>
+                <span class="tag pwa">pwa</span> <span class="tag android">android</span>
               </div>
-            </div>
-            <div class="table__container clearfix">
-              <img src="https://gallery.mailchimp.com/05ad32d0bc2eec161ad0f998b/images/ad7cb18d-485c-4b03-bfee-a7c35512f819.png" width="40px"/>
+
               <div class="table__content">
-                <a href="demopwa.in" target="_blank">demopwa.in</a>
-                <p>To showcase all the features of a Progressive Web Application.</p>
+                <a href="https://soyguijarro.github.io/magic-web/" target="_blank">Forbes Mobile</a>
+                <p>Forbes is a global media company, focusing on business, investing, technology, entrepreneurship, leadership, and lifestyle.</p>
+                <span class="tag pwa">pwa</span>
               </div>
-            </div>
-            <div class="table__container clearfix">
-              <img src="https://gallery.mailchimp.com/05ad32d0bc2eec161ad0f998b/images/ad7cb18d-485c-4b03-bfee-a7c35512f819.png" width="40px"/>
+
               <div class="table__content">
-                <a href="demopwa.in" target="_blank">demopwa.in</a>
-                <p>To showcase all the features of a Progressive Web Application.</p>
+                <a href="https://stackoverflow.com/insights/survey/2017/" target="_blank">Developer Survey Results 2017</a>
+                <p>This year, over 64,000 developers told us how they learn and level up, which tools they’re using, and what they want.</p>
+                <span class="tag dev">dev</span>
               </div>
             </div>
           </td>
@@ -226,10 +275,28 @@
         <tr>
           <td>
             <div class="table__container clearfix">
-              <img src="https://gallery.mailchimp.com/05ad32d0bc2eec161ad0f998b/images/ad7cb18d-485c-4b03-bfee-a7c35512f819.png" width="40px"/>
               <div class="table__content">
-                <a href="demopwa.in" target="_blank">demopwa.in</a>
-                <p>To showcase all the features of a Progressive Web Application.</p>
+                <a href="https://medium.com/dev-channel/preload-prefetch-and-priorities-in-chrome-776165961bbf" target="_blank">Preload, Prefetch And Priorities in chrome</a>
+                <p>Today we’ll dive into insights from Chrome’s networking stack to provide clarity on how web loading primitives</p>
+                <span class="tag">chrome</span> <span class="tag perf">perf</span>
+              </div>
+
+              <div class="table__content">
+                <a href="https://developer.microsoft.com/en-us/microsoft-edge/platform/status/eventlisteneronceoption/?q=event%20listener" target="_blank">Support for "passive" and "once" event listeners in Microsoft Edge Browser</a>
+                <p>Today we’ll dive into insights from Chrome’s networking stack to provide clarity on how web loading primitives</p>
+                <span class="tag edge">microsoft edge</span>
+              </div>
+
+              <div class="table__content">
+                <a href="https://developers.google.com/web/updates/2017/03/nic57" target="_blank">Whats new in Chrome 57</a>
+                <p>Chrome 57 adds support for display: grid - the new CSS Grid Layout specification.</p>
+                <span class="tag">chrome</span>
+              </div>
+
+              <div class="table__content">
+                <a href="https://developer.apple.com/safari/technology-preview/release-notes/" target="_blank">Safari Technology Preview Release Notes</a>
+                <p>Added WebGPU prototype in the Experimental Features menu and many more.</p>
+                <span class="tag safari">safari</span>
               </div>
             </div>
           </td>
@@ -240,13 +307,51 @@
         <tr>
           <td>
             <div class="table__container clearfix">
-              <img src="https://gallery.mailchimp.com/05ad32d0bc2eec161ad0f998b/images/ad7cb18d-485c-4b03-bfee-a7c35512f819.png" width="40px"/>
               <div class="table__content">
-                <a href="demopwa.in" target="_blank">demopwa.in</a>
-                <p>To showcase all the features of a Progressive Web Application.</p>
+                <a href="https://developers.google.com/web/updates/2017/03/performant-expand-and-collapse" target="_blank">Building performant expand & collapse animations</a>
+                <p>Use scale transforms when animating clips. You can prevent the children from being stretched and skewed during the animation by counter-scaling them.</p>
+                <span class="tag">chrome</span> <span class="tag perf">perf</span>
+              </div>
+
+              <div class="table__content">
+                <a href="https://medium.com/dailyjs/react-is-slow-react-is-fast-optimizing-react-apps-in-practice-394176a11fba#.7neo10brh" target="_blank">React is Slow, React is Fast: Optimizing React Apps in Practice</a>
+                <p>React can be slow. Well, I mean, any medium-size React application can seem slow.</p>
+                <span class="tag react">react</span> <span class="tag perf">perf</span>
+              </div>
+
+              <div class="table__content">
+                <a href="https://www.thinkwithgoogle.com/articles/mobile-page-speed-new-industry-benchmarks.html" target="_blank">New Industry Benchmarks for Mobile Page Speed</a>
+                <p>Consumers are more demanding than ever before. And marketers who are able to deliver fast, frictionless experiences will reap the benefits.</p>
+                <span class="tag mobile">mobile</span>
+              </div>
+              
+              <div class="table__content">
+                <a href="https://medium.com/javascript-scene/setstate-gate-abc10a9b2d82#.b8oueg9zj" target="_blank">setState() Gate</a>
+                <p>It all started last week. 3 different React learners encountered 3 different obstacles trying to use setState() in their projects.</p>
+                <span class="tag react">react</span>
+              </div>
+
+              <div class="table__content">
+                <a href="https://tympanus.net/codrops/css_reference/grid/" target="_blank">A Complete Guide to CSS Grid</a>
+                <p>CSS Grid is a two-dimensional layout system created specifically to tackle grid-based user interfaces on the web..</p>
+                <span class="tag css">css</span>
               </div>
             </div>
           </td>
+        </tr>
+        <tr class="footer__content" style="padding-top:10px; padding-bottom:20px;">
+          <td valign="top">
+          <em>Copyright © *|CURRENT_YEAR|* *|LIST:COMPANY|*, All rights reserved.</em><br>
+          *|IFNOT:ARCHIVE_PAGE|* *|LIST:DESCRIPTION|*<br>
+          <br>
+          <strong>Our mailing address is:</strong><br>
+          *|HTML:LIST_ADDRESS_HTML|* *|END:IF|*<br>
+          <br>
+          Want to change how you receive these emails?<br>
+          You can <a href="*|UPDATE_PROFILE|*">update your preferences</a> or <a href="*|UNSUB|*">unsubscribe from this list</a><br>
+          <br>
+          *|IF:REWARDS|* *|HTML:REWARDS|* *|END:IF|*
+            </td>
         </tr>
       </tbody>
     </table>
