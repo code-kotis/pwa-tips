@@ -476,3 +476,11 @@ footer .newsletter__info {
     width: 310px;
   }
 }
+
+.sub__section .title {
+  display: none;
+}
+
+.sub__section .table p {
+  text-align: left;
+}
