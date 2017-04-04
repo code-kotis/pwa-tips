@@ -32,6 +32,7 @@ self.addEventListener('install', (event) => {
       return cache.addAll(files)
       .then(() => {
         console.info('All files are cached');
+        return self.skipWaiting(); //To forces the waiting service worker to become the active service worker
       })
       .catch((error) =>  {
         console.error('Failed to cache', error);
@@ -92,6 +93,7 @@ self.addEventListener('activate', (event) => {
     ))
     .then(() => {
       console.log('Old caches are cleared!');
+      return self.clients.claim(); 
     })
   );
 });
