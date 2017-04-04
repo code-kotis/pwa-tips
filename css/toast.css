@@ -1,0 +1,29 @@
+.toast__msg {
+  max-width: 290px;
+  min-height: 50px;
+  line-height: 50px;
+  color: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-transform: initial;
+  margin-bottom: 10px;
+  background-color: #404040;
+  border-radius: 3px;
+  box-shadow: 0 0 2px rgba(0,0,0,.12), 0 2px 4px rgba(0,0,0,.24);
+  word-break: break-all;
+  font-size: 15px;
+  font-weight: 400;
+  opacity: 0;
+  -webkit-transform: translateY(20px);
+  transform: translateY(20px);
+  will-change: transform;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
+
+.toast__msg--show {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
