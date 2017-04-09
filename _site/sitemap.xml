@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://0.0.0.0:4000/2017/04/04/Issue-1.html</loc>
+<loc>https://pwa.tips/2017/04/04/Issue-1.html</loc>
 <lastmod>2017-04-04T00:00:00+05:30</lastmod>
 </url>
 <url>
-<loc>http://0.0.0.0:4000/archives.html</loc>
+<loc>https://pwa.tips/archives.html</loc>
 </url>
 <url>
-<loc>http://0.0.0.0:4000/</loc>
+<loc>https://pwa.tips/</loc>
 </url>
 <url>
-<loc>http://0.0.0.0:4000/opensources.html</loc>
+<loc>https://pwa.tips/opensources.html</loc>
 </url>
 <url>
-<loc>http://0.0.0.0:4000/404.html</loc>
+<loc>https://pwa.tips/404.html</loc>
 <lastmod>2017-04-04T19:47:11+05:30</lastmod>
 </url>
 <url>
-<loc>http://0.0.0.0:4000/codelabs/index.html</loc>
+<loc>https://pwa.tips/codelabs/index.html</loc>
 <lastmod>2017-04-04T19:47:11+05:30</lastmod>
 </url>
 </urlset>
