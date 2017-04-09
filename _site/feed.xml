@@ -3,8 +3,8 @@
   <channel>
     <title>PWA Tips</title>
     <description>Read about latest PWA's, Browser updates, new API's and its improvements in your inbox.</description>
-    <link>https://pwa.tips/</link>
-    <atom:link href="https://pwa.tips/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://0.0.0.0:4000/</link>
+    <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>Issues</title>
@@ -131,8 +131,8 @@
   &lt;/center&gt;
 </description>
         <pubDate>Tue, 04 Apr 2017 00:00:00 +0530</pubDate>
-        <link>https://pwa.tips/2017/04/04/Issue-1.html</link>
-        <guid isPermaLink="true">https://pwa.tips/2017/04/04/Issue-1.html</guid>
+        <link>http://0.0.0.0:4000/2017/04/04/Issue-1.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2017/04/04/Issue-1.html</guid>
       </item>
     
   </channel>

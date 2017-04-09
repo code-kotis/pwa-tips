@@ -52,16 +52,16 @@
       </div>
     </section>
     
-    <!-- {% if site.posts.first %} -->
-    <section class="sub__section">
+    {% if site.posts.first %}
+    <section class="sub__section issues__section">
       <h2>Latest Issue</h2>
       {% assign post = site.posts.first %}
       <p class="sub__section-title"><a href="{{ post.url }}">{{ post.title }} #{{post.number}}</a></p>
       <div class="wrapper sub__section-content">
-        <p>{{post.content}}</p>
+        {{post.content}}
       </div>
     </section>
-    <!-- {% endif %} -->
+    {% endif %}
 
     <!-- Toast msg -->
     <div class="toast__msg"></div>
