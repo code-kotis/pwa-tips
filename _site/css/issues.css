@@ -19,13 +19,13 @@
 
 @media all and (max-width: 768px) and (min-width: 481px) { 
   .issue__content {
-    width: 480px;
+    width: 90%;
   }  
 }
 
 @media all and (max-width: 480px) { 
   .issue__content {
-    width: 320px;
+    width: 90%;
   }  
 }
 
@@ -87,9 +87,33 @@
 }
 
 .table__banner {
+  height: 150px;
   margin: 10px auto;
   text-align: center;
   display: block;
+  background: #3173e0;
+  position: relative;
+}
+
+.table__banner h2 {
+  padding-top: 30px;
+  color: #fff;
+  font-size: 34px;
+}
+
+.table__banner-bottom {
+  width: 100%;
+  height: 40px;
+  background-color: #0049ad;
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  line-height: 40px;
+  font-size: 15px;
+}
+
+.table__banner-bottom span {
+  margin: 0 10px;
 }
 
 .table tbody td {
@@ -178,6 +202,44 @@
   background:#123065;
 }
 
+.material {
+  background: #2196f3;
+}
+
+.tool {
+  background: #8BC34A;
+}
+
+.preact {
+  background: #673ab8;
+}
+
+.research {
+  background: #F9A825;
+}
+
+.ai {
+  background: #FFC234;
+  color: #000;
+}
+
+.npm {
+  background: #cb3837;
+}
+
+.frontend {
+  background: #607D8B;
+}
+
+.es6 {
+  background: #f2d952;
+  color: #000;
+}
+
+.server {
+  background: #15a960;
+}
+
 .footer__content {
   background: #f3f3f3;
 }
@@ -214,12 +276,16 @@
     width: 100%;
   }
 
+  .table__banner h2 {
+    font-size: 28px;
+  }
+
   .table h1 {
     font-size: 18px;
   }
 
   .table__content {
-    width: 80%;
+    width: 95%;
     margin-right: 10px;
   }
 }
@@ -232,6 +298,11 @@
   
   .table__banner {
     width: 100%;
+    height: 130px;
+  }
+
+  .table__banner h2 {
+    font-size: 20px;
   }
 
   .table h1 {
@@ -239,11 +310,14 @@
   }
 
   .table__content {
-    width: 80%;
     margin-right: 10px;
   }
 
   .table p {
     font-size: 15px;
+  }
+
+  .issue__content {
+    width: 90%;
   }
 }
