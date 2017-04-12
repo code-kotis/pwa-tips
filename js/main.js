@@ -2,21 +2,6 @@ if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("./sw.js", { scope: "/" })
     .then((reg) => {
       console.log("serviceWorker is registered");
-      reg.addEventListener("updatefound", function() {
-        if (navigator.serviceWorker.controller) {
-          var installingSW = reg.installing;
-          installingSW.onstatechange = function() {
-            console.info("Service Worker State :", installingSW.state);
-            switch(installingSW.state) {
-              case 'installed':
-                toast('Site is updated. Refresh the page.', 5000);
-                break;
-              case 'redundant':
-                throw new Error('The installing service worker became redundant.');
-            }
-          }
-        }
-      });
     })
     .catch((error) => {
       console.log("Failed to register serviceWorker");
