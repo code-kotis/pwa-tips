@@ -73,6 +73,11 @@
         &lt;tr&gt;
           &lt;td&gt;
             &lt;div class=&quot;table__container clearfix&quot;&gt;
+             &lt;div class=&quot;table__content&quot;&gt;
+                &lt;a href=&quot;https://blog.google/products/chrome/taking-aim-annoying-page-jumps-chrome/&quot; target=&quot;_blank&quot;&gt;Annoying page jumps in Chrome&lt;/a&gt;
+                &lt;p&gt;Have you ever opened a link shared by a friend to an article you were eager to read, scrolled to the second paragraph, and found yourself suddenly back near the top of the page.&lt;/p&gt;
+                &lt;span class=&quot;tag chrome&quot;&gt;chrome&lt;/span&gt;
+              &lt;/div&gt;
               &lt;div class=&quot;table__content&quot;&gt;
                 &lt;a href=&quot;https://webkit.org/blog/7497/release-notes-for-safari-technology-preview-27/&quot; target=&quot;_blank&quot;&gt;Safari Technology Preview 27&lt;/a&gt;
                 &lt;p&gt;Safari Technology Preview Release 27 is now available for download for macOS Sierra.&lt;/p&gt;
