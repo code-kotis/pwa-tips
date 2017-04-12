@@ -1,5 +1,5 @@
 if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("./serviceWorker.js", { scope: "/" })
+  navigator.serviceWorker.register("./sw.js", { scope: "/" })
     .then((reg) => {
       console.log("serviceWorker is registered");
       reg.addEventListener("updatefound", function() {
