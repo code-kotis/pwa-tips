@@ -3,8 +3,136 @@
   <channel>
     <title>PWA Tips</title>
     <description>Read about latest PWA's, Browser updates, new API's and its improvements in your inbox.</description>
-    <link>https://pwa.tips/</link>
-    <atom:link href="https://pwa.tips/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://0.0.0.0:4000/</link>
+    <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Issues</title>
+        <description>&lt;h1 class=&quot;title&quot;&gt;Issue #2&lt;/h1&gt;
+
+&lt;center&gt;
+    &lt;table align=&quot;center&quot; border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; height=&quot;100%&quot; width=&quot;100%&quot; class=&quot;table&quot;&gt;
+      &lt;tr&gt;
+        &lt;td&gt;
+          &lt;div class=&quot;table__banner&quot;&gt;
+            &lt;h2&gt;PWA Tips Monthly Newsletter&lt;/h2&gt;
+            &lt;div class=&quot;table__banner-bottom&quot;&gt;
+              &lt;center&gt;Issue #2 &lt;span&gt; | &lt;/span&gt; April, 2017&lt;/center&gt;  
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;h1&gt;What's New?&lt;/h1&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;
+            &lt;div class=&quot;table__container&quot;&gt;
+              &lt;div class=&quot;table__content&quot;&gt;
+                &lt;a href=&quot;https://blog.twitter.com/2017/how-we-built-twitter-lite&quot; target=&quot;_blank&quot;&gt;Twitter Lite&lt;/a&gt;
+                &lt;p&gt;Twitter Lite is fast and responsive, uses less data, takes up less storage space, and supports push notifications and offline use in modern browsers.&lt;/p&gt;
+                &lt;span class=&quot;tag pwa&quot;&gt;pwa&lt;/span&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;table__content&quot;&gt;
+                &lt;a href=&quot;https://www.pwastats.com/&quot; target=&quot;_blank&quot;&gt;PWA Stats&lt;/a&gt;
+                &lt;p&gt;A community-driven list of stats and news related to Progressive Web Apps brought to you by Cloud Four.&lt;/p&gt;
+                &lt;span class=&quot;tag pwa&quot;&gt;pwa&lt;/span&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;table__content&quot;&gt;
+                &lt;a href=&quot;https://material.io/color/&quot; target=&quot;_blank&quot;&gt;Material Color Tool&lt;/a&gt;
+                &lt;p&gt;Create, share, and apply color palettes to your UI, as well as measure the accessibility level of any color combination.&lt;/p&gt;
+                &lt;span class=&quot;tag material&quot;&gt;material design&lt;/span&gt; &lt;span class=&quot;tag tool&quot;&gt;tool&lt;/span&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;table__content&quot;&gt;
+                &lt;a href=&quot;https://github.com/developit/preact/releases/tag/8.0.0&quot; target=&quot;_blank&quot;&gt;Preact v8 (beta) is 3.3 KB now&lt;/a&gt;
+                &lt;p&gt;Preact version 8 (beta) has significantly increased performance and even smaller now.&lt;/p&gt;
+                &lt;span class=&quot;tag preact&quot;&gt;preact&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;library&lt;/span&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;table__content&quot;&gt;
+                &lt;a href=&quot;https://facebook.github.io/react/blog/2017/04/07/react-v15.5.0.html&quot; target=&quot;_blank&quot;&gt;React v15.5.0&lt;/a&gt;
+                &lt;p&gt;Our next major release, React 16, will include some exciting improvements, including a complete rewrite of React's internals.&lt;/p&gt;
+                &lt;span class=&quot;tag react&quot;&gt;react&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;library&lt;/span&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;table__content&quot;&gt;
+                &lt;a href=&quot;https://www.thinkwithgoogle.com/articles/retail-marketing-beacon-technology.html&quot; target=&quot;_blank&quot;&gt;How Beacons Can Reshape Retail Marketing&lt;/a&gt;
+                &lt;p&gt;Beacon technology is poised to change the way consumers interact with brands, making devices more helpful.&lt;/p&gt;
+                &lt;span class=&quot;tag research&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;insights&lt;/span&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;table__content&quot;&gt;
+                &lt;a href=&quot;autodraw.com&quot; target=&quot;_blank&quot;&gt;AutoDraw&lt;/a&gt;
+                &lt;p&gt;AutoDraw is a new kind of drawing tool. It pairs machine learning with drawings from talented artists to help everyone create anything visual, fast.&lt;/p&gt;
+                &lt;span class=&quot;tag ai&quot;&gt;AI Experiments&lt;/span&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;h1&gt;Browser Updates&lt;/h1&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;
+            &lt;div class=&quot;table__container clearfix&quot;&gt;
+              &lt;div class=&quot;table__content&quot;&gt;
+                &lt;a href=&quot;https://webkit.org/blog/7497/release-notes-for-safari-technology-preview-27/&quot; target=&quot;_blank&quot;&gt;Safari Technology Preview 27&lt;/a&gt;
+                &lt;p&gt;Safari Technology Preview Release 27 is now available for download for macOS Sierra.&lt;/p&gt;
+                &lt;span class=&quot;tag safari&quot;&gt;safari&lt;/span&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;table__content&quot;&gt;
+                &lt;a href=&quot;https://blogs.windows.com/msedgedev/2017/04/11/introducing-edgehtml-15/&quot; target=&quot;_blank&quot;&gt;What’s new in Microsoft Edge in the Windows 10&lt;/a&gt;
+                &lt;p&gt;The Windows web platform to EdgeHTML 15 ships to stable with Web Payments, WebVR, Intersection Observer, CSS Custom Props (Variables) and more.&lt;/p&gt;
+                &lt;span class=&quot;tag edge&quot;&gt;microsoft edge&lt;/span&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;h1&gt;Articles &amp;amp; Tutorials&lt;/h1&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;
+            &lt;div class=&quot;table__container clearfix&quot;&gt;
+              &lt;div class=&quot;table__content&quot;&gt;
+                &lt;a href=&quot;https://developers.google.com/web/fundamentals/media/mobile-web-video-playback&quot; target=&quot;_blank&quot;&gt;Mobile Web Video Playback&lt;/a&gt;
+                &lt;p&gt;How do you create the best mobile media experience on the Web? Easy! It all depends on user engagement and the importance you give to the media on a web page.&lt;/p&gt;
+                &lt;span class=&quot;tag&quot;&gt;chrome&lt;/span&gt; &lt;span class=&quot;tag ux&quot;&gt;ux&lt;/span&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;table__content&quot;&gt;
+                &lt;a href=&quot;https://medium.com/dailyjs/npm-and-the-front-end-950c79fc22ce&quot; target=&quot;_blank&quot;&gt;npm and the front end&lt;/a&gt;
+                &lt;p&gt;Npm embraces modular architecture of software development. Do one thing only and do it well.&lt;/p&gt;
+                &lt;span class=&quot;tag npm&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;tag frontend&quot;&gt;frontend&lt;/span&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;table__content&quot;&gt;
+                &lt;a href=&quot;https://medium.com/@paularmstrong/twitter-lite-and-high-performance-react-progressive-web-apps-at-scale-d28a00e780a3&quot; target=&quot;_blank&quot;&gt;Twitter Lite and High Performance React Progressive Web Apps at Scale&lt;/a&gt;
+                &lt;p&gt;A look into removing common and uncommon performance bottlenecks in one of the worlds largest React.js PWAs, Twitter Lite.&lt;/p&gt;
+                &lt;span class=&quot;tag pwa&quot;&gt;pwa&lt;/span&gt; &lt;span class=&quot;tag perf&quot;&gt;perf&lt;/span&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;table__content&quot;&gt;
+                &lt;a href=&quot;https://devtools-html.github.io/debugger-examples/&quot; target=&quot;_blank&quot;&gt;Debugger Examples&lt;/a&gt;
+                &lt;p&gt;Collection of good debugging examples.&lt;/p&gt;
+                &lt;span class=&quot;tag dev&quot;&gt;dev&lt;/span&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;table__content&quot;&gt;
+                &lt;a href=&quot;https://www.sitepen.com/blog/2017/03/21/the-5-features-of-es8-and-a-wishlist-for-es9/&quot; target=&quot;_blank&quot;&gt;5 features of ES8 and a wishlist for ES9&lt;/a&gt;
+                &lt;p&gt;As we near the finalization of the proposal, it’s looking like ES8 is going to deliver much more than the simple updates of its ES7 predecessor.&lt;/p&gt;
+                &lt;span class=&quot;tag es6&quot;&gt;javascript&lt;/span&gt; &lt;span class=&quot;tag es6&quot;&gt;es6&lt;/span&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;table__content&quot;&gt;
+                &lt;a href=&quot;https://certsimple.com/blog/nginx-brotli&quot; target=&quot;_blank&quot;&gt;nginx brotli&lt;/a&gt;
+                &lt;p&gt;If you've installed a web server in the last 20 years, you'll have been told to make sure gzip is turned on. gzip.&lt;/p&gt;
+                &lt;span class=&quot;tag server&quot;&gt;server&lt;/span&gt; &lt;span class=&quot;tag perf&quot;&gt;perf&lt;/span&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/center&gt;
+</description>
+        <pubDate>Tue, 11 Apr 2017 00:00:00 +0530</pubDate>
+        <link>http://0.0.0.0:4000/2017/04/11/Issue-2.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2017/04/11/Issue-2.html</guid>
+      </item>
     
       <item>
         <title>Issues</title>
@@ -131,8 +259,8 @@
   &lt;/center&gt;
 </description>
         <pubDate>Tue, 04 Apr 2017 00:00:00 +0530</pubDate>
-        <link>https://pwa.tips/2017/04/04/Issue-1.html</link>
-        <guid isPermaLink="true">https://pwa.tips/2017/04/04/Issue-1.html</guid>
+        <link>http://0.0.0.0:4000/2017/04/04/Issue-1.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2017/04/04/Issue-1.html</guid>
       </item>
     
   </channel>
