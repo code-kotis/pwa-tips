@@ -144,7 +144,7 @@ const fileManifest = [
   },
   {
     "url": "/js/main.js",
-    "revision": "20e3c8c392d15e6d6261a68dcc4281e1"
+    "revision": "badc9b00526e20846388078c4fa0e5e8"
   },
   {
     "url": "/js/menu.js",
