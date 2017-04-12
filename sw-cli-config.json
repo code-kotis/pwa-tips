@@ -1,1 +1,0 @@
-{"rootDirectory":"./_site","staticFileGlobs":["**/*.{html,js,png,ico,json,css,xml,svg}"],"dest":"sw.js","globIgnores":["sw.js", "codelabs/**", "sitemap.xml", "feed.xml", "package.json", "sw-cli-config.json"]}

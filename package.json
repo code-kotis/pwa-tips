@@ -5,9 +5,9 @@
   "scripts": {
     "drafts": "jekyll server --host=0.0.0.0 --drafts",
     "server": "jekyll server --host=0.0.0.0",
-    "build": "jekyll build && npm run sw-build",
-    "sw-build": "sw-cli generate:sw",
-    "deploy": "npm run build && npm run sw-build && bash deploy.sh"
+    "build": "jekyll build && npm run precache",
+    "precache": "./node_modules/sw-precache/cli.js --root=./ --config=sw-precache-config.json",
+    "deploy": "npm run build && npm run precache && bash deploy.sh"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/codekotis/pwa.tips#readme",
   "devDependencies": {
-    "sw-cli": "^0.0.18"
+    "sw-cli": "^0.0.18",
+    "sw-precache": "^5.1.0"
   }
 }
