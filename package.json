@@ -6,7 +6,7 @@
     "drafts": "jekyll server --host=0.0.0.0 --drafts",
     "server": "jekyll server --host=0.0.0.0",
     "build": "jekyll build && npm run precache",
-    "precache": "./node_modules/sw-precache/cli.js --root=./ --config=sw-precache-config.json",
+    "precache": "./node_modules/sw-precache/cli.js --config=sw-precache-config.json",
     "deploy": "npm run build && npm run precache && bash deploy.sh"
   },
   "repository": {

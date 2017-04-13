@@ -1,16 +1,9 @@
 {
-  "importScripts": [
-    "sw-toolbox.js",
-    "runtime-caching.js"
-  ],
-  "staticGlobIgnores":["sw.js", "codelabs/**", "sitemap.xml", "feed.xml", "package.json", "sw-cli-config.json"],
-  "dest": "sw.js",
   "staticFileGlobs": [
-    "_site/js/**.*!(*map*)",
-    "_site/css/**.*",
+    "_site/js/**.js",
+    "_site/css/**.css",
     "_site/images/**.*",
-    "_site/**/*.html",
-    "_site/**/**.html"
+    "_site/**/*.html"
   ],
   "stripPrefix": "_site/",
   "verbose": true
