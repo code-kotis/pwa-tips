@@ -321,3 +321,11 @@
     width: 90%;
   }
 }
+
+.issue-3 .table__banner {
+  background:#E91E63;
+}
+
+.issue-3 .table__banner-bottom {
+  background:#8e0038;
+}
