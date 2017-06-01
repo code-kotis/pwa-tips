@@ -461,6 +461,14 @@ footer .newsletter__info {
   .sub__section-content {
     width: 370px;
   }
+
+  .sub__section-content .table {
+    width: 370px;
+    max-width: 370px;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.06), 0px 2px 2px 0px rgba(0, 0, 0, 0.05);
+    background-color: #fff;
+    border-radius: 2px;
+  }
 }
 
 @media all and (max-width: 370px) { 

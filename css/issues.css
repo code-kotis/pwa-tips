@@ -240,6 +240,54 @@
   background: #15a960;
 }
 
+.editor {
+  background: #03A9F4;
+}
+
+.atom {
+  background: #26A69A;
+}
+
+.devtools {
+  background: #E91E63;
+}
+
+.slack {
+  background: #F44336;
+}
+
+.webcomponents {
+  background: #3232d3;
+}
+
+.finance {
+  background: #009688;
+}
+
+.security {
+  background: red;
+}
+
+.microsoft {
+  background: #68217a;
+}
+
+.design {
+  background: #0288d1;
+}
+
+.opera {
+  background: #ff1b2d;
+}
+
+.google-assistant {
+  background: #4284f5;
+}
+
+.casestudy {
+  background: #fbc02d;
+}
+
 .footer__content {
   background: #f3f3f3;
 }
@@ -328,4 +376,13 @@
 
 .issue-3 .table__banner-bottom {
   background:#8e0038;
+}
+
+
+.issue-4 .table__banner {
+  background:#3f51b5;
+}
+
+.issue-4 .table__banner-bottom {
+  background:#303F9F;
 }
