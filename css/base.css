@@ -492,3 +492,7 @@ footer .newsletter__info {
 .sub__section .table p {
   text-align: left;
 }
+
+.default .issues__section .table {
+  background: #fff;
+}

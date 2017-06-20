@@ -288,6 +288,26 @@
   background: #fbc02d;
 }
 
+.github {
+  background: #24292e;
+}
+
+.testing {
+  background: #FF9800;
+}
+
+.node {
+  background: #3e863d;
+}
+
+.mozilla {
+  background: #C13832;
+}
+
+.firebase {
+  background: #f5820b;
+}
+
 .footer__content {
   background: #f3f3f3;
 }
@@ -385,4 +405,12 @@
 
 .issue-4 .table__banner-bottom {
   background:#303F9F;
+}
+
+.issue-4 .table__banner {
+  background: #00BCD4;
+}
+
+.issue-4 .table__banner-bottom {
+  background: #00ACC1;
 }
