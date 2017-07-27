@@ -1,0 +1,10 @@
+{
+  "staticFileGlobs": [
+    "_site/js/**.js",
+    "_site/css/**.css",
+    "_site/images/**.*",
+    "_site/**/*.html"
+  ],
+  "stripPrefix": "_site/",
+  "verbose": true
+}

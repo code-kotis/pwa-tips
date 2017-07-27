@@ -1,0 +1,451 @@
+.issues__section {
+  background: #fafafa;
+}
+
+.issue__list h1 {
+  font-size: 22px;
+}
+
+.issue__list .title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+@media all and (min-width: 769px) and (min-width: 1024px) {
+  .issue__content {
+    width: 768px;
+  }
+}
+
+@media all and (max-width: 768px) and (min-width: 481px) {
+  .issue__content {
+    width: 90%;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .issue__content {
+    width: 90%;
+  }
+}
+
+.table p {
+  margin: 12px 0;
+  padding: 0;
+  line-height: 25px;
+  color: #545454;
+  font-size: 16px;
+}
+
+.table {
+  border-collapse: collapse;
+}
+
+.table h1, .table h2, .table h3, .table h4, .table h5, .table h6 {
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-weight: 400 !important;
+}
+
+.table img, .table a img {
+  border: 0;
+  height: auto;
+  outline: none;
+  text-decoration: none;
+}
+
+.table a {
+  color: #3173e0;
+  text-decoration: none;
+  border-bottom: 1px solid;
+  padding-bottom: 1px;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.table {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.table {
+  background: #fafafa;
+  padding-bottom: 40px;
+}
+
+.table__banner {
+  height: 150px;
+  margin: 10px auto;
+  text-align: center;
+  display: block;
+  background: #3173e0;
+  position: relative;
+}
+
+.table__banner h2 {
+  padding-top: 30px;
+  color: #fff;
+  font-size: 34px;
+}
+
+.table__banner-bottom {
+  width: 100%;
+  height: 40px;
+  background-color: #0049ad;
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  line-height: 40px;
+  font-size: 15px;
+}
+
+.table__banner-bottom span {
+  margin: 0 10px;
+}
+
+.table tbody td {
+  padding: 10px;
+}
+
+.table h1 {
+  font-size: 21px;
+  padding: 3px 0;
+  margin-left: 5px;
+}
+
+.table__container {
+  padding: 10px;
+  margin: 0px 0 20px;
+  height: 100px;
+}
+
+.table__container img {
+  float: left;
+  margin-right: 10px;
+}
+
+.table__content {
+  float: left;
+  margin-left: 10px;
+  width: 90%;
+  margin-bottom: 30px;
+}
+
+.hr-line {
+  width: 95%;
+  height: 1px;
+  background: #f0f0f0;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0;
+}
+
+.tag {
+  background: #00BCD4;
+  padding: 0 5px;
+  display: inline;
+  color: #fff;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.perf {
+  background: #e22867;
+}
+
+.dev {
+  background: #607D8B;
+}
+
+.react {
+  background: #3F51B5;
+}
+
+.mobile {
+  background: #F44336;
+}
+
+.edge {
+  background: #0078d7;
+}
+
+.css {
+  background: #FFC107;
+}
+
+.pwa {
+  background: #FF5722;
+}
+
+.android {
+  background: #ffc107;
+}
+
+.safari {
+  background: #8924ca;
+}
+
+.firefox{
+  background: #c84a2d;
+}
+
+.material {
+  background: #2196f3;
+}
+
+.tool {
+  background: #8BC34A;
+}
+
+.preact {
+  background: #673ab8;
+}
+
+.research {
+  background: #F9A825;
+}
+
+.ai {
+  background: #FFC234;
+  color: #000;
+}
+
+.npm {
+  background: #cb3837;
+}
+
+.frontend {
+  background: #607D8B;
+}
+
+.es6 {
+  background: #f2d952;
+  color: #000;
+}
+
+.server {
+  background: #15a960;
+}
+
+.editor {
+  background: #03A9F4;
+}
+
+.atom {
+  background: #26A69A;
+}
+
+.devtools {
+  background: #E91E63;
+}
+
+.slack {
+  background: #F44336;
+}
+
+.webcomponents {
+  background: #3232d3;
+}
+
+.finance {
+  background: #009688;
+}
+
+.security {
+  background: red;
+}
+
+.microsoft {
+  background: #68217a;
+}
+
+.design {
+  background: #0288d1;
+}
+
+.opera {
+  background: #ff1b2d;
+}
+
+.google-assistant {
+  background: #4284f5;
+}
+
+.casestudy {
+  background: #fbc02d;
+}
+
+.github {
+  background: #24292e;
+}
+
+.testing {
+  background: #FF9800;
+}
+
+.node {
+  background: #3e863d;
+}
+
+.mozilla {
+  background: #C13832;
+}
+
+.firebase {
+  background: #f5820b;
+}
+
+.flash {
+  background: #da261e;
+}
+
+.survey {
+  background: #FF9800;
+}
+
+.webpack {
+  background: #5aa8db;
+}
+
+.javascript {
+  background: #ffc107;
+}
+
+.shadowdom {
+  background: #eb483a;
+}
+
+.serviceworker {
+	background: #199d82;
+}
+
+.modules {
+	background: #607D8B;
+}
+
+.samsung {
+	background: #6666d9;
+}
+
+.table .footer__content td {
+  padding: 30px 10px;
+}
+
+.footer__content,
+.footer__content a {
+  text-align: center !important;
+  font-size: 13px !important;
+}
+
+/* Media Queries */
+@media only screen and (min-width: 768px) {
+  .table {
+    width: 600px;
+    max-width: 600px;
+  }
+
+  .table__banner {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 481px) {
+  .table {
+    width: 450px;
+    max-width: 450px;
+  }
+
+  .table__banner {
+    width: 100%;
+  }
+
+  .table__banner h2 {
+    font-size: 28px;
+  }
+
+  .table h1 {
+    font-size: 18px;
+  }
+
+  .table__content {
+    width: 95%;
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .table {
+    width: 300;
+    max-width: 300;
+  }
+
+  .table__banner {
+    width: 100%;
+    height: 130px;
+  }
+
+  .table__banner h2 {
+    font-size: 20px;
+  }
+
+  .table h1 {
+    font-size: 17px;
+  }
+
+  .table__content {
+    margin-right: 10px;
+  }
+
+  .table p {
+    font-size: 15px;
+  }
+
+  .issue__content {
+    width: 90%;
+  }
+}
+
+.issue-3 .table__banner {
+  background:#E91E63;
+}
+
+.issue-3 .table__banner-bottom {
+  background:#8e0038;
+}
+
+.issue-4 .table__banner {
+  background:#3f51b5;
+}
+
+.issue-4 .table__banner-bottom {
+  background:#303F9F;
+}
+
+.issue-5 .table__banner {
+  background: #00BCD4;
+}
+
+.issue-5 .table__banner-bottom {
+  background: #00ACC1;
+}
+
+.issue-6 .table__banner {
+  background: #d81b60;
+}
+
+.issue-6 .table__banner-bottom {
+  background: #af043f;
+}
