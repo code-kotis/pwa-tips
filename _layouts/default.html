@@ -9,11 +9,11 @@
     </section>
 
     {% include form-submission.html %}
-    
+
     <section class="main__section">
       <div class="wrapper">
         <h2>What is a Progressive Web Application?</h2>
-        <div class="card__container">
+        <div class="card__container pwa__cards">
           <div class="cards">
             <img class="reliable" src="{{ "../images/reliable.png" | prepend: site.baseurl }}" alt="Reliable">
             <h3>Reliable</h3>
@@ -32,7 +32,7 @@
         </div>
         <div class="know__more">
           <a href="https://developers.google.com/web/progressive-web-apps/" target="_blank">Know more</a>
-        </div> 
+        </div>
       </div>
     </section>
 
@@ -51,7 +51,7 @@
       </div>
       </div>
     </section>
-    
+
     {% if site.posts.first %}
     <section class="sub__section issues__section">
       <h2>Latest Issue</h2>
@@ -65,9 +65,9 @@
 
     <!-- Toast msg -->
     <div class="toast__msg"></div>
-    
+
     {% include footer.html %}
-    
+
     <script src="{{ "/js/main.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/menu.js" | prepend: site.baseurl }}"></script>
   </body>

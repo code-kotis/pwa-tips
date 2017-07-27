@@ -11,22 +11,22 @@
   text-align: center;
 }
 
-@media all and (min-width: 769px) and (min-width: 1024px) { 
+@media all and (min-width: 769px) and (min-width: 1024px) {
   .issue__content {
     width: 768px;
-  }  
+  }
 }
 
-@media all and (max-width: 768px) and (min-width: 481px) { 
+@media all and (max-width: 768px) and (min-width: 481px) {
   .issue__content {
     width: 90%;
-  }  
+  }
 }
 
-@media all and (max-width: 480px) { 
+@media all and (max-width: 480px) {
   .issue__content {
     width: 90%;
-  }  
+  }
 }
 
 .table p {
@@ -183,7 +183,7 @@
 }
 
 .css {
-  background: #FFC107; 
+  background: #FFC107;
 }
 
 .pwa {
@@ -199,7 +199,7 @@
 }
 
 .firefox{
-  background:#123065;
+  background: #c84a2d;
 }
 
 .material {
@@ -308,8 +308,36 @@
   background: #f5820b;
 }
 
-.footer__content {
-  background: #f3f3f3;
+.flash {
+  background: #da261e;
+}
+
+.survey {
+  background: #FF9800;
+}
+
+.webpack {
+  background: #5aa8db;
+}
+
+.javascript {
+  background: #ffc107;
+}
+
+.shadowdom {
+  background: #eb483a;
+}
+
+.serviceworker {
+	background: #199d82;
+}
+
+.modules {
+	background: #607D8B;
+}
+
+.samsung {
+	background: #6666d9;
 }
 
 .table .footer__content td {
@@ -334,7 +362,7 @@
   }
 }
 
-@media only screen and (max-width: 767px) and (min-width: 481px) { 
+@media only screen and (max-width: 767px) and (min-width: 481px) {
   .table {
     width: 450px;
     max-width: 450px;
@@ -363,7 +391,7 @@
     width: 300;
     max-width: 300;
   }
-  
+
   .table__banner {
     width: 100%;
     height: 130px;
@@ -398,7 +426,6 @@
   background:#8e0038;
 }
 
-
 .issue-4 .table__banner {
   background:#3f51b5;
 }
@@ -407,10 +434,18 @@
   background:#303F9F;
 }
 
-.issue-4 .table__banner {
+.issue-5 .table__banner {
   background: #00BCD4;
 }
 
-.issue-4 .table__banner-bottom {
+.issue-5 .table__banner-bottom {
   background: #00ACC1;
+}
+
+.issue-6 .table__banner {
+  background: #d81b60;
+}
+
+.issue-6 .table__banner-bottom {
+  background: #af043f;
 }
