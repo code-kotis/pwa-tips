@@ -340,6 +340,26 @@
 	background: #6666d9;
 }
 
+.bootstrap {
+	background: #6f5499;
+}
+
+.vscode {
+	background: #373475;
+}
+
+.atom {
+	background: #40a977;
+}
+
+.push {
+	background: #ffc107;
+}
+
+.angular {
+	background: #db0b37;
+}
+
 .table .footer__content td {
   padding: 30px 10px;
 }
@@ -448,4 +468,12 @@
 
 .issue-6 .table__banner-bottom {
   background: #af043f;
+}
+
+.issue-7 .table__banner {
+  background: #ff9800;
+}
+
+.issue-7 .table__banner-bottom {
+  background: #d67700;
 }

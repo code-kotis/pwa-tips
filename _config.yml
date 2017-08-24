@@ -24,7 +24,7 @@ highlighter: rouge
 # Server Config options
 livereload: true # You no longer need to include --livereload
 
-gems:
+plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-autoprefixer
