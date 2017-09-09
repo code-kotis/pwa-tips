@@ -360,6 +360,22 @@
 	background: #db0b37;
 }
 
+.polymer {
+  background: #2b8fe7;
+}
+
+.youtube {
+  background: #ff0000;
+}
+
+.reactnative {
+  background: #2D2D2D;
+}
+
+.version {
+  background: #414141;
+}
+
 .table .footer__content td {
   padding: 30px 10px;
 }
@@ -476,4 +492,12 @@
 
 .issue-7 .table__banner-bottom {
   background: #d67700;
+}
+
+.issue-8 .table__banner {
+  background: #3f51b5;
+}
+
+.issue-8 .table__banner-bottom {
+  background: #23348e;
 }
