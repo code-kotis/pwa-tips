@@ -3,8 +3,179 @@
   <channel>
     <title>PWA Tips</title>
     <description>Read about latest PWA's, Browser updates, new API's and its improvements in your inbox.</description>
-    <link>https://pwa.tips/</link>
-    <atom:link href="https://pwa.tips/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://0.0.0.0:4000/</link>
+    <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Issues</title>
+        <description>&lt;h1 class=&quot;title&quot;&gt;Issue #9&lt;/h1&gt;
+
+&lt;center&gt;
+  &lt;table align=&quot;center&quot; border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot; class=&quot;table issue-9&quot; height=&quot;100%&quot;&gt;
+    &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;div class=&quot;table__banner&quot;&gt;
+          &lt;h2&gt;PWA Tips Monthly Newsletter&lt;/h2&gt;
+          &lt;div class=&quot;table__banner-bottom&quot;&gt;
+            &lt;center&gt;Issue #9 &lt;span&gt; | &lt;/span&gt; May 28, 2018&lt;/center&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;h1&gt;What's New?&lt;/h1&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;div class=&quot;table__container&quot;&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://medium.com/tech-tajawal/tajawal-and-almosafer-progressive-web-app-997194529c81&quot; target=&quot;_blank&quot;&gt;Tajawal and Almosafer Progressive Web App&lt;/a&gt;
+            &lt;p&gt;It is designed by employing techniques for JavaScript performance optimization, Service Workers for network resilience and best architectural practices&lt;/p&gt;
+            &lt;span class=&quot;tag pwa&quot;&gt;pwa&lt;/span&gt; &lt;span class=&quot;tag perf&quot;&gt;perf&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://html-online.com/articles/detect-adblock-javascript/&quot;&gt;Detect AdBlock With JavaScript&lt;/a&gt;
+            &lt;p&gt; In this article I’m going to present the easiest way of implementing an AdBlock detector with JavaScript.&lt;/p&gt;
+            &lt;span class=&quot;tag javascript&quot;&gt;javascript&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://reactjs.org/blog/2018/05/23/react-v-16-4.html&quot; target=&quot;_blank&quot;&gt;React v16.4.0&lt;/a&gt;
+            &lt;p&gt;The latest minor release adds support for an oft-requested feature: pointer events!&lt;/p&gt;
+            &lt;span class=&quot;tag react&quot;&gt;react&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://github.com/FormidableLabs/webpack-dashboard/releases/tag/v2.0.0&quot; target=&quot;_blank&quot;&gt;Webpack Dashboard&lt;/a&gt;
+            &lt;p&gt;This is a major update to webpack-dashboard with breaking changes. And a lot of speed and coolness.&lt;/p&gt;
+            &lt;span class=&quot;tag webpack&quot;&gt;webpack&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://amp-playground.firebaseapp.com/&quot; target=&quot;_blank&quot;&gt;AMP Playground&lt;/a&gt;
+            &lt;p&gt;Just type away here and the AMP Validator will re-check your document on the fly. This is the minimum valid AMP HTML document.&lt;/p&gt;
+            &lt;span class=&quot;tag amp&quot;&gt;amp&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://pwafire.org/&quot; target=&quot;_blank&quot;&gt;PWAFire.Org&lt;/a&gt;
+            &lt;p&gt;Author of Project PWA Fire; an open source javascript and json bundle that allows you to convert your existing website into a progressive web app or build one in a few.&lt;/p&gt;
+            &lt;span class=&quot;tag pwa&quot;&gt;pwa&lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;h1&gt;Browser Updates&lt;/h1&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;div class=&quot;table__container clearfix&quot;&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://developers.google.com/web/updates/2018/05/devtools&quot; target=&quot;_blank&quot;&gt;What's new in Chrome v68?&lt;/a&gt;
+            &lt;p&gt;Chrome v68 add eager Evaluation. As you type expressions, the Console previews the result and Argument hints. As you type functions, the Console shows you the expected arguments for that function etc&lt;/p&gt;
+            &lt;span class=&quot;tag chrome&quot;&gt;chrome&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://twitter.com/patmeenan/status/999792331451592706&quot; target=&quot;_blank&quot;&gt;Samsung browser support for webpage test&lt;/a&gt;
+            &lt;p&gt;WebPageTest now has first-class support for Samsung Browser across all of the Android devices (all of the Chrome features except for command-line options should work).&lt;/p&gt;
+            &lt;span class=&quot;tag samsung&quot;&gt;samsung&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://webkit.org/blog/8296/release-notes-for-safari-technology-preview-56/&quot; target=&quot;_blank&quot;&gt;What's new in Safari Technology Preview v56?&lt;/a&gt;
+            &lt;p&gt;In Web Inspector that recently shipped with Safari 11.1 on macOS High Sierra, the Elements tab sidebar panels and the styles editor got a lot of attention from the Web Inspector team.&lt;/p&gt;
+            &lt;span class=&quot;tag safari&quot;&gt;safari&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://hacks.mozilla.org/2018/05/new-in-firefox-61-developer-edition/&quot; target=&quot;_blank&quot;&gt;New in Firefox 61: Developer Edition&lt;/a&gt;
+            &lt;p&gt;Firefox 61: Developer Edition is available now, and contains a ton of great new features and under-the-hood improvements.&lt;/p&gt;
+            &lt;span class=&quot;tag firefox&quot;&gt;firefox&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;developer edition&lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;h1&gt;IDE's &amp;amp; Text Editor Updates&lt;/h1&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;div class=&quot;table__container clearfix&quot;&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://twitter.com/elijahmanor/status/999694243739459584&quot; target=&quot;_blank&quot;&gt;Export VSCode Extensions&lt;/a&gt;
+            &lt;p&gt;Here's a quick way to export your @code extensions to a markdown list (one line)&lt;/p&gt;
+            &lt;span class=&quot;tag vscode&quot;&gt;vscode&lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;table__container clearfix&quot;&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://blog.jetbrains.com/webstorm/2018/05/webstorm-2018-1-4/&quot; target=&quot;_blank&quot;&gt;WebStorm v2018.1.4 updates&lt;/a&gt;
+            &lt;p&gt;It’s now possible to run and debug tests using Karma run/debug configurations in projects generated with Angular CLI 6 and many more.&lt;/p&gt;
+            &lt;span class=&quot;tag webstorm&quot;&gt;webstorm&lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;table__container clearfix&quot;&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;http://blog.atom.io/2018/05/15/atom-1-27.html&quot; target=&quot;_blank&quot;&gt;What's new in Atom v1.27?&lt;/a&gt;
+            &lt;p&gt;Atom 1.27 brings numerous improvements to your Git and GitHub workflows, including support for multiple co-authors, separate amend and undo etc.&lt;/p&gt;
+            &lt;span class=&quot;tag atom&quot;&gt;atom&lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;table__container clearfix&quot;&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;http://blog.atom.io/2018/05/15/atom-1-27.html&quot; target=&quot;_blank&quot;&gt;Sublime v3.1.1 updates&lt;/a&gt;
+            &lt;p&gt;Added ui_scale setting to scale the entire UI, dpi_scale is now Linux-only and Indexing: Added more information in the Indexing Status window, and reduced CPU utilization in some scenarios.&lt;/p&gt;
+            &lt;span class=&quot;tag sublime&quot;&gt;sublime&lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;h1&gt;Articles &amp;amp; Tutorials&lt;/h1&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;div class=&quot;table__container clearfix&quot;&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://deanhume.com/displaying-a-new-version-available-progressive-web-app/?utm_source=ponyfoo+weekly&amp;amp;utm_medium=email&amp;amp;utm_campaign=issue-116&quot; target=&quot;_blank&quot;&gt;How to display a &quot;new version available&quot; for a Progressive Web App&lt;/a&gt;
+            &lt;p&gt;Have you ever been on a website and noticed a popup notification that suggests that there is a new version of the site available.&lt;/p&gt;
+            &lt;span class=&quot;tag pwa&quot;&gt;pwa&lt;/span&gt; &lt;span class=&quot;tag ux&quot;&gt;ux&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://bitsofco.de/css-animations-vs-the-web-animations-api/&quot; target=&quot;_blank&quot;&gt;CSS Animations vs the Web Animations API: A Case Study&lt;/a&gt;
+            &lt;p&gt;The Web Animations API provides a way for developers to directly manipulate the browser's animation engine using JavaScript.&lt;/p&gt;
+            &lt;span class=&quot;tag javascript&quot;&gt;javascript&lt;/span&gt; &lt;span class=&quot;tag web&quot;&gt;web&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://developers.google.com/web/updates/2018/05/beyond-spa&quot; target=&quot;_blank&quot;&gt;Beyond SPAs: alternative architectures for your PWA&lt;/a&gt;
+            &lt;p&gt;I'm going to cover an important, but potentially misunderstood topic: The architecture that you use for your web app, and specifically, how your architectural decisions come into play when you're building a progressive web app.&lt;/p&gt;
+            &lt;span class=&quot;tag spa&quot;&gt;spa&lt;/span&gt; &lt;span class=&quot;tag web&quot;&gt;web&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://csswizardry.com/2018/05/identifying-auditing-discussing-third-parties/&quot; target=&quot;_blank&quot;&gt;Identifying, Auditing, and Discussing Third Parties&lt;/a&gt;
+            &lt;p&gt;A large part of my performance consultancy work is auditing and subsequently governing third-party scripts, dependencies, and their providers. &lt;/p&gt;
+            &lt;span class=&quot;tag web&quot;&gt;web&lt;/span&gt; &lt;span class=&quot;tag perf&quot;&gt;perf&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://hello-tensorflow.glitch.me/&quot; target=&quot;_blank&quot;&gt;hello tensorflow&lt;/a&gt;
+            &lt;p&gt;Machine Learning (ML) is the dope new thing that everyone's talking about, because it's really good at learning from data so that it can predict similar things in the future.&lt;/p&gt;
+             &lt;span class=&quot;tag javascript&quot;&gt;javascript&lt;/span&gt; &lt;span class=&quot;tag tensorflow&quot;&gt;tensorflow&lt;/span&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+&lt;/center&gt;
+</description>
+        <pubDate>Mon, 28 May 2018 00:00:00 +0530</pubDate>
+        <link>http://0.0.0.0:4000/2018/05/28/Issue-9.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2018/05/28/Issue-9.html</guid>
+      </item>
     
       <item>
         <title>Issues</title>
@@ -157,8 +328,8 @@
 &lt;/center&gt;
 </description>
         <pubDate>Thu, 07 Sep 2017 00:00:00 +0530</pubDate>
-        <link>https://pwa.tips/2017/09/07/Issue-8.html</link>
-        <guid isPermaLink="true">https://pwa.tips/2017/09/07/Issue-8.html</guid>
+        <link>http://0.0.0.0:4000/2017/09/07/Issue-8.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2017/09/07/Issue-8.html</guid>
       </item>
     
       <item>
@@ -317,8 +488,8 @@
 &lt;/center&gt;
 </description>
         <pubDate>Thu, 24 Aug 2017 00:00:00 +0530</pubDate>
-        <link>https://pwa.tips/2017/08/24/Issue-7.html</link>
-        <guid isPermaLink="true">https://pwa.tips/2017/08/24/Issue-7.html</guid>
+        <link>http://0.0.0.0:4000/2017/08/24/Issue-7.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2017/08/24/Issue-7.html</guid>
       </item>
     
       <item>
@@ -476,8 +647,8 @@
 &lt;/center&gt;
 </description>
         <pubDate>Wed, 26 Jul 2017 00:00:00 +0530</pubDate>
-        <link>https://pwa.tips/2017/07/26/Issue-6.html</link>
-        <guid isPermaLink="true">https://pwa.tips/2017/07/26/Issue-6.html</guid>
+        <link>http://0.0.0.0:4000/2017/07/26/Issue-6.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2017/07/26/Issue-6.html</guid>
       </item>
     
       <item>
@@ -630,8 +801,8 @@
 &lt;/center&gt;
 </description>
         <pubDate>Tue, 20 Jun 2017 00:00:00 +0530</pubDate>
-        <link>https://pwa.tips/2017/06/20/Issue-5.html</link>
-        <guid isPermaLink="true">https://pwa.tips/2017/06/20/Issue-5.html</guid>
+        <link>http://0.0.0.0:4000/2017/06/20/Issue-5.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2017/06/20/Issue-5.html</guid>
       </item>
     
       <item>
@@ -789,8 +960,8 @@
 &lt;/center&gt;
 </description>
         <pubDate>Sat, 27 May 2017 00:00:00 +0530</pubDate>
-        <link>https://pwa.tips/2017/05/27/Issue-4.html</link>
-        <guid isPermaLink="true">https://pwa.tips/2017/05/27/Issue-4.html</guid>
+        <link>http://0.0.0.0:4000/2017/05/27/Issue-4.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2017/05/27/Issue-4.html</guid>
       </item>
     
       <item>
@@ -943,8 +1114,8 @@
 &lt;/center&gt;
 </description>
         <pubDate>Thu, 04 May 2017 00:00:00 +0530</pubDate>
-        <link>https://pwa.tips/2017/05/04/Issue-3.html</link>
-        <guid isPermaLink="true">https://pwa.tips/2017/05/04/Issue-3.html</guid>
+        <link>http://0.0.0.0:4000/2017/05/04/Issue-3.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2017/05/04/Issue-3.html</guid>
       </item>
     
       <item>
@@ -1076,8 +1247,8 @@
   &lt;/center&gt;
 </description>
         <pubDate>Tue, 11 Apr 2017 00:00:00 +0530</pubDate>
-        <link>https://pwa.tips/2017/04/11/Issue-2.html</link>
-        <guid isPermaLink="true">https://pwa.tips/2017/04/11/Issue-2.html</guid>
+        <link>http://0.0.0.0:4000/2017/04/11/Issue-2.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2017/04/11/Issue-2.html</guid>
       </item>
     
       <item>
@@ -1205,8 +1376,8 @@
   &lt;/center&gt;
 </description>
         <pubDate>Tue, 04 Apr 2017 00:00:00 +0530</pubDate>
-        <link>https://pwa.tips/2017/04/04/Issue-1.html</link>
-        <guid isPermaLink="true">https://pwa.tips/2017/04/04/Issue-1.html</guid>
+        <link>http://0.0.0.0:4000/2017/04/04/Issue-1.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2017/04/04/Issue-1.html</guid>
       </item>
     
   </channel>
