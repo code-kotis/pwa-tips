@@ -20,6 +20,10 @@
 	margin-bottom: 30px;
 }
 
+.archives .cards {
+	min-height: 200px;
+}
+
 @media all and (max-width: 1024px) and (min-width: 769px) {
 	.archive__content {
 		width: 640px;
