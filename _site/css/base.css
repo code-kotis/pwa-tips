@@ -300,9 +300,17 @@ footer {
 }
 
 .newsletter__info {
-	margin-top: 30px;
+	margin-top: 20px;
 	width: 410px;
 	line-height: 1.3;
+}
+
+.newsletter__count {
+	width: 350px;
+	color: #3273e0;
+	margin-top: 13px;
+	margin-bottom: 10px;
+	font-size: 13px;
 }
 
 footer .newsletter__info {
