@@ -1,25 +1,30 @@
-.opensources .cards h3 { 
-  margin-bottom: 20px;
-  margin-top: 10px;
+.opensources .cards h3 {
+	margin-bottom: 20px;
+	margin-top: 10px;
 }
 
 .opensources .cards {
-  min-height: 200px;
-  position: relative;
+	min-height: 200px;
+	position: relative;
 }
 
-@media all and (max-width: 767px) and (min-width: 481px) { 
-  .opensources .card__container {
-    flex-direction: column;
-  }
+.opensources .card__container {
+	flex-direction: row;
+	flex-wrap: wrap;
+}
 
-  .opensources .cards {
-    min-height: 200px;
-  }
+@media all and (max-width: 767px) and (min-width: 481px) {
+	.opensources .card__container {
+		flex-direction: column;
+	}
+
+	.opensources .cards {
+		min-height: 200px;
+	}
 }
 
 @media all and (max-width: 480px) {
-  .opensources .cards {
-    min-height: 200px;
-  }
+	.opensources .cards {
+		min-height: 200px;
+	}
 }
