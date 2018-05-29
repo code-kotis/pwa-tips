@@ -305,14 +305,6 @@ footer {
 	line-height: 1.3;
 }
 
-.newsletter__count {
-	width: 350px;
-	color: #3273e0;
-	margin-top: 13px;
-	margin-bottom: 10px;
-	font-size: 13px;
-}
-
 footer .newsletter__info {
 	display: none;
 }

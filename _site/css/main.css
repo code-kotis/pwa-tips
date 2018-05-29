@@ -6,3 +6,11 @@
 @import url("opensources.css");
 @import url("modal.css");
 @import url("toast.css");
+
+.newsletter__count {
+	width: 350px;
+	color: #3273e0;
+	margin-top: 13px;
+	margin-bottom: 10px;
+	font-size: 13px;
+}
