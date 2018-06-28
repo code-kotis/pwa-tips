@@ -21,7 +21,7 @@
 }
 
 .archives .cards {
-	min-height: 200px;
+	min-height: 230px;
 }
 
 @media all and (max-width: 1024px) and (min-width: 769px) {

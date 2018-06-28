@@ -3,8 +3,155 @@
   <channel>
     <title>PWA Tips</title>
     <description>Read about latest PWA's, Browser updates, new API's and its improvements in your inbox.</description>
-    <link>https://pwa.tips/</link>
-    <atom:link href="https://pwa.tips/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://0.0.0.0:4000/</link>
+    <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Issues</title>
+        <description>&lt;h1 class=&quot;title&quot;&gt;Issue #10&lt;/h1&gt;
+
+&lt;center&gt;
+  &lt;table align=&quot;center&quot; border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot; class=&quot;table issue-9&quot; height=&quot;100%&quot;&gt;
+    &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;div class=&quot;table__banner&quot;&gt;
+          &lt;h2&gt;PWA Tips Monthly Newsletter&lt;/h2&gt;
+          &lt;div class=&quot;table__banner-bottom&quot;&gt;
+            &lt;center&gt;Issue #10 &lt;span&gt; | &lt;/span&gt; June 28, 2018&lt;/center&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;h1&gt;What's New?&lt;/h1&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;div class=&quot;table__container&quot;&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://pptr.dev/&quot; target=&quot;_blank&quot;&gt;Official Puppeteer Documentation&lt;/a&gt;
+            &lt;p&gt;Puppeteer is a Node library which provides a high-level API to control headless Chrome or Chromium over the DevTools Protocol.&lt;/p&gt;
+            &lt;span class=&quot;tag puppeteer&quot;&gt;puppeteer&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;http://jestjs.io/blog/2018/05/29/jest-23-blazing-fast-delightful-testing.html&quot;&gt;Jest 23: 🔥 Blazing Fast Delightful Testing&lt;/a&gt;
+            &lt;p&gt;Today we are excited to announce Jest 23, our largest major release to date! Together with over 100 contributors, we've shipped a ton of features and bug fixes.&lt;/p&gt;
+            &lt;span class=&quot;tag jest&quot;&gt;jest&lt;/span&gt; &lt;span class=&quot;tag testing&quot;&gt;testing&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://reactjs.org/blog/2018/06/07/you-probably-dont-need-derived-state.html&quot; target=&quot;_blank&quot;&gt;You Probably Don't Need Derived State&lt;/a&gt;
+            &lt;p&gt;React v16.4 included a bugfix for getDerivedStateFromProps which caused some existing bugs in React components to reproduce more consistently.&lt;/p&gt;
+            &lt;span class=&quot;tag react&quot;&gt;react&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://tdresser.github.io/js-library-usage/&quot; target=&quot;_blank&quot;&gt;JS Library Usage Over Time&lt;/a&gt;
+            &lt;p&gt;An analysis of http archive data, showing JS library usage over time.&lt;/p&gt;
+            &lt;span class=&quot;tag javascript&quot;&gt;javascript&lt;/span&gt; &lt;span class=&quot;tag perf&quot;&gt;perf&lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;h1&gt;Browser Updates&lt;/h1&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;div class=&quot;table__container clearfix&quot;&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://developers.google.com/web/updates/2018/06/a2hs-updates&quot; target=&quot;_blank&quot;&gt;Changes to Add to Home Screen Behavior&lt;/a&gt;
+            &lt;p&gt;Since we first launched the add to home screen banner, we’ve been working to label Progressive Web Apps more clearly and simplify the way users can install them.&lt;/p&gt;
+            &lt;span class=&quot;tag pwa&quot;&gt;chrome&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://webkit.org/blog/8332/release-notes-for-safari-technology-preview-59/&quot; target=&quot;_blank&quot;&gt;What's new in Safari Technology Preview v59?&lt;/a&gt;
+            &lt;p&gt;Safari Technology Preview v59 has Intelligent Tracking Prevention 2.0, Web Animations improvements and more.&lt;/p&gt;
+            &lt;span class=&quot;tag safari&quot;&gt;safari&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://www.mozilla.org/en-US/firefox/61.0/releasenotes/&quot; target=&quot;_blank&quot;&gt;See what’s new in Firefox v61&lt;/a&gt;
+            &lt;p&gt;Faster page rendering with Quantum CSS improvements and the new retained display list feature and WebExtensions now run in their own process on MacOS etc&lt;/p&gt;
+            &lt;span class=&quot;tag firefox&quot;&gt;firefox&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://medium.com/samsung-internet-dev/7-2-stable-is-here-81fdbfca75b4&quot; target=&quot;_blank&quot;&gt;Whats new in Samsung v7.2?&lt;/a&gt;
+            &lt;p&gt;Introducing new web features such as WebGL2, Intersection Observer, Web Assembly and Protected Browsing etc,.&lt;/p&gt;
+            &lt;span class=&quot;tag samsung&quot;&gt;samsung&lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;h1&gt;IDE's &amp;amp; Text Editor Updates&lt;/h1&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;div class=&quot;table__container clearfix&quot;&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://code.visualstudio.com/updates/v1_24&quot; target=&quot;_blank&quot;&gt;What's new in VSCode v1.24?&lt;/a&gt;
+            &lt;p&gt;In this version of VSCode has many features such as Unused variable detection, Move to new file refactoring and many more&lt;/p&gt;
+            &lt;span class=&quot;tag vscode&quot;&gt;vscode&lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;table__container clearfix&quot;&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://atom.io/releases&quot; target=&quot;_blank&quot;&gt;Atom v1.29 beta&lt;/a&gt;
+            &lt;p&gt;Tree-sitter grammars are now parsed asynchronously for better performance and The One Light and One Dark themes now provide colors for the language-html-angular syntax grammar and more&lt;/p&gt;
+            &lt;span class=&quot;tag atom&quot;&gt;atom&lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;h1&gt;Articles &amp;amp; Tutorials&lt;/h1&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;div class=&quot;table__container clearfix&quot;&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://facebook.github.io/react-native/blog/2018/06/14/state-of-react-native-2018&quot; target=&quot;_blank&quot;&gt;State of React Native 2018&lt;/a&gt;
+            &lt;p&gt;At Facebook, we're using React Native more than ever and for many important projects. One of our most popular products is Marketplace, one of the top-level tabs in our app which is used by 800 million people each month.&lt;/p&gt;
+            &lt;span class=&quot;tag reactnative&quot;&gt;reactnative&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://blog.google/technology/ai/ai-principles/&quot; target=&quot;_blank&quot;&gt;AI at Google: our principles&lt;/a&gt;
+            &lt;p&gt;At its heart, AI is computer programming that learns and adapts. It can’t solve every problem, but its potential to improve our lives is profound. &lt;/p&gt;
+            &lt;span class=&quot;tag google&quot;&gt;google&lt;/span&gt; &lt;span class=&quot;tag AI&quot;&gt;AI&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://india.googleblog.com/2018/06/connecting400stationsindia.html&quot; target=&quot;_blank&quot;&gt;400 Wi-Fi enabled train stations in India&lt;/a&gt;
+            &lt;p&gt;For almost two centuries, train stations have launched billions of life-changing journeys in India. But now, those journeys may not even require boarding a train.&lt;/p&gt;
+            &lt;span class=&quot;tag india&quot;&gt;india&lt;/span&gt; &lt;span class=&quot;tag google&quot;&gt;google&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://zeit.co/blog/new-static-deployments&quot; target=&quot;_blank&quot;&gt;Zeit: New Static Deployments&lt;/a&gt;
+            &lt;p&gt;With our latest update, static deployments running on Now became almost twice as fast. Today, we are announcing the biggest set of improvements yet.&lt;/p&gt;
+            &lt;span class=&quot;tag zeit&quot;&gt;zeit&lt;/span&gt; &lt;span class=&quot;tag static&quot;&gt;static deployment&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://developers.google.com/web/updates/2018/06/ar-for-the-web&quot; target=&quot;_blank&quot;&gt;Augmented reality for the web&lt;/a&gt;
+            &lt;p&gt;In Chrome v67, we announced the WebXR Device API for both augmented reality (AR) and virtual reality (VR), though only the VR features were enabled.&lt;/p&gt;
+             &lt;span class=&quot;tag chrome&quot;&gt;chrome&lt;/span&gt; &lt;span class=&quot;tag AR&quot;&gt;AR&lt;/span&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+&lt;/center&gt;
+</description>
+        <pubDate>Thu, 28 Jun 2018 00:00:00 +0530</pubDate>
+        <link>http://0.0.0.0:4000/2018/06/28/Issue-10.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2018/06/28/Issue-10.html</guid>
+      </item>
     
       <item>
         <title>Issues</title>
@@ -173,8 +320,8 @@
 &lt;/center&gt;
 </description>
         <pubDate>Tue, 29 May 2018 00:00:00 +0530</pubDate>
-        <link>https://pwa.tips/2018/05/29/Issue-9.html</link>
-        <guid isPermaLink="true">https://pwa.tips/2018/05/29/Issue-9.html</guid>
+        <link>http://0.0.0.0:4000/2018/05/29/Issue-9.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2018/05/29/Issue-9.html</guid>
       </item>
     
       <item>
@@ -328,8 +475,8 @@
 &lt;/center&gt;
 </description>
         <pubDate>Thu, 07 Sep 2017 00:00:00 +0530</pubDate>
-        <link>https://pwa.tips/2017/09/07/Issue-8.html</link>
-        <guid isPermaLink="true">https://pwa.tips/2017/09/07/Issue-8.html</guid>
+        <link>http://0.0.0.0:4000/2017/09/07/Issue-8.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2017/09/07/Issue-8.html</guid>
       </item>
     
       <item>
@@ -488,8 +635,8 @@
 &lt;/center&gt;
 </description>
         <pubDate>Thu, 24 Aug 2017 00:00:00 +0530</pubDate>
-        <link>https://pwa.tips/2017/08/24/Issue-7.html</link>
-        <guid isPermaLink="true">https://pwa.tips/2017/08/24/Issue-7.html</guid>
+        <link>http://0.0.0.0:4000/2017/08/24/Issue-7.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2017/08/24/Issue-7.html</guid>
       </item>
     
       <item>
@@ -647,8 +794,8 @@
 &lt;/center&gt;
 </description>
         <pubDate>Wed, 26 Jul 2017 00:00:00 +0530</pubDate>
-        <link>https://pwa.tips/2017/07/26/Issue-6.html</link>
-        <guid isPermaLink="true">https://pwa.tips/2017/07/26/Issue-6.html</guid>
+        <link>http://0.0.0.0:4000/2017/07/26/Issue-6.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2017/07/26/Issue-6.html</guid>
       </item>
     
       <item>
@@ -801,8 +948,8 @@
 &lt;/center&gt;
 </description>
         <pubDate>Tue, 20 Jun 2017 00:00:00 +0530</pubDate>
-        <link>https://pwa.tips/2017/06/20/Issue-5.html</link>
-        <guid isPermaLink="true">https://pwa.tips/2017/06/20/Issue-5.html</guid>
+        <link>http://0.0.0.0:4000/2017/06/20/Issue-5.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2017/06/20/Issue-5.html</guid>
       </item>
     
       <item>
@@ -960,8 +1107,8 @@
 &lt;/center&gt;
 </description>
         <pubDate>Sat, 27 May 2017 00:00:00 +0530</pubDate>
-        <link>https://pwa.tips/2017/05/27/Issue-4.html</link>
-        <guid isPermaLink="true">https://pwa.tips/2017/05/27/Issue-4.html</guid>
+        <link>http://0.0.0.0:4000/2017/05/27/Issue-4.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2017/05/27/Issue-4.html</guid>
       </item>
     
       <item>
@@ -1114,8 +1261,8 @@
 &lt;/center&gt;
 </description>
         <pubDate>Thu, 04 May 2017 00:00:00 +0530</pubDate>
-        <link>https://pwa.tips/2017/05/04/Issue-3.html</link>
-        <guid isPermaLink="true">https://pwa.tips/2017/05/04/Issue-3.html</guid>
+        <link>http://0.0.0.0:4000/2017/05/04/Issue-3.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2017/05/04/Issue-3.html</guid>
       </item>
     
       <item>
@@ -1247,8 +1394,8 @@
   &lt;/center&gt;
 </description>
         <pubDate>Tue, 11 Apr 2017 00:00:00 +0530</pubDate>
-        <link>https://pwa.tips/2017/04/11/Issue-2.html</link>
-        <guid isPermaLink="true">https://pwa.tips/2017/04/11/Issue-2.html</guid>
+        <link>http://0.0.0.0:4000/2017/04/11/Issue-2.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2017/04/11/Issue-2.html</guid>
       </item>
     
       <item>
@@ -1376,8 +1523,8 @@
   &lt;/center&gt;
 </description>
         <pubDate>Tue, 04 Apr 2017 00:00:00 +0530</pubDate>
-        <link>https://pwa.tips/2017/04/04/Issue-1.html</link>
-        <guid isPermaLink="true">https://pwa.tips/2017/04/04/Issue-1.html</guid>
+        <link>http://0.0.0.0:4000/2017/04/04/Issue-1.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2017/04/04/Issue-1.html</guid>
       </item>
     
   </channel>

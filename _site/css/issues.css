@@ -400,6 +400,22 @@
 	background: #414141;
 }
 
+.zeit {
+	background: #1b1b1b;
+}
+
+.AI {
+	background: #cddc39;
+}
+
+.AR {
+	background: #ff9800;
+}
+
+.india {
+	background: #2196f3;
+}
+
 .table .footer__content td {
 	padding: 30px 10px;
 }
