@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["2017/04/04/Issue-1.html","d4cdb7d16f5e78ba4f595a3bc813e55f"],["2017/04/11/Issue-2.html","1a7fc265c067cc3a12b1d08c55ab39cc"],["2017/05/04/Issue-3.html","f459565757ef9ca6566514bc52911de3"],["2017/05/27/Issue-4.html","82b115fd6d4089f865405781398e0cf7"],["2017/06/20/Issue-5.html","d9e6dddf9aff035b37f0111e86d72faf"],["2017/07/26/Issue-6.html","3d88510988eb4cf993039f5d768653f5"],["2017/08/24/Issue-7.html","88bdcc7fddaaaf1e44e23b978f57e21c"],["2017/09/07/Issue-8.html","2d3e9fbda5efa13501afccb3c30320f0"],["2018/05/29/Issue-9.html","8b6e63af49748ffea84205e9ba7b3916"],["404.html","654de47775fc221c5e783dd6f7df044a"],["archives.html","a2757dafff2b8f36bbff1d87c4d7b390"],["codelabs/index.html","c4c18ab3999eba438cf59a57d71d1bfc"],["css/archives.css","ac889ad7e1eca98ab137f290193d1767"],["css/base.css","80e982d243bad22c29551a02851eb609"],["css/issues.css","9466fc3c5b0fd234bce43bf7811e4818"],["css/main.css","4a726ce9502017fb68e06acf5cbb2101"],["css/menu.css","fd99f071408f5ff4c29de3faa198c280"],["css/modal.css","d91f766c5d64913352bfc34fdbdf08f4"],["css/opensources.css","0ebce766f8c4771d9fe2436b43e2a6d7"],["css/reset.css","7e9de0bae21fd193dd472c0d6f549a06"],["css/toast.css","fc3dfe3dc3bbb224a3a95849f583ac92"],["images/banner.png","0c7f1b0bf784a9138327951fae613ed3"],["images/engaging.png","f996517995fb7b9bac65587a3bbfc049"],["images/fast.png","4d3919c4f1630820874c225e4b530ee6"],["images/menu_black.svg","d346927b079c06d3a5364e5a8dd9a62c"],["images/pwa-codelabs.png","99ffcb4fd39c407d4e8d4caa6b7ac01a"],["images/reliable.png","42fb8def018bb3f80a3805226383a57f"],["index.html","1f9695f1366ec560e6973ef399f83e40"],["js/main.js","0fa0bdcb1878e621a3d440cb0c618bfb"],["js/menu.js","aba5e0ac92bedd7ce29db702399dbdf5"],["opensources.html","a91643be0bd2d70e48a504caf8a19482"]];
+var precacheConfig = [["2017/04/04/Issue-1.html","d4cdb7d16f5e78ba4f595a3bc813e55f"],["2017/04/11/Issue-2.html","1a7fc265c067cc3a12b1d08c55ab39cc"],["2017/05/04/Issue-3.html","f459565757ef9ca6566514bc52911de3"],["2017/05/27/Issue-4.html","82b115fd6d4089f865405781398e0cf7"],["2017/06/20/Issue-5.html","d9e6dddf9aff035b37f0111e86d72faf"],["2017/07/26/Issue-6.html","3d88510988eb4cf993039f5d768653f5"],["2017/08/24/Issue-7.html","88bdcc7fddaaaf1e44e23b978f57e21c"],["2017/09/07/Issue-8.html","2d3e9fbda5efa13501afccb3c30320f0"],["2018/05/29/Issue-9.html","8b6e63af49748ffea84205e9ba7b3916"],["2018/06/28/Issue-10.html","83ed28b826e48b6dac87a36a9aef5e88"],["404.html","654de47775fc221c5e783dd6f7df044a"],["archives.html","c81f560e780a3258b8a8ef2d07f6d4da"],["codelabs/index.html","c4c18ab3999eba438cf59a57d71d1bfc"],["css/archives.css","919b7b516c101b76d5211bd5779d079f"],["css/base.css","80e982d243bad22c29551a02851eb609"],["css/issues.css","5cb5f76ab30f98258381938b577a7e24"],["css/main.css","4a726ce9502017fb68e06acf5cbb2101"],["css/menu.css","fd99f071408f5ff4c29de3faa198c280"],["css/modal.css","d91f766c5d64913352bfc34fdbdf08f4"],["css/opensources.css","0ebce766f8c4771d9fe2436b43e2a6d7"],["css/reset.css","7e9de0bae21fd193dd472c0d6f549a06"],["css/toast.css","fc3dfe3dc3bbb224a3a95849f583ac92"],["images/banner.png","0c7f1b0bf784a9138327951fae613ed3"],["images/engaging.png","f996517995fb7b9bac65587a3bbfc049"],["images/fast.png","4d3919c4f1630820874c225e4b530ee6"],["images/menu_black.svg","d346927b079c06d3a5364e5a8dd9a62c"],["images/pwa-codelabs.png","99ffcb4fd39c407d4e8d4caa6b7ac01a"],["images/reliable.png","42fb8def018bb3f80a3805226383a57f"],["index.html","93bce3610a9a815763316ac6e94852e5"],["js/main.js","0fa0bdcb1878e621a3d440cb0c618bfb"],["js/menu.js","aba5e0ac92bedd7ce29db702399dbdf5"],["opensources.html","a91643be0bd2d70e48a504caf8a19482"]];
 var cacheName = 'sw-precache-v3-sw-precache-' + (self.registration ? self.registration.scope : '');
 
 
@@ -45,7 +45,7 @@ var ignoreUrlParametersMatching = [/^utm_/];
 
 
 
-var addDirectoryIndex = function(originalUrl, index) {
+var addDirectoryIndex = function (originalUrl, index) {
     var url = new URL(originalUrl);
     if (url.pathname.slice(-1) === '/') {
       url.pathname += index;
@@ -53,7 +53,7 @@ var addDirectoryIndex = function(originalUrl, index) {
     return url.toString();
   };
 
-var cleanResponse = function(originalResponse) {
+var cleanResponse = function (originalResponse) {
     // If this is not a redirected response, then we don't have to do anything.
     if (!originalResponse.redirected) {
       return Promise.resolve(originalResponse);
@@ -75,7 +75,7 @@ var cleanResponse = function(originalResponse) {
     });
   };
 
-var createCacheKey = function(originalUrl, paramName, paramValue,
+var createCacheKey = function (originalUrl, paramName, paramValue,
                            dontCacheBustUrlsMatching) {
     // Create a new URL object to avoid modifying originalUrl.
     var url = new URL(originalUrl);
@@ -91,7 +91,7 @@ var createCacheKey = function(originalUrl, paramName, paramValue,
     return url.toString();
   };
 
-var isPathWhitelisted = function(whitelist, absoluteUrlString) {
+var isPathWhitelisted = function (whitelist, absoluteUrlString) {
     // If the whitelist is empty, then consider all URLs to be whitelisted.
     if (whitelist.length === 0) {
       return true;
@@ -104,7 +104,7 @@ var isPathWhitelisted = function(whitelist, absoluteUrlString) {
     });
   };
 
-var stripIgnoredUrlParameters = function(originalUrl,
+var stripIgnoredUrlParameters = function (originalUrl,
     ignoreUrlParametersMatching) {
     var url = new URL(originalUrl);
     // Remove the hash; see https://github.com/GoogleChrome/sw-precache/issues/290
