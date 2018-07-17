@@ -416,6 +416,30 @@
 	background: #2196f3;
 }
 
+.wordpress {
+	background: #23282d;
+}
+
+.uxreport {
+	background: #212121;
+}
+
+.webgl {
+	background: #3f51b5;
+}
+
+.webvr {
+	background: #ff9800;
+}
+
+.mechinelearning {
+	background: #4caf50;
+}
+
+.cli {
+	background: #3273e0;
+}
+
 .table .footer__content td {
 	padding: 30px 10px;
 }
@@ -559,4 +583,12 @@
 
 .issue-9 .table__banner-bottom {
 	background: #3b52c1;
+}
+
+.issue-11 .table__banner {
+	background: #e22867;
+}
+
+.issue-11 .table__banner-bottom {
+	background: #9c1d48;
 }
