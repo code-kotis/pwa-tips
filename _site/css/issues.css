@@ -499,8 +499,8 @@
 
 @media only screen and (max-width: 480px) {
 	.table {
-		width: 300;
-		max-width: 300;
+		width: 98%;
+		max-width: 100%;
 	}
 
 	.table__banner {
