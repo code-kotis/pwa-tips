@@ -8,6 +8,136 @@
     
       <item>
         <title>Issues</title>
+        <description>&lt;h1 class=&quot;title&quot;&gt;Issue #12&lt;/h1&gt;
+
+&lt;center&gt;
+  &lt;table align=&quot;center&quot; border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot; class=&quot;table issue-12&quot; height=&quot;100%&quot;&gt;
+    &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;div class=&quot;table__banner&quot;&gt;
+          &lt;h2&gt;PWA Tips Monthly Newsletter&lt;/h2&gt;
+          &lt;div class=&quot;table__banner-bottom&quot;&gt;
+            &lt;center&gt;Issue #12 &lt;span&gt; | &lt;/span&gt; July 31, 2018&lt;/center&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;h1&gt;What's New?&lt;/h1&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;div class=&quot;table__container&quot;&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://internethealthreport.org/2018/&quot; target=&quot;_blank&quot;&gt;How healthy is the Internet in 2018?&lt;/a&gt;
+            &lt;p&gt;Our 2018 compilation of research explains what’s helping and what’s hurting the Internet across five issues, from personal experience to global concerns.&lt;/p&gt;
+            &lt;span class=&quot;tag internet&quot;&gt;internet&lt;/span&gt; &lt;span class=&quot;tag mozilla&quot;&gt;mozilla&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://www.androidpolice.com/2018/07/26/facebook-testing-proper-progressive-web-app-mobile-website/&quot; target=&quot;_blank&quot;&gt;Facebook is testing a proper PWA&lt;/a&gt;
+            &lt;p&gt;There are times you want to install a native app on your device to get the full experience from a service or social media platform, and times where you just want to visit the mobile site every now and then.&lt;/p&gt;
+            &lt;span class=&quot;tag pwa&quot;&gt;pwa&lt;/span&gt; &lt;span class=&quot;tag facebook&quot;&gt;facebook&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://developers.google.com/web/updates/2018/07/pwacompat&quot;&gt;😍 PWACompat: the Web App Manifest for all browsers&lt;/a&gt;
+            &lt;p&gt;PWACompat: the Web App Manifest for all browsers You've designed a web app, wrote its code and service worker, and finally added the Web App Manifest to describe how it should behave when 'installed' on a user's device.&lt;/p&gt;
+            &lt;span class=&quot;tag pwa&quot;&gt;pwa&lt;/span&gt; &lt;span class=&quot;tag ios&quot;&gt;ios&lt;/span&gt; &lt;span class=&quot;tag android&quot;&gt;android&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://doesmysiteneedhttps.com&quot;&gt;Does my site need HTTPS 🤔&lt;/a&gt;
+            &lt;p&gt;our site is a liability! Just because your site is hosted safely. in your account doesn't mean it won't travel through cables and boxes controlled by who knows how many corporate- and state-owned entities.&lt;/p&gt;
+            &lt;span class=&quot;tag https&quot;&gt;https&lt;/span&gt; &lt;span class=&quot;tag security&quot;&gt;security&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://www.thinkwithgoogle.com/marketing-resources/monetization/adblock-report/&quot; target=&quot;_blank&quot;&gt;Adblock report | thinkwithgoogle&lt;/a&gt;
+            &lt;p&gt;Consumers today expect their digital experiences to be fast and seamless. If they’re not, the outcome can be costly.&lt;/p&gt;
+            &lt;span class=&quot;tag thinkwithgoogle&quot;&gt;thinkwithgoogle&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://www.chromestatus.com/feature/6068482055602176#&quot; target=&quot;_blank&quot;&gt;Badging API 😇&lt;/a&gt;
+            &lt;p&gt;Allows web apps (as defined by the Web App Manifest standard) to set an app-wide badge in operating-system-specific places such as the shelf or home screen.&lt;/p&gt;
+            &lt;span class=&quot;tag chrome&quot;&gt;chrome&lt;/span&gt; &lt;span class=&quot;tag pwa&quot;&gt;pwa&lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;h1&gt;Browser Updates&lt;/h1&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;div class=&quot;table__container clearfix&quot;&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://developers.google.com/web/updates/2018/07/search-ads-speed&quot; target=&quot;_blank&quot;&gt;Speed is now a landing page factor&lt;/a&gt;
+            &lt;p&gt;For many sites this equates to a huge missed opportunity, especially when more than half of visits are abandoned if a mobile page takes over 3 seconds to load.&lt;/p&gt;
+            &lt;span class=&quot;tag pwa&quot;&gt;chrome&lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;h1&gt;Articles &amp;amp; Tutorials&lt;/h1&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;div class=&quot;table__container clearfix&quot;&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://medium.com/@Pinterest_Engineering/a-one-year-pwa-retrospective-f4a2f4129e05&quot; target=&quot;_blank&quot;&gt;Pinterest | PWA retrospective&lt;/a&gt;
+            &lt;p&gt;The idea of building a “Progressive Web App” (PWA) is not new, but its definition has changed with the emergence of key technologies like service workers.&lt;/p&gt;
+            &lt;span class=&quot;tag casestudy&quot;&gt;casestudy&lt;/span&gt; &lt;span class=&quot;tag pwa&quot;&gt;pwa&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://icons8.com/articles/most-hated-ui-ux-design-pattern/&quot; target=&quot;_blank&quot;&gt;The Most Hated UI &amp;amp; UX Pattern of 2018&lt;/a&gt;
+            &lt;p&gt;Site will present you with five UI/UX design patterns, in the most horrific way possible. You carefully consider my arguments, and then pick the pattern you hate the most.&lt;/p&gt;
+            &lt;span class=&quot;tag ux&quot;&gt;ux&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://developers.googleblog.com/2018/07/designing-for-google-assistant-on-smart_26.html&quot; target=&quot;_blank&quot;&gt;Designing for the Google Assistant on Smart Displays&lt;/a&gt;
+            &lt;p&gt;Earlier this year we announced Smart Displays, a new category of devices with the Google Assistant built in, that augment voice experiences with immersive visuals. &lt;/p&gt;
+            &lt;span class=&quot;tag design&quot;&gt;design&lt;/span&gt; &lt;span class=&quot;tag smartdisplays&quot;&gt;smartdisplays&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://www.keycdn.com/blog/video-optimization/&quot; target=&quot;_blank&quot;&gt;🔥 8 Video Optimization Tips | KeyCDN&lt;/a&gt;
+            &lt;p&gt;Adding videos to your website can sometimes be a double-edged sword. Web users love high-resolution videos, but if your website isn’t optimized to handle them, such content can cause performance problems.&lt;/p&gt;
+            &lt;span class=&quot;tag web&quot;&gt;web&lt;/span&gt; &lt;span class=&quot;tag perf&quot;&gt;perf&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://accessibility.digital.gov/&quot; target=&quot;_blank&quot;&gt;Accessibility for Teams&lt;/a&gt;
+            &lt;p&gt;A ‘quick-start’ guide for embedding accessibility and inclusive design practices into your team’s workflow.&lt;/p&gt;
+            &lt;span class=&quot;tag ally&quot;&gt;ally&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://medium.com/dev-channel/hacking-user-perception-to-make-your-websites-and-apps-feel-faster-922636b620e3&quot; target=&quot;_blank&quot;&gt;Hacking user perception to make websites faster&lt;/a&gt;
+            &lt;p&gt;In this article, Mustafa Kurtuldu cover different design devices you can use to make your experiences feel quick.&lt;/p&gt;
+             &lt;span class=&quot;tag perf&quot;&gt;perf&lt;/span&gt; &lt;span class=&quot;tag ux&quot;&gt;ux&lt;/span&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://developers.google.com/web/updates/2018/07/reportingobserver&quot; target=&quot;_blank&quot;&gt;ReportingObserver: know your code health&lt;/a&gt;
+            &lt;p&gt;There's a new observer in town! ReportingObserver is a new API that lets you know when your site uses a deprecated API or runs into a browser intervention.&lt;/p&gt;
+             &lt;span class=&quot;tag chrome&quot;&gt;chrome&lt;/span&gt;
+            &lt;/div&gt;
+          &amp;lt;/div&amp;gt;
+        &lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+&lt;/center&gt;
+</description>
+        <pubDate>Tue, 31 Jul 2018 00:00:00 +0530</pubDate>
+        <link>https://pwa.tips/2018/07/31/Issue-12.html</link>
+        <guid isPermaLink="true">https://pwa.tips/2018/07/31/Issue-12.html</guid>
+      </item>
+    
+      <item>
+        <title>Issues</title>
         <description>&lt;h1 class=&quot;title&quot;&gt;Issue #11&lt;/h1&gt;
 
 &lt;center&gt;
@@ -1408,139 +1538,6 @@
         <pubDate>Thu, 04 May 2017 00:00:00 +0530</pubDate>
         <link>https://pwa.tips/2017/05/04/Issue-3.html</link>
         <guid isPermaLink="true">https://pwa.tips/2017/05/04/Issue-3.html</guid>
-      </item>
-    
-      <item>
-        <title>Issues</title>
-        <description>&lt;h1 class=&quot;title&quot;&gt;Issue #2&lt;/h1&gt;
-
-&lt;center&gt;
-    &lt;table align=&quot;center&quot; border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; height=&quot;100%&quot; width=&quot;100%&quot; class=&quot;table&quot;&gt;
-      &lt;tr&gt;
-        &lt;td&gt;
-          &lt;div class=&quot;table__banner&quot;&gt;
-            &lt;h2&gt;PWA Tips Monthly Newsletter&lt;/h2&gt;
-            &lt;div class=&quot;table__banner-bottom&quot;&gt;
-              &lt;center&gt;Issue #2 &lt;span&gt; | &lt;/span&gt; April, 2017&lt;/center&gt;  
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tbody&gt;
-        &lt;tr&gt;
-          &lt;td&gt;&lt;h1&gt;What's New?&lt;/h1&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-          &lt;td&gt;
-            &lt;div class=&quot;table__container&quot;&gt;
-              &lt;div class=&quot;table__content&quot;&gt;
-                &lt;a href=&quot;https://blog.twitter.com/2017/how-we-built-twitter-lite&quot; target=&quot;_blank&quot;&gt;Twitter Lite&lt;/a&gt;
-                &lt;p&gt;Twitter Lite is fast and responsive, uses less data, takes up less storage space, and supports push notifications and offline use in modern browsers.&lt;/p&gt;
-                &lt;span class=&quot;tag pwa&quot;&gt;pwa&lt;/span&gt;
-              &lt;/div&gt;
-              &lt;div class=&quot;table__content&quot;&gt;
-                &lt;a href=&quot;https://www.pwastats.com/&quot; target=&quot;_blank&quot;&gt;PWA Stats&lt;/a&gt;
-                &lt;p&gt;A community-driven list of stats and news related to Progressive Web Apps brought to you by Cloud Four.&lt;/p&gt;
-                &lt;span class=&quot;tag pwa&quot;&gt;pwa&lt;/span&gt;
-              &lt;/div&gt;
-              &lt;div class=&quot;table__content&quot;&gt;
-                &lt;a href=&quot;https://material.io/color/&quot; target=&quot;_blank&quot;&gt;Material Color Tool&lt;/a&gt;
-                &lt;p&gt;Create, share, and apply color palettes to your UI, as well as measure the accessibility level of any color combination.&lt;/p&gt;
-                &lt;span class=&quot;tag material&quot;&gt;material design&lt;/span&gt; &lt;span class=&quot;tag tool&quot;&gt;tool&lt;/span&gt;
-              &lt;/div&gt;
-              &lt;div class=&quot;table__content&quot;&gt;
-                &lt;a href=&quot;https://github.com/developit/preact/releases/tag/8.0.0&quot; target=&quot;_blank&quot;&gt;Preact v8 (beta) is 3.3 KB now&lt;/a&gt;
-                &lt;p&gt;Preact version 8 (beta) has significantly increased performance and even smaller now.&lt;/p&gt;
-                &lt;span class=&quot;tag preact&quot;&gt;preact&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;library&lt;/span&gt;
-              &lt;/div&gt;
-              &lt;div class=&quot;table__content&quot;&gt;
-                &lt;a href=&quot;https://facebook.github.io/react/blog/2017/04/07/react-v15.5.0.html&quot; target=&quot;_blank&quot;&gt;React v15.5.0&lt;/a&gt;
-                &lt;p&gt;Our next major release, React 16, will include some exciting improvements, including a complete rewrite of React's internals.&lt;/p&gt;
-                &lt;span class=&quot;tag react&quot;&gt;react&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;library&lt;/span&gt;
-              &lt;/div&gt;
-              &lt;div class=&quot;table__content&quot;&gt;
-                &lt;a href=&quot;https://www.thinkwithgoogle.com/articles/retail-marketing-beacon-technology.html&quot; target=&quot;_blank&quot;&gt;How Beacons Can Reshape Retail Marketing&lt;/a&gt;
-                &lt;p&gt;Beacon technology is poised to change the way consumers interact with brands, making devices more helpful.&lt;/p&gt;
-                &lt;span class=&quot;tag research&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;insights&lt;/span&gt;
-              &lt;/div&gt;
-              &lt;div class=&quot;table__content&quot;&gt;
-                &lt;a href=&quot;autodraw.com&quot; target=&quot;_blank&quot;&gt;AutoDraw&lt;/a&gt;
-                &lt;p&gt;AutoDraw is a new kind of drawing tool. It pairs machine learning with drawings from talented artists to help everyone create anything visual, fast.&lt;/p&gt;
-                &lt;span class=&quot;tag ai&quot;&gt;AI Experiments&lt;/span&gt;
-              &lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-          &lt;td&gt;&lt;h1&gt;Browser Updates&lt;/h1&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-          &lt;td&gt;
-            &lt;div class=&quot;table__container clearfix&quot;&gt;
-             &lt;div class=&quot;table__content&quot;&gt;
-                &lt;a href=&quot;https://blog.google/products/chrome/taking-aim-annoying-page-jumps-chrome/&quot; target=&quot;_blank&quot;&gt;Annoying page jumps in Chrome&lt;/a&gt;
-                &lt;p&gt;Have you ever opened a link shared by a friend to an article you were eager to read, scrolled to the second paragraph, and found yourself suddenly back near the top of the page.&lt;/p&gt;
-                &lt;span class=&quot;tag chrome&quot;&gt;chrome&lt;/span&gt;
-              &lt;/div&gt;
-              &lt;div class=&quot;table__content&quot;&gt;
-                &lt;a href=&quot;https://webkit.org/blog/7497/release-notes-for-safari-technology-preview-27/&quot; target=&quot;_blank&quot;&gt;Safari Technology Preview 27&lt;/a&gt;
-                &lt;p&gt;Safari Technology Preview Release 27 is now available for download for macOS Sierra.&lt;/p&gt;
-                &lt;span class=&quot;tag safari&quot;&gt;safari&lt;/span&gt;
-              &lt;/div&gt;
-              &lt;div class=&quot;table__content&quot;&gt;
-                &lt;a href=&quot;https://blogs.windows.com/msedgedev/2017/04/11/introducing-edgehtml-15/&quot; target=&quot;_blank&quot;&gt;What’s new in Microsoft Edge in the Windows 10&lt;/a&gt;
-                &lt;p&gt;The Windows web platform to EdgeHTML 15 ships to stable with Web Payments, WebVR, Intersection Observer, CSS Custom Props (Variables) and more.&lt;/p&gt;
-                &lt;span class=&quot;tag edge&quot;&gt;microsoft edge&lt;/span&gt;
-              &lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-          &lt;td&gt;&lt;h1&gt;Articles &amp;amp; Tutorials&lt;/h1&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-          &lt;td&gt;
-            &lt;div class=&quot;table__container clearfix&quot;&gt;
-              &lt;div class=&quot;table__content&quot;&gt;
-                &lt;a href=&quot;https://developers.google.com/web/fundamentals/media/mobile-web-video-playback&quot; target=&quot;_blank&quot;&gt;Mobile Web Video Playback&lt;/a&gt;
-                &lt;p&gt;How do you create the best mobile media experience on the Web? Easy! It all depends on user engagement and the importance you give to the media on a web page.&lt;/p&gt;
-                &lt;span class=&quot;tag&quot;&gt;chrome&lt;/span&gt; &lt;span class=&quot;tag ux&quot;&gt;ux&lt;/span&gt;
-              &lt;/div&gt;
-              &lt;div class=&quot;table__content&quot;&gt;
-                &lt;a href=&quot;https://medium.com/dailyjs/npm-and-the-front-end-950c79fc22ce&quot; target=&quot;_blank&quot;&gt;npm and the front end&lt;/a&gt;
-                &lt;p&gt;Npm embraces modular architecture of software development. Do one thing only and do it well.&lt;/p&gt;
-                &lt;span class=&quot;tag npm&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;tag frontend&quot;&gt;frontend&lt;/span&gt;
-              &lt;/div&gt;
-              &lt;div class=&quot;table__content&quot;&gt;
-                &lt;a href=&quot;https://medium.com/@paularmstrong/twitter-lite-and-high-performance-react-progressive-web-apps-at-scale-d28a00e780a3&quot; target=&quot;_blank&quot;&gt;Twitter Lite and High Performance React Progressive Web Apps at Scale&lt;/a&gt;
-                &lt;p&gt;A look into removing common and uncommon performance bottlenecks in one of the worlds largest React.js PWAs, Twitter Lite.&lt;/p&gt;
-                &lt;span class=&quot;tag pwa&quot;&gt;pwa&lt;/span&gt; &lt;span class=&quot;tag perf&quot;&gt;perf&lt;/span&gt;
-              &lt;/div&gt;
-              &lt;div class=&quot;table__content&quot;&gt;
-                &lt;a href=&quot;https://devtools-html.github.io/debugger-examples/&quot; target=&quot;_blank&quot;&gt;Debugger Examples&lt;/a&gt;
-                &lt;p&gt;Collection of good debugging examples.&lt;/p&gt;
-                &lt;span class=&quot;tag dev&quot;&gt;dev&lt;/span&gt;
-              &lt;/div&gt;
-              &lt;div class=&quot;table__content&quot;&gt;
-                &lt;a href=&quot;https://www.sitepen.com/blog/2017/03/21/the-5-features-of-es8-and-a-wishlist-for-es9/&quot; target=&quot;_blank&quot;&gt;5 features of ES8 and a wishlist for ES9&lt;/a&gt;
-                &lt;p&gt;As we near the finalization of the proposal, it’s looking like ES8 is going to deliver much more than the simple updates of its ES7 predecessor.&lt;/p&gt;
-                &lt;span class=&quot;tag es6&quot;&gt;javascript&lt;/span&gt; &lt;span class=&quot;tag es6&quot;&gt;es6&lt;/span&gt;
-              &lt;/div&gt;
-              &lt;div class=&quot;table__content&quot;&gt;
-                &lt;a href=&quot;https://certsimple.com/blog/nginx-brotli&quot; target=&quot;_blank&quot;&gt;nginx brotli&lt;/a&gt;
-                &lt;p&gt;If you've installed a web server in the last 20 years, you'll have been told to make sure gzip is turned on. gzip.&lt;/p&gt;
-                &lt;span class=&quot;tag server&quot;&gt;server&lt;/span&gt; &lt;span class=&quot;tag perf&quot;&gt;perf&lt;/span&gt;
-              &lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/td&gt;
-        &lt;/tr&gt;
-      &lt;/tbody&gt;
-    &lt;/table&gt;
-  &lt;/center&gt;
-</description>
-        <pubDate>Tue, 11 Apr 2017 00:00:00 +0530</pubDate>
-        <link>https://pwa.tips/2017/04/11/Issue-2.html</link>
-        <guid isPermaLink="true">https://pwa.tips/2017/04/11/Issue-2.html</guid>
       </item>
     
   </channel>
