@@ -3,8 +3,8 @@
   <channel>
     <title>PWA Tips</title>
     <description>Read about latest PWA's, Browser updates, new API's and its improvements in your inbox.</description>
-    <link>http://0.0.0.0:4000/</link>
-    <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <link>https://pwa.tips/</link>
+    <atom:link href="https://pwa.tips/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title></title>
@@ -127,9 +127,9 @@
   &lt;/table&gt;
 &lt;/center&gt;
 </description>
-        <pubDate>Thu, 30 Aug 2018 20:28:28 +0530</pubDate>
-        <link>http://0.0.0.0:4000/2018/08/30/2018-08-31-Issue-13.html</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2018/08/30/2018-08-31-Issue-13.html</guid>
+        <pubDate>Sat, 01 Sep 2018 08:51:18 +0530</pubDate>
+        <link>https://pwa.tips/2018/09/01/2018-08-31-Issue-13.html</link>
+        <guid isPermaLink="true">https://pwa.tips/2018/09/01/2018-08-31-Issue-13.html</guid>
       </item>
     
       <item>
@@ -258,8 +258,8 @@
 &lt;/center&gt;
 </description>
         <pubDate>Tue, 31 Jul 2018 00:00:00 +0530</pubDate>
-        <link>http://0.0.0.0:4000/2018/07/31/Issue-12.html</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2018/07/31/Issue-12.html</guid>
+        <link>https://pwa.tips/2018/07/31/Issue-12.html</link>
+        <guid isPermaLink="true">https://pwa.tips/2018/07/31/Issue-12.html</guid>
       </item>
     
       <item>
@@ -403,8 +403,8 @@
 &lt;/center&gt;
 </description>
         <pubDate>Tue, 17 Jul 2018 00:00:00 +0530</pubDate>
-        <link>http://0.0.0.0:4000/2018/07/17/Issue-11.html</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2018/07/17/Issue-11.html</guid>
+        <link>https://pwa.tips/2018/07/17/Issue-11.html</link>
+        <guid isPermaLink="true">https://pwa.tips/2018/07/17/Issue-11.html</guid>
       </item>
     
       <item>
@@ -550,8 +550,8 @@
 &lt;/center&gt;
 </description>
         <pubDate>Thu, 28 Jun 2018 00:00:00 +0530</pubDate>
-        <link>http://0.0.0.0:4000/2018/06/28/Issue-10.html</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2018/06/28/Issue-10.html</guid>
+        <link>https://pwa.tips/2018/06/28/Issue-10.html</link>
+        <guid isPermaLink="true">https://pwa.tips/2018/06/28/Issue-10.html</guid>
       </item>
     
       <item>
@@ -721,8 +721,8 @@
 &lt;/center&gt;
 </description>
         <pubDate>Tue, 29 May 2018 00:00:00 +0530</pubDate>
-        <link>http://0.0.0.0:4000/2018/05/29/Issue-9.html</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2018/05/29/Issue-9.html</guid>
+        <link>https://pwa.tips/2018/05/29/Issue-9.html</link>
+        <guid isPermaLink="true">https://pwa.tips/2018/05/29/Issue-9.html</guid>
       </item>
     
       <item>
@@ -876,8 +876,8 @@
 &lt;/center&gt;
 </description>
         <pubDate>Thu, 07 Sep 2017 00:00:00 +0530</pubDate>
-        <link>http://0.0.0.0:4000/2017/09/07/Issue-8.html</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2017/09/07/Issue-8.html</guid>
+        <link>https://pwa.tips/2017/09/07/Issue-8.html</link>
+        <guid isPermaLink="true">https://pwa.tips/2017/09/07/Issue-8.html</guid>
       </item>
     
       <item>
@@ -1036,8 +1036,8 @@
 &lt;/center&gt;
 </description>
         <pubDate>Thu, 24 Aug 2017 00:00:00 +0530</pubDate>
-        <link>http://0.0.0.0:4000/2017/08/24/Issue-7.html</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2017/08/24/Issue-7.html</guid>
+        <link>https://pwa.tips/2017/08/24/Issue-7.html</link>
+        <guid isPermaLink="true">https://pwa.tips/2017/08/24/Issue-7.html</guid>
       </item>
     
       <item>
@@ -1195,8 +1195,8 @@
 &lt;/center&gt;
 </description>
         <pubDate>Wed, 26 Jul 2017 00:00:00 +0530</pubDate>
-        <link>http://0.0.0.0:4000/2017/07/26/Issue-6.html</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2017/07/26/Issue-6.html</guid>
+        <link>https://pwa.tips/2017/07/26/Issue-6.html</link>
+        <guid isPermaLink="true">https://pwa.tips/2017/07/26/Issue-6.html</guid>
       </item>
     
       <item>
@@ -1349,8 +1349,8 @@
 &lt;/center&gt;
 </description>
         <pubDate>Tue, 20 Jun 2017 00:00:00 +0530</pubDate>
-        <link>http://0.0.0.0:4000/2017/06/20/Issue-5.html</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2017/06/20/Issue-5.html</guid>
+        <link>https://pwa.tips/2017/06/20/Issue-5.html</link>
+        <guid isPermaLink="true">https://pwa.tips/2017/06/20/Issue-5.html</guid>
       </item>
     
       <item>
@@ -1508,8 +1508,8 @@
 &lt;/center&gt;
 </description>
         <pubDate>Sat, 27 May 2017 00:00:00 +0530</pubDate>
-        <link>http://0.0.0.0:4000/2017/05/27/Issue-4.html</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2017/05/27/Issue-4.html</guid>
+        <link>https://pwa.tips/2017/05/27/Issue-4.html</link>
+        <guid isPermaLink="true">https://pwa.tips/2017/05/27/Issue-4.html</guid>
       </item>
     
   </channel>
