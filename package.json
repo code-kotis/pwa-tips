@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Read about latest PWA's, Browser updates, new API's and its improvements in your inbox.",
   "scripts": {
-    "drafts": "jekyll server --host=0.0.0.0 --drafts --livereload",
-    "start": "jekyll server --host=0.0.0.0 --livereload",
-    "build": "jekyll build && npm run precache",
+    "drafts": "bundle exec jekyll server --host=0.0.0.0 --drafts --livereload",
+    "start": "bundle exec jekyll server --host=0.0.0.0 --livereload",
+    "build": "bundle exec jekyll build && npm run precache",
     "precache": "./node_modules/sw-precache/cli.js --config=sw-precache-config.json",
     "deploy": "npm run build && npm run precache && bash deploy.sh"
   },

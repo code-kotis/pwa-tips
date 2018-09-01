@@ -3,8 +3,134 @@
   <channel>
     <title>PWA Tips</title>
     <description>Read about latest PWA's, Browser updates, new API's and its improvements in your inbox.</description>
-    <link>https://pwa.tips/</link>
-    <atom:link href="https://pwa.tips/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://0.0.0.0:4000/</link>
+    <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title></title>
+        <description>&lt;h1 class=&quot;title&quot;&gt;Issue #13&lt;/h1&gt;
+
+&lt;center&gt;
+  &lt;table align=&quot;center&quot; border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot; class=&quot;table issue-13&quot; height=&quot;100%&quot;&gt;
+    &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;div class=&quot;table__banner&quot;&gt;
+          &lt;h2&gt;PWA Tips Monthly Newsletter&lt;/h2&gt;
+          &lt;div class=&quot;table__banner-bottom&quot;&gt;
+            &lt;center&gt;Issue #13 &lt;span&gt; | &lt;/span&gt; August 31, 2018&lt;/center&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;h1&gt;What's New?&lt;/h1&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;div class=&quot;table__container&quot;&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://babeljs.io/blog/2018/08/27/7.0.0&quot; target=&quot;_blank&quot;&gt;Babel 7 Released 🎉&lt;/a&gt;
+            &lt;p&gt;After almost 2 years, 4k commits, over 50 pre-releases, and a lot of help we are excited to announce the release of Babel 7.&lt;/p&gt;
+            &lt;span class=&quot;tag babel&quot;&gt;babel&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://www.androidpolice.com/2018/08/23/chrome-android-may-start-disabling-javascript-2g-connections/&quot; target=&quot;_blank&quot;&gt;Chrome for android disabling JS&lt;/a&gt;
+            &lt;p&gt;Google has added countless features to Chrome, especially the Android version, that are designed to improve functionality on slow connections.&lt;/p&gt;
+            &lt;span class=&quot;tag android&quot;&gt;android&lt;/span&gt; &lt;span class=&quot;tag chrome&quot;&gt;chrome&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://github.com/checkly/puppeteer-recorder&quot;&gt;Puppeteer Recorder: Chrome Extension 🔥&lt;/a&gt;
+            &lt;p&gt;Puppeteer recorder is a Chrome extension that records your browser interactions and generates a Puppeteer script.&lt;/p&gt;
+            &lt;span class=&quot;tag puppeteer&quot;&gt;puppeteer&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://codecs.zouhir.codes/&quot;&gt;What media types your browser support?&lt;/a&gt;
+            &lt;p&gt;Learn what are the media types your browser support easily.&lt;/p&gt;
+            &lt;span class=&quot;tag browser&quot;&gt;browser&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://www.ebayinc.com/stories/blogs/tech/the-web-push-checklist/&quot; target=&quot;_blank&quot;&gt;The Web Push Checklist&lt;/a&gt;
+            &lt;p&gt;eCommerce sites are ideal candidates for push notifications and eBay is no exception. Timely notifications can help users track the status of items that they have purchased.&lt;/p&gt;
+            &lt;span class=&quot;tag pwa&quot;&gt;pwa&lt;/span&gt; &lt;span class=&quot;tag pushnotifications&quot;&gt;push notifications&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://progressivetooling.com/&quot; target=&quot;_blank&quot;&gt;Progressive Tooling&lt;/a&gt;
+            &lt;p&gt;A list of community-built, third-party tools that can be used to improve page performance.&lt;/p&gt;
+            &lt;span class=&quot;tag tools&quot;&gt;tools&lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;h1&gt;Browser Updates&lt;/h1&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;div class=&quot;table__container clearfix&quot;&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://developers.google.com/web/updates/2018/08/devtools&quot; target=&quot;_blank&quot;&gt;What's New In DevTools (Chrome 70)?&lt;/a&gt;
+            &lt;p&gt;Live Expressions in the Console, Pin an expression, Highlight DOM nodes during Eager Evaluation and many more awesome updates.&lt;/p&gt;
+            &lt;span class=&quot;tag chrome&quot;&gt;chrome&lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;table__container clearfix&quot;&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://webkit.org/blog/8406/release-notes-for-safari-technology-preview-64/&quot; target=&quot;_blank&quot;&gt;Safari Technology Preview v64&lt;/a&gt;
+            &lt;p&gt;Custom Elements, Web API changes, Media updates, Web inspector and more.&lt;/p&gt;
+            &lt;span class=&quot;tag safari&quot;&gt;safari&lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;h1&gt;Articles &amp;amp; Tutorials&lt;/h1&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;div class=&quot;table__container clearfix&quot;&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://medium.freecodecamp.org/why-you-should-have-practice-hours-as-a-developer-ee0f2d0293a2&quot; target=&quot;_blank&quot;&gt;Why you should have Practice Hours as a developer?&lt;/a&gt;
+            &lt;p&gt;When I was first learning to code, I was dedicating 60–70 hours a week to my coding bootcamp.&lt;/p&gt;
+            &lt;span class=&quot;tag goodread&quot;&gt;good read&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://developers.google.com/web/updates/2018/08/web-performance-made-easy&quot; target=&quot;_blank&quot;&gt;Web Performance Made Easy&lt;/a&gt;
+            &lt;p&gt;We've been pretty busy over the past year trying to figure out how to make the Web faster and more performant. This led to new tools, approaches and libraries that we’d like share with you in this article.&lt;/p&gt;
+            &lt;span class=&quot;tag web&quot;&gt;web&lt;/span&gt; &lt;span class=&quot;tag perf&quot;&gt;perf&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://medium.com/dev-channel/getting-started-with-material-design-components-for-web-3cb30fbac7d8&quot; target=&quot;_blank&quot;&gt;Getting started with Material Design&lt;/a&gt;
+            &lt;p&gt;Material Design Components for the web (MDC Web) offers designers and developers a way to implement Material Design in their websites.&lt;/p&gt;
+            &lt;span class=&quot;tag webcomponents&quot;&gt;web components&lt;/span&gt; &lt;span class=&quot;tag materialdesign&quot;&gt;material design&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://paul.kinlan.me/crux-topsites-and-lighthouse-scores-for-india/&quot; target=&quot;_blank&quot;&gt;Lighthouse score for top visited sites in India&lt;/a&gt;
+            &lt;p&gt;In that post I had a very simple heuristic for determine a site in India, is it a ‘.in’ domain. I knew that this wasn’t the best way to look at it, but it felt like a good first go.&lt;/p&gt;
+             &lt;span class=&quot;tag lighthouse&quot;&gt;lighthouse&lt;/span&gt; &lt;span class=&quot;tag perf&quot;&gt;perf&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;table__content&quot;&gt;
+            &lt;a href=&quot;https://developers.google.com/web/updates/2018/08/wasm-av1&quot; target=&quot;_blank&quot;&gt;Extending the browser with WebAssembly&lt;/a&gt;
+            &lt;p&gt;One of the best things about WebAssembly is the ability experiment with new capabilities and implement new ideas before the browser ships those features natively (if at all).&lt;/p&gt;
+             &lt;span class=&quot;tag webassembly&quot;&gt;webassembly&lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+&lt;/center&gt;
+</description>
+        <pubDate>Thu, 30 Aug 2018 20:28:28 +0530</pubDate>
+        <link>http://0.0.0.0:4000/2018/08/30/2018-08-31-Issue-13.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2018/08/30/2018-08-31-Issue-13.html</guid>
+      </item>
     
       <item>
         <title>Issues</title>
@@ -132,8 +258,8 @@
 &lt;/center&gt;
 </description>
         <pubDate>Tue, 31 Jul 2018 00:00:00 +0530</pubDate>
-        <link>https://pwa.tips/2018/07/31/Issue-12.html</link>
-        <guid isPermaLink="true">https://pwa.tips/2018/07/31/Issue-12.html</guid>
+        <link>http://0.0.0.0:4000/2018/07/31/Issue-12.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2018/07/31/Issue-12.html</guid>
       </item>
     
       <item>
@@ -277,8 +403,8 @@
 &lt;/center&gt;
 </description>
         <pubDate>Tue, 17 Jul 2018 00:00:00 +0530</pubDate>
-        <link>https://pwa.tips/2018/07/17/Issue-11.html</link>
-        <guid isPermaLink="true">https://pwa.tips/2018/07/17/Issue-11.html</guid>
+        <link>http://0.0.0.0:4000/2018/07/17/Issue-11.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2018/07/17/Issue-11.html</guid>
       </item>
     
       <item>
@@ -424,8 +550,8 @@
 &lt;/center&gt;
 </description>
         <pubDate>Thu, 28 Jun 2018 00:00:00 +0530</pubDate>
-        <link>https://pwa.tips/2018/06/28/Issue-10.html</link>
-        <guid isPermaLink="true">https://pwa.tips/2018/06/28/Issue-10.html</guid>
+        <link>http://0.0.0.0:4000/2018/06/28/Issue-10.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2018/06/28/Issue-10.html</guid>
       </item>
     
       <item>
@@ -595,8 +721,8 @@
 &lt;/center&gt;
 </description>
         <pubDate>Tue, 29 May 2018 00:00:00 +0530</pubDate>
-        <link>https://pwa.tips/2018/05/29/Issue-9.html</link>
-        <guid isPermaLink="true">https://pwa.tips/2018/05/29/Issue-9.html</guid>
+        <link>http://0.0.0.0:4000/2018/05/29/Issue-9.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2018/05/29/Issue-9.html</guid>
       </item>
     
       <item>
@@ -750,8 +876,8 @@
 &lt;/center&gt;
 </description>
         <pubDate>Thu, 07 Sep 2017 00:00:00 +0530</pubDate>
-        <link>https://pwa.tips/2017/09/07/Issue-8.html</link>
-        <guid isPermaLink="true">https://pwa.tips/2017/09/07/Issue-8.html</guid>
+        <link>http://0.0.0.0:4000/2017/09/07/Issue-8.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2017/09/07/Issue-8.html</guid>
       </item>
     
       <item>
@@ -910,8 +1036,8 @@
 &lt;/center&gt;
 </description>
         <pubDate>Thu, 24 Aug 2017 00:00:00 +0530</pubDate>
-        <link>https://pwa.tips/2017/08/24/Issue-7.html</link>
-        <guid isPermaLink="true">https://pwa.tips/2017/08/24/Issue-7.html</guid>
+        <link>http://0.0.0.0:4000/2017/08/24/Issue-7.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2017/08/24/Issue-7.html</guid>
       </item>
     
       <item>
@@ -1069,8 +1195,8 @@
 &lt;/center&gt;
 </description>
         <pubDate>Wed, 26 Jul 2017 00:00:00 +0530</pubDate>
-        <link>https://pwa.tips/2017/07/26/Issue-6.html</link>
-        <guid isPermaLink="true">https://pwa.tips/2017/07/26/Issue-6.html</guid>
+        <link>http://0.0.0.0:4000/2017/07/26/Issue-6.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2017/07/26/Issue-6.html</guid>
       </item>
     
       <item>
@@ -1223,8 +1349,8 @@
 &lt;/center&gt;
 </description>
         <pubDate>Tue, 20 Jun 2017 00:00:00 +0530</pubDate>
-        <link>https://pwa.tips/2017/06/20/Issue-5.html</link>
-        <guid isPermaLink="true">https://pwa.tips/2017/06/20/Issue-5.html</guid>
+        <link>http://0.0.0.0:4000/2017/06/20/Issue-5.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2017/06/20/Issue-5.html</guid>
       </item>
     
       <item>
@@ -1382,162 +1508,8 @@
 &lt;/center&gt;
 </description>
         <pubDate>Sat, 27 May 2017 00:00:00 +0530</pubDate>
-        <link>https://pwa.tips/2017/05/27/Issue-4.html</link>
-        <guid isPermaLink="true">https://pwa.tips/2017/05/27/Issue-4.html</guid>
-      </item>
-    
-      <item>
-        <title>Issues</title>
-        <description>&lt;h1 class=&quot;title&quot;&gt;Issue #3&lt;/h1&gt;
-
-&lt;center&gt;
-  &lt;table align=&quot;center&quot; border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot; class=&quot;table issue-3&quot; height=&quot;100%&quot;&gt;
-    &lt;tr&gt;
-      &lt;td&gt;
-        &lt;div class=&quot;table__banner&quot;&gt;
-          &lt;h2&gt;PWA Tips Monthly Newsletter&lt;/h2&gt;
-          &lt;div class=&quot;table__banner-bottom&quot;&gt;
-            &lt;center&gt;Issue #3 &lt;span&gt; | &lt;/span&gt; May 4th, 2017&lt;/center&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tbody&gt;
-      &lt;tr&gt;
-        &lt;td&gt;
-          &lt;h1&gt;What's New?&lt;/h1&gt;
-        &lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td&gt;
-          &lt;div class=&quot;table__container&quot;&gt;
-            &lt;div class=&quot;table__content&quot;&gt;
-              &lt;a href=&quot;https://www.theverge.com/2017/5/1/15222380/the-verge-https-default&quot; target=&quot;_blank&quot;&gt;Verge defaults to HTTPS&lt;/a&gt;
-              &lt;p&gt;The Verge now serves 100 percent of its pages on HTTPS by default, which was a significant undertaking.&lt;/p&gt;
-              &lt;span class=&quot;tag perf&quot;&gt;perf&lt;/span&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;table__content&quot;&gt;
-              &lt;a href=&quot;https://m.9gag.com/%20&quot; target=&quot;_blank&quot;&gt;9GAG PWA&lt;/a&gt;
-              &lt;p&gt;9GAG launches it's PWA&lt;/p&gt;
-              &lt;span class=&quot;tag pwa&quot;&gt;PWA&lt;/span&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;table__content&quot;&gt;
-              &lt;a href=&quot;https://vitaliy-bobrov.github.io/pacman-pwa/&quot; target=&quot;_blank&quot;&gt;:v&lt;/a&gt;
-              &lt;p&gt;PacMan Game&lt;/p&gt;
-              &lt;span class=&quot;tag pwa&quot;&gt;PWA&lt;/span&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;table__content&quot;&gt;
-              &lt;a href=&quot;https://maxwellito.github.io/breaklock/&quot; target=&quot;_blank&quot;&gt;BreakLock&lt;/a&gt;
-              &lt;p&gt;A hybrid of Mastermind and the Android pattern lock. A game you gonna love to hate.&lt;/p&gt;
-              &lt;span class=&quot;tag pwa&quot;&gt;PWA&lt;/span&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;table__content&quot;&gt;
-              &lt;a href=&quot;http://samsunginter.net/bubble/&quot; target=&quot;_blank&quot;&gt;Bubble.&lt;/a&gt;
-              &lt;p&gt;360° image viewer from Samsung Internet&lt;/p&gt;
-              &lt;span class=&quot;tag&quot;&gt;WebVR&lt;/span&gt; &lt;span class=&quot;tag samsung&quot;&gt;samsung&lt;/span&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td&gt;
-          &lt;h1&gt;Browser Updates&lt;/h1&gt;
-        &lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td&gt;
-          &lt;div class=&quot;table__container clearfix&quot;&gt;
-            &lt;div class=&quot;table__content&quot;&gt;
-              &lt;a href=&quot;https://developers.google.com/web/updates/2017/04/headless-chrome&quot; target=&quot;_blank&quot;&gt;Chrome 59 Beta.&lt;/a&gt;
-              &lt;p&gt;Headless Chromium, native notifications on macOS, and service worker navigation preload.&lt;/p&gt;
-              &lt;span class=&quot;tag chrome&quot;&gt;chrome&lt;/span&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;table__content&quot;&gt;
-              &lt;a href=&quot;https://webkit.org/blog/7532/release-notes-for-safari-technology-preview-29/&quot; target=&quot;_blank&quot;&gt;Safari Technology Preview 29.&lt;/a&gt;
-              &lt;p&gt;Safari Technology Preview Release 29 is now available for download for macOS Sierra.&lt;/p&gt;
-              &lt;span class=&quot;tag safari&quot;&gt;safari&lt;/span&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;table__content&quot;&gt;
-              &lt;a target=&quot;_blank&quot;&gt;Mozilla Developer Edition 54.&lt;/a&gt;
-              &lt;p&gt;New inspector and debugger features, MDN help in the netmonitor, and more.&lt;/p&gt;
-              &lt;span class=&quot;tag firefox&quot;&gt;firefox&lt;/span&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;table__content&quot;&gt;
-              &lt;a href=&quot;https://blogs.windows.com/msedgedev/2017/04/20/improved-javascript-performance-webassembly-shared-memory/#exJWYdCd6lI8OhIH.97&quot; target=&quot;_blank&quot;&gt;Egde update.&lt;/a&gt;
-              &lt;p&gt;Improved JavaScript performance, WebAssembly, and Shared Memory in Microsoft Edge.&lt;/p&gt;
-              &lt;span class=&quot;tag edge&quot;&gt;edge&lt;/span&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;table__content&quot;&gt;
-              &lt;a href=&quot;http://www.androidpolice.com/2017/04/17/firefox-dropping-aurora-release-channel-android-app-will-become-firefox-nightly/&quot; target=&quot;_blank&quot;&gt;Firefox is dropping Aurora.&lt;/a&gt;
-              &lt;p&gt;Android app will become Firefox Nightly.&lt;/p&gt;
-              &lt;span class=&quot;tag firefox&quot;&gt;firefox&lt;/span&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td&gt;
-          &lt;h1&gt;Articles &amp;amp; Tutorials&lt;/h1&gt;
-        &lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td&gt;
-          &lt;div class=&quot;table__container clearfix&quot;&gt;
-            &lt;div class=&quot;table__content&quot;&gt;
-              &lt;a href=&quot;https://developers.google.com/web/updates/2017/04/headless-chrome&quot; target=&quot;_blank&quot;&gt;Getting Started with Headless Chrome.&lt;/a&gt;
-              &lt;p&gt;Headless Chrome is shipping in Chrome 59. It's a way to run the Chrome browser in a headless environment.&lt;/p&gt;
-              &lt;span class=&quot;tag chrome&quot;&gt;chrome&lt;/span&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;table__content&quot;&gt;
-              &lt;a href=&quot;https://www.youtube.com/watch?v=_ZBcoKidTew&amp;amp;list=PLlyCyjh2pUe9RHFCJHU0kxpaivUzADPYk&quot; target=&quot;_blank&quot;&gt;PWA workshop at Google.&lt;/a&gt;
-              &lt;p&gt;PWA workshop at Google.&lt;/p&gt;
-              &lt;span class=&quot;tag video&quot;&gt;video&lt;/span&gt; &lt;span class=&quot;tag dev&quot;&gt;dev&lt;/span&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;table__content&quot;&gt;
-              &lt;a href=&quot;https://www.zachleat.com/web/webp/&quot; target=&quot;_blank&quot;&gt;Wait, WebP is actually worth it.&lt;/a&gt;
-              &lt;p&gt;But perhaps therein lies the danger with WebP.&lt;/p&gt;
-              &lt;span class=&quot;tag research&quot;&gt;research&lt;/span&gt;&lt;span class=&quot;tag dev&quot;&gt;dev&lt;/span&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;table__content&quot;&gt;
-              &lt;a href=&quot;https://facebook.github.io/react/docs/optimizing-performance.html#use-the-production-build&quot; target=&quot;_blank&quot;&gt;Optimizing React's performance&lt;/a&gt;
-              &lt;p&gt;If you're benchmarking or experiencing performance problems in your React apps.&lt;/p&gt;
-              &lt;span class=&quot;tag perf&quot;&gt;perf&lt;/span&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;table__content&quot;&gt;
-              &lt;a href=&quot;http://tech.namshi.com/blog/2017/05/02/rebuilding-our-mobile-website/#.WQidJqlHf_0.twitter&quot; target=&quot;_blank&quot;&gt;new Namshi&lt;/a&gt;
-              &lt;p&gt;Rebuilding our mobile website: Express &amp;amp; React meet fun &amp;amp; profit&lt;/p&gt;
-              &lt;span class=&quot;tag&quot;&gt;Article&lt;/span&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;table__content&quot;&gt;
-              &lt;a href=&quot;https://blogs.windows.com/msedgedev/2017/04/19/modernizing-dom-tree-microsoft-edge/&quot; target=&quot;_blank&quot;&gt;Re-architected DOM tree&lt;/a&gt;
-              &lt;p&gt;A text-centric design.&lt;/p&gt;
-              &lt;span class=&quot;tag edge&quot;&gt;edge&lt;/span&gt;&lt;span class=&quot;tag perf&quot;&gt;perf&lt;/span&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;table__content&quot;&gt;
-              &lt;a href=&quot;https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/&quot; target=&quot;_blank&quot;&gt;Evaluate Performance&lt;/a&gt;
-              &lt;p&gt;Get Started With Analyzing Runtime Performance.&lt;/p&gt;
-              &lt;span class=&quot;tag perf&quot;&gt;perf&lt;/span&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;table__content&quot;&gt;
-              &lt;a href=&quot;https://blog.chromium.org/2017/04/real-world-javascript-performance.html&quot; target=&quot;_blank&quot;&gt;Real World JS performance.&lt;/a&gt;
-              &lt;p&gt;V8 performance optimizations improved Chrome's Speedometer score by 25-35% over the past year.&lt;/p&gt;
-              &lt;span class=&quot;tag chrome&quot;&gt;chrome&lt;/span&gt;&lt;span class=&quot;tag perf&quot;&gt;perf&lt;/span&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;table__content&quot;&gt;
-              &lt;a href=&quot;https://gokulkrishh.github.io/performance/2017/04/30/comparison-of-http-and-http2.html&quot; target=&quot;_blank&quot;&gt;Comparison of HTTP and HTTP/2.&lt;/a&gt;
-              &lt;p&gt;Why you should move from HTTP to HTTPS and why you should add support to HTTP/2.&lt;/p&gt;
-              &lt;span class=&quot;tag server&quot;&gt;server&lt;/span&gt;                  &lt;span class=&quot;tag perf&quot;&gt;perf&lt;/span&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/td&gt;
-      &lt;/tr&gt;
-    &lt;/tbody&gt;
-  &lt;/table&gt;
-&lt;/center&gt;
-</description>
-        <pubDate>Thu, 04 May 2017 00:00:00 +0530</pubDate>
-        <link>https://pwa.tips/2017/05/04/Issue-3.html</link>
-        <guid isPermaLink="true">https://pwa.tips/2017/05/04/Issue-3.html</guid>
+        <link>http://0.0.0.0:4000/2017/05/27/Issue-4.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/2017/05/27/Issue-4.html</guid>
       </item>
     
   </channel>

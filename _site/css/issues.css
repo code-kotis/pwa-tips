@@ -277,7 +277,7 @@
 }
 
 .webcomponents {
-	background: #3232d3;
+	background: #ff5722;
 }
 
 .finance {
@@ -444,6 +444,30 @@
 	padding: 30px 10px;
 }
 
+.babel {
+	background: #f3d625;
+}
+
+.puppeteer {
+	background: #00d9a1;
+}
+
+.tools {
+	background: #9C27B0;
+}
+
+.webassembly {
+	background: #6447f4;
+}
+
+.goodread {
+	background:#f44336;
+}
+
+.materialdesign {
+	background:#212121;
+}
+
 .footer__content,
 .footer__content a {
 	text-align: center !important;
@@ -591,4 +615,12 @@
 
 .issue-11 .table__banner-bottom {
 	background: #9c1d48;
+}
+
+.issue-13 .table__banner {
+	background: #00BCD4;
+}
+
+.issue-13 .table__banner-bottom {
+	background: #0097a7;
 }
