@@ -1,25 +1,42 @@
 {
   "name": "pwa.tips",
+  "description": "Read about latest PWA’s, Browser updates, new API’s and its improvements in your inbox.",
   "version": "1.0.0",
-  "description": "Read about latest PWA's, Browser updates, new API's and its improvements in your inbox.",
+  "author": "PWA Tips <pwatips@gmail.com>",
+  "dependencies": {
+    "gatsby": "^2.0.50",
+    "gatsby-image": "^2.0.20",
+    "gatsby-plugin-google-fonts": "^0.0.4",
+    "gatsby-plugin-manifest": "^2.0.9",
+    "gatsby-plugin-offline": "^2.0.15",
+    "gatsby-plugin-postcss-sass": "^1.0.22",
+    "gatsby-plugin-react-helmet": "^3.0.2",
+    "gatsby-plugin-sass": "^2.0.4",
+    "gatsby-plugin-sharp": "^2.0.12",
+    "gatsby-source-filesystem": "^2.0.8",
+    "gatsby-transformer-sharp": "^2.1.8",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-helmet": "^5.2.0"
+  },
+  "keywords": [
+    "pwa tips",
+    "pwa.tips",
+    "pwatips"
+  ],
+  "license": "MIT",
   "scripts": {
-    "drafts": "bundle exec jekyll server --host=0.0.0.0 --drafts --livereload",
-    "start": "bundle exec jekyll server --host=0.0.0.0 --livereload",
-    "build": "bundle exec jekyll build && npm run precache",
-    "precache": "./node_modules/sw-precache/cli.js --config=sw-precache-config.json",
-    "deploy": "npm run build && npm run precache && bash deploy.sh"
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "format": "prettier --write \"src/**/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "prettier": "^1.14.2"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codekotis/pwa.tips.git"
-  },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/codekotis/pwa.tips/issues"
-  },
-  "homepage": "https://github.com/codekotis/pwa.tips#readme",
-  "devDependencies": {
-    "sw-cli": "^0.0.18",
-    "sw-precache": "^5.1.0"
+    "url": "https://github.com/code-kotis/pwa-tips"
   }
 }

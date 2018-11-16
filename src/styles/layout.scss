@@ -1,0 +1,35 @@
+body {
+  font-family: "Product Sans", san-serif;
+  font-size: 14px;
+  color: $color-secondary;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+  color: $color-primary;
+  text-decoration: underline;
+  text-underline-position: under;
+  display: inline-block;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.grid {
+  width: 960px;
+  margin: 0 auto;
+}
+
+
+.content {
+  margin-top: 70px;
+}
