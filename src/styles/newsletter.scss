@@ -1,0 +1,56 @@
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  text-transform: capitalize;
+  margin-bottom: 13px;
+  align-items: center;
+  padding-top: 50px;
+
+  input {
+    border: 2px solid $color-primary;
+    border-radius: $border-radius-card;
+
+    &[type='email'] {
+      width: 300px;
+      height: 46px;
+      padding: 0 10px;
+      border-right: 0;
+
+      &:focus {
+        border-color: $color-primary-hover;
+      }
+    }
+  }
+
+  input[type='submit'] {
+    width: 90px;
+    height: 46px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: -10px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-left: 0;
+    background-color: $color-primary;
+    color: $color-white;
+    font-weight: $font-weight-bold;
+  }
+
+  .newsletter__count {
+    width: 350px;
+    color: $color-primary;
+    margin-bottom: 10px;
+    font-size: 13px;
+  }
+
+  h2, .newsletter__count {
+    margin-left: -25px;
+  }
+
+  .newsletter__info {
+    width: 370px;
+    font-size: 13px;
+    margin-top: 10px;
+    font-weight: 500;
+  }
+}

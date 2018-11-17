@@ -32,7 +32,7 @@ module.exports = {
 		{
 			resolve: 'gatsby-plugin-google-fonts',
 			options: {
-				fonts: ['Product+Sans:300,400,500,700']
+				fonts: ['Google Sans:300,400,500,700']
 			}
 		}
 	]

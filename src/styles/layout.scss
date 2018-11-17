@@ -1,14 +1,15 @@
 body {
-  font-family: "Product Sans", san-serif;
+  font-family: "Google Sans", "Helvetica", sans-serif;
   font-size: 14px;
   color: $color-secondary;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
+  line-height: 1.5;
 }
 
 a {
-  color: $color-primary;
+  color: $color-white;
   text-decoration: underline;
   text-underline-position: under;
   display: inline-block;
@@ -24,11 +25,59 @@ ul, li {
   padding: 0;
 }
 
+h1, h2, h3 {
+  font-weight: $font-weight-normal;
+}
+
+h1 {
+  font-size: 23px;
+}
+
+h2 {
+  font-size: 21px;
+}
+
+h3 {
+  font-size: 19px;
+}
+
+footer {
+  width: 100%;
+  height: 300px;
+  background: $color-grey;
+
+  a {
+    color: $color-secondary;
+  }
+
+  .newsletter {
+    padding-top: 30px;
+  }
+
+  .footer__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 390px;
+    margin: 70px auto;
+  }
+
+  .footer__curator {
+    width: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .newsletter__info {
+    display: none;
+  }
+}
+
 .grid {
   width: 960px;
   margin: 0 auto;
 }
-
 
 .content {
   margin-top: 70px;
