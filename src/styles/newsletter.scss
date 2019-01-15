@@ -39,12 +39,16 @@
   .newsletter__count {
     width: 350px;
     color: $color-primary;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     font-size: 13px;
   }
 
-  h2, .newsletter__count {
-    margin-left: -25px;
+  h2 {
+    margin-left: -5px;
+  }
+
+  .newsletter__count {
+    margin-left: -20px;
   }
 
   .newsletter__info {
@@ -52,5 +56,9 @@
     font-size: 13px;
     margin-top: 10px;
     font-weight: 500;
+
+    a {
+      color: $color-primary;
+    }
   }
 }

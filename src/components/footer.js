@@ -9,12 +9,7 @@ const Footer = () => (
 			<Newsletter />
 			<div className="footer__content">
 				<>
-					<b>
-						&copy; {new Date().getFullYear()} -{' '}
-						<a target="_blank" href="https://github.com/code-kotis" rel="noopener noreferrer">
-							Code Kotis
-						</a>
-					</b>
+					<b>&copy; {new Date().getFullYear()}</b>
 				</>
 				<div className="footer__curator">
 					Curator's -
