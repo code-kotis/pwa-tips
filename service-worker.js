@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["2017/04/04/Issue-1.html","2af4c96ae400c8366ec15350363ad657"],["2017/04/11/Issue-2.html","e3c1de03bd99a3c6e6f1d00e749f4c41"],["2017/05/04/Issue-3.html","5da670abbe549d34616b6d73d88f853c"],["2017/05/27/Issue-4.html","6db39124f454a22e2fdeadff929edfbf"],["2017/06/20/Issue-5.html","e1771d26eaec47e9f38cb59c49ee7dd6"],["2017/07/26/Issue-6.html","8ef3f009e0289bcb1eca4ee3b649dd78"],["2017/08/24/Issue-7.html","522e24e2ccb0833fc4e8a89e26870534"],["2017/09/07/Issue-8.html","9d9998de91fd1c8f6c424d851b5d4a64"],["2018/05/29/Issue-9.html","615492b37fcf36717b3dce7a2fb47918"],["2018/06/28/Issue-10.html","8aa08d44449e6836080dd1c8aeffd50c"],["2018/07/17/Issue-11.html","ab054e65a14d4d6b2ae1e57a0795e5ed"],["2018/07/31/Issue-12.html","b0935b7bca7a8b834e40515ca5c44382"],["2018/09/01/2018-08-31-Issue-13.html","24a98a6b3f7731055a1f16f17e6b183d"],["404.html","654de47775fc221c5e783dd6f7df044a"],["archives.html","37797cfae5eb10f808616f082621ac04"],["codelabs/index.html","c4c18ab3999eba438cf59a57d71d1bfc"],["css/archives.css","919b7b516c101b76d5211bd5779d079f"],["css/base.css","80e982d243bad22c29551a02851eb609"],["css/issues.css","9dae170a9644f01eae94895bdf7841df"],["css/main.css","4a726ce9502017fb68e06acf5cbb2101"],["css/menu.css","fd99f071408f5ff4c29de3faa198c280"],["css/modal.css","d91f766c5d64913352bfc34fdbdf08f4"],["css/opensources.css","0ebce766f8c4771d9fe2436b43e2a6d7"],["css/reset.css","7e9de0bae21fd193dd472c0d6f549a06"],["css/toast.css","fc3dfe3dc3bbb224a3a95849f583ac92"],["images/banner.png","0c7f1b0bf784a9138327951fae613ed3"],["images/engaging.png","f996517995fb7b9bac65587a3bbfc049"],["images/fast.png","4d3919c4f1630820874c225e4b530ee6"],["images/menu_black.svg","d346927b079c06d3a5364e5a8dd9a62c"],["images/pwa-codelabs.png","99ffcb4fd39c407d4e8d4caa6b7ac01a"],["images/reliable.png","42fb8def018bb3f80a3805226383a57f"],["index.html","be0fbcc8b0bae0d0d8db35717e5e6a2d"],["js/main.js","0fa0bdcb1878e621a3d440cb0c618bfb"],["js/menu.js","aba5e0ac92bedd7ce29db702399dbdf5"],["opensources.html","d0d8e61bb95a1dad3c6e4f9c32800e55"]];
+var precacheConfig = [["2017/04/04/Issue-1.html","f50df6fc5a89379fea31ca65bda8f939"],["2017/04/11/Issue-2.html","4ceb760f1ff397a115a500e890c38080"],["2017/05/04/Issue-3.html","c5f8b2a4564cb1bd0a89988f2422dd5b"],["2017/05/27/Issue-4.html","a15e9ed14d4868e92d2bb61ddcdb4f93"],["2017/06/20/Issue-5.html","e4fc86fa49280bba2d8cf90eb558cec9"],["2017/07/26/Issue-6.html","5f71de23909e7bd9e2b13601f1f62dc4"],["2017/08/24/Issue-7.html","748fadedd01e3d37222adca56897830d"],["2017/09/07/Issue-8.html","26471145d3693c480b1df520872c8c89"],["2018/05/29/Issue-9.html","1466d087544d2b3da1621e461c9af58b"],["2018/06/28/Issue-10.html","fc7609af65deb070f4caba650020329c"],["2018/07/17/Issue-11.html","776aa385da3e1830a888ecaf3b5d8b70"],["2018/07/31/Issue-12.html","223589b0f156f60d768a7281bc52f0bf"],["2018/08/30/Issue-13.html","5601b19a1382cd789ba433e9db29d607"],["404.html","654de47775fc221c5e783dd6f7df044a"],["archives.html","f2b9003c2537dcb27cf20973baead317"],["codelabs/index.html","c4c18ab3999eba438cf59a57d71d1bfc"],["css/archives.css","919b7b516c101b76d5211bd5779d079f"],["css/base.css","80e982d243bad22c29551a02851eb609"],["css/issues.css","9dae170a9644f01eae94895bdf7841df"],["css/main.css","4a726ce9502017fb68e06acf5cbb2101"],["css/menu.css","fd99f071408f5ff4c29de3faa198c280"],["css/modal.css","d91f766c5d64913352bfc34fdbdf08f4"],["css/opensources.css","0ebce766f8c4771d9fe2436b43e2a6d7"],["css/reset.css","7e9de0bae21fd193dd472c0d6f549a06"],["css/toast.css","fc3dfe3dc3bbb224a3a95849f583ac92"],["images/banner.png","0c7f1b0bf784a9138327951fae613ed3"],["images/engaging.png","f996517995fb7b9bac65587a3bbfc049"],["images/fast.png","4d3919c4f1630820874c225e4b530ee6"],["images/menu_black.svg","d346927b079c06d3a5364e5a8dd9a62c"],["images/pwa-codelabs.png","99ffcb4fd39c407d4e8d4caa6b7ac01a"],["images/reliable.png","42fb8def018bb3f80a3805226383a57f"],["index.html","dbde62deca112ff4be94da81307b72e4"],["js/main.js","0fa0bdcb1878e621a3d440cb0c618bfb"],["js/menu.js","aba5e0ac92bedd7ce29db702399dbdf5"],["opensources.html","f05ba8322ad6a1b573d211d36f31ba89"]];
 var cacheName = 'sw-precache-v3-sw-precache-' + (self.registration ? self.registration.scope : '');
 
 
@@ -45,7 +45,7 @@ var ignoreUrlParametersMatching = [/^utm_/];
 
 
 
-var addDirectoryIndex = function (originalUrl, index) {
+var addDirectoryIndex = function(originalUrl, index) {
     var url = new URL(originalUrl);
     if (url.pathname.slice(-1) === '/') {
       url.pathname += index;
@@ -53,7 +53,7 @@ var addDirectoryIndex = function (originalUrl, index) {
     return url.toString();
   };
 
-var cleanResponse = function (originalResponse) {
+var cleanResponse = function(originalResponse) {
     // If this is not a redirected response, then we don't have to do anything.
     if (!originalResponse.redirected) {
       return Promise.resolve(originalResponse);
@@ -75,7 +75,7 @@ var cleanResponse = function (originalResponse) {
     });
   };
 
-var createCacheKey = function (originalUrl, paramName, paramValue,
+var createCacheKey = function(originalUrl, paramName, paramValue,
                            dontCacheBustUrlsMatching) {
     // Create a new URL object to avoid modifying originalUrl.
     var url = new URL(originalUrl);
@@ -91,7 +91,7 @@ var createCacheKey = function (originalUrl, paramName, paramValue,
     return url.toString();
   };
 
-var isPathWhitelisted = function (whitelist, absoluteUrlString) {
+var isPathWhitelisted = function(whitelist, absoluteUrlString) {
     // If the whitelist is empty, then consider all URLs to be whitelisted.
     if (whitelist.length === 0) {
       return true;
@@ -104,7 +104,7 @@ var isPathWhitelisted = function (whitelist, absoluteUrlString) {
     });
   };
 
-var stripIgnoredUrlParameters = function (originalUrl,
+var stripIgnoredUrlParameters = function(originalUrl,
     ignoreUrlParametersMatching) {
     var url = new URL(originalUrl);
     // Remove the hash; see https://github.com/GoogleChrome/sw-precache/issues/290
