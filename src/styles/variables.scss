@@ -1,0 +1,21 @@
+// Colors
+$color-primary: #3b8ff5;
+$color-bg-secondary: rgba(227, 247, 255, 0.5);
+$color-secondary: #212121;
+$color-primary-hover: #4691ec;
+$color-white: #fff;
+$color-bg-light-grey: rgba(222, 214, 206, 0.1);
+$color-bg-grey: #f2f2f2;
+$color-gradient-one: #00BCD4;
+$color-gradient-two: #03A9F4;
+$color-gradient-dark: #00abf1;
+
+// Gradient
+$bg-gradient: linear-gradient(to top left,$color-gradient-one,$color-gradient-two);
+
+// Fonts
+$font-weight-normal: 400;
+$font-weight-bold: 500;
+
+// Border-raduis
+$border-radius-card: 8px;
